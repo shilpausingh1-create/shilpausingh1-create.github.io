@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DeepSeek Harness: DeepSeek&#x27;s own open-source AI agent you can shape | Git Trending Global</title><meta name="description" content="DeepSeek Harness is DeepSeek&#x27;s free, open-source AI agent where every feature is a plugin you can swap, add or build yourself."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/deepseek-ai-deepseek-harness.html">
+<meta property="og:title" content="DeepSeek Harness: DeepSeek&#x27;s own open-source AI agent you can shape | Git Trending Global"><meta property="og:description" content="DeepSeek Harness is DeepSeek&#x27;s free, open-source AI agent where every feature is a plugin you can swap, add or build yourself."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/deepseek-ai-deepseek-harness.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-08-15 · 4 min read</p><h1>DeepSeek Harness: DeepSeek&#x27;s own open-source AI agent you can shape</h1>
+<p class="lede">DeepSeek Harness is DeepSeek&#x27;s free, open-source AI agent where every feature is a plugin you can swap, add or build yourself.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a><a class="chip" href="../industry/business.html">Business</a><a class="chip" href="../industry/students.html">Students</a></div><p class="meta">stars: 250K · license: MIT · platforms: Any computer with Node.js (runs in your browser)</p><img class="hero" src="../img/deepseek-ai-deepseek-harness.jpg" alt="DeepSeek Harness: DeepSeek&#x27;s own open-source AI agent you can shape"><h2>The problem it solves</h2>
+<p>AI agents are getting popular. An agent is an AI helper that does not just chat. It takes actions, like reading files, running commands and following a plan.</p>
+<p>But most agents are a closed box. You get the features the company picked. If you want it to work a different way, or connect to a tool you use, you are usually stuck.</p>
+<p>DeepSeek, the AI lab behind the DeepSeek models, took a different path. It released its own agent as open source, built so every part can be swapped out.</p>
+<h2>What it is</h2>
+<p>DeepSeek Harness, called "dsh" for short, is a free, open-source agent harness made by DeepSeek AI. A harness is the frame around an AI model. It gives the model tools, memory and a way to work on real tasks.</p>
+<p>Its big idea is "everything is a plugin." A plugin is an add-on piece. In DeepSeek Harness, the features themselves are plugins. That means you can remove one, replace it, or write your own. Other people can share plugins too. The README asks plugin makers to tag their projects with "dsh-plugin" so others can find them.</p>
+<p>It runs as a small program on your computer and gives you a web page in your browser to work from.</p>
+<p>One important note up front. The README says DeepSeek Harness is in "developer preview" and changing fast. It warns, in capital letters, that there will be changes that break things.</p>
+<h2>Who it's for</h2>
+<ul>
+<li>Tinkerers who want an AI agent they can take apart and rebuild.</li>
+<li>Developers who want to build their own plugins for an agent.</li>
+<li>Researchers and students studying how AI agents work.</li>
+<li>Tech-curious business teams who want to test what an agent could do on their own projects.</li>
+<li>Anyone who follows DeepSeek and wants to try its official agent early.</li>
+</ul>
+<p>Right now, this is best for people comfortable with some technical setup. It is an early preview, not a polished app.</p>
+<h2>What you can do with it</h2>
+<p>Based on the README and its user guide:</p>
+<ul>
+<li><strong>Run it in your browser.</strong> One command starts a web interface on your own computer.</li>
+<li><strong>Connect a model.</strong> Enter a DeepSeek API key in the settings. The guide says other providers and custom endpoints that work like OpenAI's are also supported.</li>
+<li><strong>Work on a folder.</strong> Pick a "workspace" (a project folder) for the agent to work in.</li>
+<li><strong>Give it tasks.</strong> The guide's example: ask it to summarize a project and list its main parts.</li>
+<li><strong>Let it act.</strong> The agent can read and edit files in your workspace, run commands, hand off smaller jobs, and keep a plan.</li>
+<li><strong>Approve risky steps.</strong> The web page asks you before actions that need approval under your permission settings.</li>
+<li><strong>Add or build plugins.</strong> Swap features in and out, or write your own.</li>
+<li><strong>Use other modes.</strong> The guide also mentions a Python toolkit and other command-line modes.</li>
+</ul>
+<h2>How to start, step by step</h2>
+<p>What you need first: Node.js (a free program that runs many developer tools, from nodejs.org), and a DeepSeek API key or another supported AI provider.</p>
+<ol>
+<li>Read the project's safety notice (SAFETY.md) first. The README asks you to.</li>
+<li>Install Node.js if you do not have it.</li>
+<li>Open Terminal (on a Mac) or your command window.</li>
+<li>Paste this and press Enter:</li>
+</ol>
+<pre><code>npx @deepseek-ai/dsh web
+</code></pre>
+<ol>
+<li>A page opens in your browser. By default it lives at 127.0.0.1:3080, which is an address on your own computer.</li>
+<li>Go to <strong>Settings, then Models</strong>, and enter your DeepSeek API key.</li>
+<li>Click <strong>Choose workspace</strong> and pick a folder for it to work in.</li>
+<li>Start a session and give it a task.</li>
+</ol>
+<h2>Good to know</h2>
+<ul>
+<li><strong>It is early and experimental.</strong> The safety notice says it has not had a security audit and should not be treated as secure or ready for serious use.</li>
+<li><strong>It can change your files.</strong> The agent can run AI-written code and commands. The safety notice warns that mistakes, bad input or untrusted plugins could delete files or leak data. Safety prompts help but are not a guarantee.</li>
+<li><strong>Play it safe.</strong> DeepSeek suggests running it with as little access as possible, ideally in a separate test setup like a virtual machine (a computer inside your computer). Keep backups. Review plugins and commands before you allow them.</li>
+<li><strong>The model may cost money.</strong> The harness is free, but using DeepSeek's models through an API key is a paid service. Check DeepSeek's website for current prices.</li>
+<li><strong>License, in plain words.</strong> It uses the MIT license. You can use, change and share it, even for work. It comes with no warranty, so you use it at your own risk.</li>
+<li><strong>Help is available</strong> through GitHub Discussions and a Discord community.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>DeepSeek Harness is a rare look at a major AI lab's own agent, fully open for anyone to change. It is built for shaping, not just using. Just treat it like the early preview it is: try it on test projects, not your important files.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/deepseek-ai/deepseek-harness">github.com/deepseek-ai/deepseek-harness</a></p>
+
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

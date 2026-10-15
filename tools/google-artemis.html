@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Artemis: Google&#x27;s free AI that taps through your Android phone | Git Trending Global</title><meta name="description" content="A free tool from Google that turns plain-English instructions into real taps and swipes across apps on an Android phone."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/google-artemis.html">
+<meta property="og:title" content="Artemis: Google&#x27;s free AI that taps through your Android phone | Git Trending Global"><meta property="og:description" content="A free tool from Google that turns plain-English instructions into real taps and swipes across apps on an Android phone."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/google-artemis.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-09-15 · 4 min read</p><h1>Artemis: Google&#x27;s free AI that taps through your Android phone</h1>
+<p class="lede">A free tool from Google that turns plain-English instructions into real taps and swipes across apps on an Android phone.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a><a class="chip" href="../industry/business.html">Business</a></div><p class="meta">stars: 12K · license: Apache-2.0 · platforms: Android phones, controlled from Mac, Windows or Linux</p><img class="hero" src="../img/google-artemis.jpg" alt="Artemis: Google&#x27;s free AI that taps through your Android phone"><h2>The problem it solves</h2>
+<p>Some phone jobs are boring and repeat every day. Open the app. Tap here. Scroll. Tap there. Check the result. Do it again.</p>
+<p>For people who make apps, this is a big part of the job. Before a new version goes out, someone has to tap through every screen to make sure nothing broke. It takes hours, and people miss things when they get tired.</p>
+<p>Artemis lets an AI do that tapping for you.</p>
+<h2>What it is</h2>
+<p>Artemis is a free, open-source tool from Google. You type what you want in plain English. The AI looks at the phone screen, decides what to tap, and does it, step by step.</p>
+<p>The README's demo shows it planning driving routes in Google Maps, adding up the travel times, and then opening YouTube to play a song.</p>
+<p>It was built mainly for testing apps. But it also handles everyday tasks across several apps.</p>
+<p>The team reports a 99%+ success rate on AndroidWorld. That's a test from Google Research with more than 100 multi-step tasks across 20+ apps.</p>
+<h2>Who it's for</h2>
+<ul>
+<li><strong>App developers</strong> who want to check their app works without tapping through it by hand.</li>
+<li><strong>QA testers</strong> (people whose job is to find bugs before users do) who want to run long test sessions.</li>
+<li><strong>Teams</strong> that want a written report with screenshots after each test.</li>
+<li><strong>Tech-curious people</strong> who like the idea of telling a phone what to do and watching it happen.</li>
+</ul>
+<p>You need to be comfortable typing a few commands. It is not a one-tap app yet.</p>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Give tasks in plain English</strong>, like "Open Settings, find Battery and tell me the current level."</li>
+<li><strong>Work across apps.</strong> One task can move from one app to another.</li>
+<li><strong>Watch it live.</strong> A control page in your browser mirrors the phone screen, shows what the AI is thinking, and lets you replay past runs.</li>
+<li><strong>Pick a speed.</strong> "Flash" mode is quick, about 3 to 5 seconds per step, for simple jobs. "Pro" mode plans, checks its work and is slower, about 15 to 40 seconds per step.</li>
+<li><strong>Handle tricky screens.</strong> It reads the screen layout when it can, and falls back to looking at the picture when an app uses custom designs.</li>
+<li><strong>Connect to AI coding helpers.</strong> It links to tools like Claude Code, Codex, Cursor, Windsurf and Google's Antigravity. You can ask your coding helper to build an app, install it on the phone, test the login screen and send back screenshots.</li>
+<li><strong>Get reports.</strong> Tests can end with findings, tables and screenshots.</li>
+<li><strong>Plug into test systems.</strong> Developers can call it from Python as part of their normal testing.</li>
+</ul>
+<h2>How to start, step by step</h2>
+<p>You need an Android phone (or an Android emulator, which is a pretend phone on your computer) and a Mac, Windows or Linux computer.</p>
+<ol>
+<li><strong>Turn on USB Debugging on your phone.</strong> This is a setting in Android's Developer Options that lets a computer control the phone. Then plug the phone into your computer with a cable.</li>
+<li><strong>Open Terminal</strong> on Mac or Linux and paste:</li>
+</ol>
+<pre><code class="language-bash">git clone https://github.com/google/artemis.git &amp;&amp; cd artemis
+./start.sh
+</code></pre>
+<p>On Windows, use PowerShell: run <code>git clone https://github.com/google/artemis.git</code>, then <code>cd artemis</code>, then <code>.\start.bat</code>.</p>
+<ol>
+<li><strong>Let the script set things up.</strong> It installs the helper tools it needs by itself. It may also offer to connect Artemis to your AI coding apps.</li>
+<li><strong>Use the control page.</strong> It opens at <code>http://localhost:8000</code> in your browser, with a wizard to connect your phone. You can reopen it later with <code>uv run artemis ui</code>.</li>
+<li><strong>Type a task</strong> and watch the phone do it.</li>
+</ol>
+<h2>Good to know</h2>
+<ul>
+<li><strong>It installs a small helper on your phone.</strong> The first task adds an "Artemis Accessibility Helper." You will see a notification and a new entry in your Accessibility settings. The README says it listens only on the phone and sends nothing elsewhere. You can remove it any time.</li>
+<li><strong>It runs on AI vision models.</strong> The README lists models such as Gemini, Claude, GPT-4o and Qwen-VL. If you use a paid AI service, that service may charge you for use.</li>
+<li><strong>Android only for now.</strong> iOS support is on the roadmap, not here yet.</li>
+<li><strong>Be careful with real accounts.</strong> An AI that taps for you can make mistakes. Test on a spare phone or emulator first.</li>
+<li><strong>Apache-2.0 license</strong> means you can use, change and share it for free, even at work. You must keep the license notice and note any changes you make.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>Artemis turns typed instructions into real taps on an Android phone. It is free, made by Google, and very strong on app testing. Setup takes a few commands, so it suits app makers and testers most.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/google/artemis">github.com/google/artemis</a></p>
+
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

@@ -1,0 +1,100 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>openGym: a free workout tracker where you own your data | Git Trending Global</title><meta name="description" content="A free workout and body-weight tracker you run yourself, with plans, guided sessions, 5,600+ exercises and no subscription or ads."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/duartesantos8-opengym.html">
+<meta property="og:title" content="openGym: a free workout tracker where you own your data | Git Trending Global"><meta property="og:description" content="A free workout and body-weight tracker you run yourself, with plans, guided sessions, 5,600+ exercises and no subscription or ads."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/duartesantos8-opengym.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-10-15 · 4 min read</p><h1>openGym: a free workout tracker where you own your data</h1>
+<p class="lede">A free workout and body-weight tracker you run yourself, with plans, guided sessions, 5,600+ exercises and no subscription or ads.</p><div class="chips"><a class="chip" href="../industry/everyone.html">Everyone</a><a class="chip" href="../industry/healthcare.html">Healthcare</a></div><p class="meta">stars: 12K · license: AGPL-3.0 · platforms: Your own server (Docker); use on phone or laptop, Android app</p><img class="hero" src="../img/duartesantos8-opengym.jpg" alt="openGym: a free workout tracker where you own your data"><h2>The problem it solves</h2>
+<p>Most workout apps follow the same pattern. The basics are free. The good stuff sits behind a subscription. Your training history lives on their servers. And if the company shuts down, years of logged workouts can vanish.</p>
+<p>You do the hard work in the gym. Your data should belong to you.</p>
+<p>openGym is a workout tracker you run yourself, so your history stays in a folder you control.</p>
+<h2>What it is</h2>
+<p>openGym is a free, open-source gym and body-weight tracker. You "self-host" it, which means you run it on your own computer or home server instead of a company's.</p>
+<p>It still feels like a modern app. You can add it to your phone's home screen, sign in with a passkey (Face ID, Touch ID or fingerprint), use it offline, and sync between your phone and laptop.</p>
+<p>The README promises no account on someone else's server, no subscription, no ads and no tracking.</p>
+<p>There's also an online demo with example data, so you can try it before installing anything.</p>
+<h2>Who it's for</h2>
+<ul>
+<li><strong>Gym-goers and lifters</strong> who log every set and want serious progress tracking.</li>
+<li><strong>Beginners</strong> who want a ready-made plan and guided workouts.</li>
+<li><strong>Personal trainers and coaches</strong> who like planning routines in detail.</li>
+<li><strong>Privacy-minded people</strong> who don't want health data on a company's server.</li>
+<li><strong>Home-lab hobbyists</strong> who like running their own apps.</li>
+</ul>
+<h2>What you can do with it</h2>
+<p><strong>Planning</strong>
+- Build a routine for each weekday from <strong>over 5,600 exercises</strong> with animated demos.
+- Browse exercises by muscle on a body map, and filter by the equipment you own.
+- Start with four ready plans: Push/Pull/Legs, Upper/Lower, Full Body, or 5×5.
+- Use a rotation (A, B, C, A...) instead of fixed weekdays.
+- Add supersets, warm-up sets, drop sets, timed exercises like planks, and cardio.</p>
+<p><strong>Training</strong>
+- Guided sessions that pre-fill your weights from last time.
+- A rest timer between sets, which can flash the screen in loud gyms.
+- Personal records spotted as you go.
+- Plate math that works out which plates to load, based on the plates you own.</p>
+<p><strong>Progress</strong>
+- Progression rules that tell you when to add weight, and explain why.
+- A muscle map that shows where your training went, what's still recovering, and what you've been neglecting.
+- A body-weight chart against your goal, and progress photos with a before/after slider.
+- A year-long activity heatmap.</p>
+<p><strong>Your data</strong>
+- Import your history from FitNotes, Strong, Hevy and Apple Health weight exports.
+- Export everything as one file whenever you like.
+- Share or print a plan as a PDF.
+- 19 languages.</p>
+<p><strong>Optional extras (off by default)</strong>
+- An AI coach that drafts a week of routines and suggests changes. You approve every change. It uses your own AI account key.</p>
+<h2>How to start, step by step</h2>
+<p>You need Docker with Compose. Docker is a free app that runs other apps in a neat, self-contained box.</p>
+<ol>
+<li><strong>Install Docker</strong> from docker.com.</li>
+<li><strong>Open Terminal</strong> and paste these lines:</li>
+</ol>
+<pre><code class="language-bash">git clone https://github.com/DuarteSantos8/openGym
+cd openGym
+cp .env.example .env
+docker compose pull
+docker compose up -d
+</code></pre>
+<ol>
+<li><strong>Open the app.</strong> Go to <code>http://localhost:8080</code> in your browser.</li>
+<li><strong>Tap "Create profile"</strong> and you're in. The exercise animations are already included.</li>
+<li><strong>Reach it from your phone (optional).</strong> Passkeys from a phone need a secure web address (HTTPS). The self-hosting guide walks through setting this up.</li>
+</ol>
+<p><strong>Just want a phone app?</strong> Android users can download the app file (APK) from the latest release. It runs on its own with no account and no server, and everything stays on the phone. It is not on the Play Store. iPhone users can add the web app to their home screen from Safari.</p>
+<h2>Good to know</h2>
+<ul>
+<li><strong>Some setup needed.</strong> Running your own server takes a bit of tech comfort, especially for phone access over HTTPS.</li>
+<li><strong>No paid tier.</strong> The README says openGym is free and stays free, with nothing held back for sponsors. It accepts optional donations.</li>
+<li><strong>AI coach costs.</strong> The AI coach is off by default. If you turn it on, it uses your own key from a provider like Anthropic, OpenAI or Gemini, which may charge for use. It can also use a free local option like Ollama.</li>
+<li><strong>Privacy:</strong> location data is removed from your own exercise photos before upload.</li>
+<li><strong>AGPL-3.0 license</strong> means you can use, change and share it for free. If you change it and run it as an online service for others, you must share your changed code under the same license.</li>
+<li><strong>Exercise animations have their own license.</strong> They belong to Gym visual and are licensed for use in openGym only.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>openGym gives you a full-featured workout tracker with no subscription, no ads and no one else holding your data. It takes a little setup, but your training history is truly yours. Try the online demo first to see if it fits.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/DuarteSantos8/openGym">github.com/DuarteSantos8/openGym</a></p>
+
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a><a class="card" href="../tools/refactoringhq-tolaria.html"><img src="../img/refactoringhq-tolaria.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Tolaria: a free notes app where you own every file</h3><p>Tolaria is a free, offline notes app that keeps your knowledge in plain text files you own, with full version history and no account.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

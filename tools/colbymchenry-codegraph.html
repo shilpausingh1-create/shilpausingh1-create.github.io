@@ -1,0 +1,95 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CodeGraph: help your AI coder find the right code in one step | Git Trending Global</title><meta name="description" content="CodeGraph builds a ready-made map of your code on your own computer, so AI coding helpers find what they need with fewer steps and less cost."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/colbymchenry-codegraph.html">
+<meta property="og:title" content="CodeGraph: help your AI coder find the right code in one step | Git Trending Global"><meta property="og:description" content="CodeGraph builds a ready-made map of your code on your own computer, so AI coding helpers find what they need with fewer steps and less cost."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/colbymchenry-codegraph.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-05-15 · 4 min read</p><h1>CodeGraph: help your AI coder find the right code in one step</h1>
+<p class="lede">CodeGraph builds a ready-made map of your code on your own computer, so AI coding helpers find what they need with fewer steps and less cost.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a><a class="chip" href="../industry/business.html">Business</a></div><p class="meta">stars: 74K · license: MIT · platforms: Mac, Windows, Linux</p><img class="hero" src="../img/colbymchenry-codegraph.jpg" alt="CodeGraph: help your AI coder find the right code in one step"><h2>The problem it solves</h2>
+<p>You ask your AI coding helper a question about your project. Before it can answer, it has to go looking. It searches. It lists folders. It opens a file, then another, then another.</p>
+<p>All that digging takes time. It also costs money, because AI tools charge by the token (a small chunk of text the AI reads or writes). On a big project, the AI can spend most of its effort just finding its way around.</p>
+<p>It is like asking a new hire to find one invoice in a warehouse with no labels on the boxes.</p>
+<h2>What it is</h2>
+<p>CodeGraph is a free, open-source tool that builds a map of your code ahead of time. It records every piece of your code and how the pieces call and depend on each other. This kind of map is called a knowledge graph.</p>
+<p>When your AI helper needs something, it asks the map. In one step it gets back the right code, how that code connects to other parts, and what a change might affect. No more opening files one by one.</p>
+<p>Everything runs on your own computer. Nothing is uploaded.</p>
+<h2>Who it's for</h2>
+<ul>
+<li><strong>Developers</strong> who use Claude Code, Cursor, Codex or similar tools every day.</li>
+<li><strong>Teams with large projects</strong>, where AI helpers waste the most time searching.</li>
+<li><strong>Freelancers and small businesses</strong> watching their AI bills.</li>
+<li><strong>Anyone working with sensitive code</strong> who wants their tools to stay local.</li>
+</ul>
+<p>If you do not use an AI coding helper, this tool is not for you yet.</p>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Give your AI the right code in one call</strong>, instead of many searches.</li>
+<li><strong>Cut AI costs.</strong> In the makers' own tests on seven open-source projects, the AI used 88% fewer tool calls, ran 53% faster, used 62% fewer tokens and cost 44% less on average.</li>
+<li><strong>See the impact of a change</strong> before you make it. It shows what calls a piece of code and what that code calls.</li>
+<li><strong>Search your code by name</strong>, instantly.</li>
+<li><strong>Stay up to date on its own.</strong> It watches your project and updates the map every time a file changes. There is nothing to re-run.</li>
+<li><strong>Work across 20+ programming languages</strong>, including Python, JavaScript, Java, Swift and many more.</li>
+<li><strong>Understand web routes</strong>, linking web addresses to the code that handles them, across 17 popular frameworks.</li>
+<li><strong>Connect to many AI tools</strong>, including Claude Code, Cursor, Codex, Gemini, Kiro and GitHub Copilot.</li>
+</ul>
+<h2>How to start, step by step</h2>
+<p><strong>What you need first:</strong> a Mac, Windows or Linux computer, and an AI coding tool such as Claude Code or Cursor. You do not need Node.js for the main installer.</p>
+<ol>
+<li>Open Terminal (Mac or Linux) or PowerShell (Windows).</li>
+<li>Install CodeGraph. On a Mac or Linux:</li>
+</ol>
+<pre><code class="language-bash">curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.sh | sh
+</code></pre>
+<p>On Windows, the README gives a PowerShell version. If you already have Node.js, you can use <code>npm i -g @colbymchenry/codegraph</code> instead.</p>
+<ol>
+<li>Open a <strong>new</strong> Terminal window. The README says this is needed so the new command works.</li>
+<li>Connect CodeGraph to your AI tools:</li>
+</ol>
+<pre><code class="language-bash">codegraph install
+</code></pre>
+<p>It finds the AI tools on your computer and sets them up. Restart your AI tool after this.</p>
+<ol>
+<li>Go into your project folder and build the map:</li>
+</ol>
+<pre><code class="language-bash">cd your-project
+codegraph init
+</code></pre>
+<ol>
+<li>That is it. Use your AI tool as normal. The map keeps itself up to date.</li>
+</ol>
+<p>To remove it later, run <code>codegraph uninstall</code>.</p>
+<h2>Good to know</h2>
+<ul>
+<li><strong>It runs 100% on your computer.</strong> The README says no data leaves your machine, no API keys are needed and no outside services are used.</li>
+<li><strong>There are anonymous usage stats.</strong> The makers collect counts of which commands and languages get used. They say they never collect code, file names, searches or IP addresses. The installer asks first, and <code>codegraph telemetry off</code> turns it off.</li>
+<li><strong>Savings vary.</strong> The cost savings depended a lot on the project. On some test projects it was over 70% cheaper. On others it was about even.</li>
+<li><strong>One honest trade-off.</strong> The makers note that CodeGraph's answers can leave more text sitting in the AI's short-term memory (its context window) during long chats.</li>
+<li><strong>The first map takes some time</strong> on very big projects. After that, updates take well under a second.</li>
+<li><strong>A paid hosted product is coming.</strong> The makers are offering early beta access to a separate platform. The free tool works without it.</li>
+<li><strong>License:</strong> MIT. You can use, copy and change it for free, even at work. Just keep the copyright notice.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>CodeGraph gives your AI coding helper a labeled map instead of a dark warehouse. It installs in a few commands, keeps itself current and never sends your code anywhere.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/colbymchenry/codegraph">github.com/colbymchenry/codegraph</a></p>
+<p>📲 <a href='https://www.instagram.com/reel/DegBB44hdO1/'>Watch the 30-second video on Instagram</a></p>
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Apple Container: Apple&#x27;s free, light way to run Linux apps on a Mac | Git Trending Global</title><meta name="description" content="Apple&#x27;s own free tool for running Linux containers as tiny virtual machines on Apple silicon Macs."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/apple-container.html">
+<meta property="og:title" content="Apple Container: Apple&#x27;s free, light way to run Linux apps on a Mac | Git Trending Global"><meta property="og:description" content="Apple&#x27;s own free tool for running Linux containers as tiny virtual machines on Apple silicon Macs."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/apple-container.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-06-15 · 3 min read</p><h1>Apple Container: Apple&#x27;s free, light way to run Linux apps on a Mac</h1>
+<p class="lede">Apple&#x27;s own free tool for running Linux containers as tiny virtual machines on Apple silicon Macs.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a><a class="chip" href="../industry/students.html">Students</a></div><p class="meta">stars: 51K · license: Apache-2.0 · platforms: Mac with Apple silicon</p><img class="hero" src="../img/apple-container.jpg" alt="Apple Container: Apple&#x27;s free, light way to run Linux apps on a Mac"><h2>The problem it solves</h2>
+<p>A lot of modern software is shipped in "containers." A container is like a sealed lunchbox for an app. It holds the app and everything the app needs, so it runs the same way on any computer.</p>
+<p>The catch: most containers are built for Linux, not macOS. To run them on a Mac, people usually install a big extra app that runs in the background all day. Those apps can feel heavy, use a lot of memory, and slow down a laptop.</p>
+<h2>What it is</h2>
+<p>Container is a free, open-source tool made by Apple. It lets you create and run Linux containers on your Mac. Each container runs inside its own tiny virtual machine (a small, pretend computer inside your real one).</p>
+<p>It is written in Swift, Apple's own programming language, and it is tuned for Apple silicon chips, like the M-series chips in newer Macs.</p>
+<p>It works with standard container images (the "lunchbox" files). You can pull images from any normal container library, run them, build your own, and push them back up. Images you build also work in other standard container tools.</p>
+<h2>Who it's for</h2>
+<ul>
+<li><strong>Software developers on a Mac</strong> who test apps in Linux containers every day.</li>
+<li><strong>Computer science students</strong> learning how servers and containers work.</li>
+<li><strong>Data and AI hobbyists</strong> who want to try open-source tools that ship as containers.</li>
+<li><strong>IT staff and tinkerers</strong> who want an Apple-made option instead of a third-party app.</li>
+</ul>
+<p>Be honest with yourself: this is a command-line tool. You type commands into Terminal. There is no point-and-click window. If you have never used Terminal, this is a fine first project, but expect to learn a few commands.</p>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Run Linux containers on your Mac</strong>, each in a light virtual machine.</li>
+<li><strong>Use standard images</strong> from any container library, such as small Linux systems or web servers.</li>
+<li><strong>Build your own images</strong> and publish them to a container library.</li>
+<li><strong>Run images elsewhere.</strong> What you build works with other standard container apps.</li>
+<li><strong>Install with a signed package</strong> from Apple, then start it with one command.</li>
+<li><strong>Upgrade, downgrade or uninstall</strong> with included scripts, and choose to keep or delete your data.</li>
+<li><strong>Follow a guided tour.</strong> The project includes a tutorial that walks you through building, running and publishing a simple web server.</li>
+</ul>
+<h2>How to start, step by step</h2>
+<p>First you need: a Mac with Apple silicon, running macOS 26. Older versions of macOS are not supported.</p>
+<ol>
+<li>Go to the project's Releases page on GitHub and download the latest signed installer package.</li>
+<li>Double-click the package and follow the steps. Enter your Mac password when asked. This lets it place files in a system folder.</li>
+<li>Open Terminal and start the background service:</li>
+</ol>
+<pre><code class="language-bash">container system start
+</code></pre>
+<ol>
+<li>Run your first container to test it:</li>
+</ol>
+<pre><code class="language-bash">container run --rm alpine echo hello
+</code></pre>
+<p>This downloads a tiny Linux system called Alpine, runs it in a small virtual machine, prints "hello," and cleans up when done.</p>
+<ol>
+<li>When you want more, open the "start here" tutorial linked in the README.</li>
+</ol>
+<p>To remove it later, the README lists an uninstall script. Use the <code>-k</code> option to keep your data, or <code>-d</code> to delete it.</p>
+<h2>Good to know</h2>
+<ul>
+<li><strong>Apple silicon and macOS 26 only.</strong> Intel Macs and older macOS versions will not work. The team says it typically will not fix issues it cannot reproduce on macOS 26.</li>
+<li><strong>Still being built.</strong> The README says the project is under active development. Some features are marked "experimental" and may change.</li>
+<li><strong>Upgrades need a stop first.</strong> Before you upgrade or downgrade, stop it with <code>container system stop</code>.</li>
+<li><strong>Free, no paid services.</strong> The tool itself costs nothing. You only download images, which are usually free too.</li>
+<li><strong>License.</strong> It uses Apache-2.0. In plain words: you can use it, change it, and even use it in paid products, as long as you keep the copyright and license notices.</li>
+<li><strong>Not a full replacement for everything.</strong> It runs containers, but if your team relies on specific features of another container app, check the command reference before switching.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>Container is Apple's own free tool for running Linux apps in sealed boxes on a Mac, built for Apple silicon. If you are a developer or student on a newer Mac, it is a light, official option worth trying. Just know it needs macOS 26 and some comfort with Terminal.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/apple/container">github.com/apple/container</a></p>
+<p>📲 <a href='https://www.instagram.com/reel/DegI7RxhFqs/'>Watch the 30-second video on Instagram</a></p>
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

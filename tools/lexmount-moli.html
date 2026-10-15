@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Moli: a fast, light web browser built for AI helpers | Git Trending Global</title><meta name="description" content="A free invisible web browser that lets AI helpers read, search and use websites quickly, while using far less computer memory."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/lexmount-moli.html">
+<meta property="og:title" content="Moli: a fast, light web browser built for AI helpers | Git Trending Global"><meta property="og:description" content="A free invisible web browser that lets AI helpers read, search and use websites quickly, while using far less computer memory."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/lexmount-moli.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-10-15 · 3 min read</p><h1>Moli: a fast, light web browser built for AI helpers</h1>
+<p class="lede">A free invisible web browser that lets AI helpers read, search and use websites quickly, while using far less computer memory.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a><a class="chip" href="../industry/business.html">Business</a></div><p class="meta">stars: 18K · license: Apache-2.0 · platforms: Mac, Windows, Linux</p><img class="hero" src="../img/lexmount-moli.jpg" alt="Moli: a fast, light web browser built for AI helpers"><h2>The problem it solves</h2>
+<p>AI helpers are getting good at doing research and tasks on the web. But to read a website, they need a browser.</p>
+<p>Most AI tools borrow a full browser like Chrome to do this. That works, but it's heavy. Chrome draws every pixel of every page, even when the AI only needs the text. It eats memory, slows things down and costs more to run, especially when you open hundreds of pages.</p>
+<p>Moli is a browser made for AI from the start.</p>
+<h2>What it is</h2>
+<p>Moli is a free, open-source "headless" browser. Headless means it has no window. It runs out of sight, and an AI or a program tells it what to do.</p>
+<p>Moli's big idea: most of the time, an AI only needs a page's structure and text, not a picture of it. So Moli skips the drawing work unless you ask for it. When you do want a screenshot, it draws one fresh, then throws the drawing away to save memory.</p>
+<p>It's not a copy of Chrome. It's its own browser engine, written in Rust (a programming language known for speed and safety). It still runs real JavaScript, so modern websites work.</p>
+<h2>Who it's for</h2>
+<ul>
+<li><strong>Developers building AI agents</strong> that need to read or use websites.</li>
+<li><strong>Researchers and data teams</strong> who collect information from many web pages.</li>
+<li><strong>Companies running AI at scale</strong> who want to cut memory and server costs.</li>
+<li><strong>Testers</strong> who automate websites with tools like Playwright.</li>
+</ul>
+<p>If you use an AI coding helper like Claude Code, you can set it up just by asking.</p>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Turn web pages into clean text.</strong> Get a page as Markdown (simple formatted text), HTML, JSON, or a compact "semantic tree" that AI models read easily.</li>
+<li><strong>Search the web and fetch pages</strong> for your AI helper.</li>
+<li><strong>Take screenshots and PDFs on demand,</strong> of the visible screen or a full page.</li>
+<li><strong>Click and interact first, then save.</strong> For example, click a "show details" button and then grab the page.</li>
+<li><strong>Automate browser tasks</strong> through the standard ways programs control browsers (called CDP and WebDriver). Playwright can connect to it directly.</li>
+<li><strong>Skip extra installs.</strong> It doesn't need Chrome or separate driver programs installed.</li>
+<li><strong>Control costs.</strong> Heavy features like real page layout, images, fonts and video are off unless you turn them on.</li>
+</ul>
+<p><strong>How light is it?</strong> In the team's own test of 192 public websites, Moli got useful content from slightly more pages than headless Chrome, at the same median speed. Its median memory use was 73 MB, compared with 773 MB for Chrome. These are the team's numbers.</p>
+<h2>How to start, step by step</h2>
+<p>You need a Mac, Windows or Linux computer.</p>
+<p><strong>The easy way, with an AI helper:</strong></p>
+<ol>
+<li><strong>Open your AI helper,</strong> such as Claude Code or Codex.</li>
+<li><strong>Paste this prompt</strong> from the README:</li>
+</ol>
+<pre><code class="language-text">Install the skills under https://github.com/lexmount/moli/tree/main/skills,
+follow their instructions to download and install the latest prebuilt Moli
+binary, then use moli-webfetch to fetch https://example.com and show me the
+result.
+</code></pre>
+<ol>
+<li><strong>Ask it to fetch any website.</strong> It installs the skills and Moli, then shows you the page as text.</li>
+</ol>
+<p><strong>The direct way:</strong></p>
+<p>On Mac or Linux, open Terminal and run:</p>
+<pre><code class="language-sh">curl --proto '=https' --tlsv1.2 -fsSL \
+  https://github.com/lexmount/moli/releases/latest/download/moli-installer.sh | sh
+</code></pre>
+<p>On Windows, run this in PowerShell:</p>
+<pre><code class="language-powershell">powershell -ExecutionPolicy ByPass -c &quot;irm https://github.com/lexmount/moli/releases/latest/download/moli-installer.ps1 | iex&quot;
+</code></pre>
+<p>Then try it:</p>
+<pre><code class="language-bash">moli fetch --dump markdown --wait-until done https://example.com
+</code></pre>
+<h2>Good to know</h2>
+<ul>
+<li><strong>It's for builders.</strong> There's no window or buttons. You use it through commands or an AI helper.</li>
+<li><strong>Not every site works.</strong> In the team's test, about half of the 192 sites gave useful content for every browser tested, including Chrome. Login walls and bot checks still block it.</li>
+<li><strong>Free to use on its own.</strong> Moli is made by Lexmount, which also sells a managed cloud version. The README says the open-source browser is fully usable without it.</li>
+<li><strong>Screenshots need a switch.</strong> Add <code>--layout</code> when you want pictures or real page geometry.</li>
+<li><strong>Apache-2.0 license</strong> means you can use, change and share it for free, even in a business. Keep the license notice and note any changes you make.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>Moli gives AI helpers a real web browser without the weight of Chrome. It reads pages fast, uses far less memory, and only draws pictures when asked. If you build anything where AI reads the web, it's worth a look.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/lexmount/moli">github.com/lexmount/moli</a></p>
+
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

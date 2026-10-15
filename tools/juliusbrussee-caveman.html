@@ -1,0 +1,84 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Caveman: make your AI coding helper talk less and cost less | Git Trending Global</title><meta name="description" content="A free add-on that makes AI coding assistants give short, caveman-style answers and read less, so you spend fewer tokens."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/juliusbrussee-caveman.html">
+<meta property="og:title" content="Caveman: make your AI coding helper talk less and cost less | Git Trending Global"><meta property="og:description" content="A free add-on that makes AI coding assistants give short, caveman-style answers and read less, so you spend fewer tokens."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/juliusbrussee-caveman.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-04-15 · 4 min read</p><h1>Caveman: make your AI coding helper talk less and cost less</h1>
+<p class="lede">A free add-on that makes AI coding assistants give short, caveman-style answers and read less, so you spend fewer tokens.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a></div><p class="meta">stars: 112K · license: Apache-2.0 · platforms: Works with 30+ AI coding agents</p><img class="hero" src="../img/juliusbrussee-caveman.jpg" alt="Caveman: make your AI coding helper talk less and cost less"><h2>The problem it solves</h2>
+<p>Ask an AI coding assistant a simple question and you may get a whole essay back. "The reason your component is re-rendering is likely because..." and on it goes. The fix you needed was one line.</p>
+<p>That chatter is not free. AI tools charge by "tokens" (small chunks of text the AI reads or writes). Every extra word costs a bit of money and time. It also fills up the AI's short-term memory faster.</p>
+<p>Caveman cuts the chatter. Its motto says it all: "why many token when few do trick."</p>
+<h2>What it is</h2>
+<p>Caveman is a free add-on for AI coding assistants like Claude Code, Codex, Gemini CLI and OpenCode. It started as a joke in April 2026 and grew into a serious tool.</p>
+<p>At its heart, it gives your AI a new way of talking: answer first, short sentences, no greetings, no recap. Code, commands and error messages stay exactly the same, character for character. Only the extra words go.</p>
+<p>The README shows one example. A normal answer took 63 tokens. The caveman answer gave the same fix in 20.</p>
+<p>Since version 4.0, Caveman is more than a voice. It has six parts, all switched on after install, and each can be turned off on its own.</p>
+<h2>Who it's for</h2>
+<ul>
+<li>Developers who use AI coding assistants all day.</li>
+<li>People paying per token who want smaller bills.</li>
+<li>Teams who find long AI answers slow to read.</li>
+</ul>
+<p>This is a tool for people who code with AI in a terminal. If you do not use a coding assistant, it will not help you much.</p>
+<h2>What you can do with it</h2>
+<p>From the README, the six parts are:</p>
+<ul>
+<li><strong>Say less:</strong> short, clear answers. Words like "not," "never" and "only" are always kept, and numbers stay exact. For security warnings or risky actions, it switches back to full sentences.</li>
+<li><strong>Read less:</strong> shrinks logs, data files and test results before the AI reads them. The README reports 33.2% fewer input tokens across its test sessions, with the same answers.</li>
+<li><strong>Auto:</strong> picks which AI model and how much effort to use for each question. Hard question, big model. Easy question, cheaper one. This part needs a free account.</li>
+<li><strong>Blocks:</strong> saves small scripts the AI writes so it can reuse them instead of rewriting them every time. This part is still a pre-release.</li>
+<li><strong>Waste fixes:</strong> shows where your tokens go and suggests fixes, only applying them when you say yes.</li>
+<li><strong>Browse:</strong> sends web pages to the AI in a much smaller form.</li>
+</ul>
+<p>You can also pick how short it gets: <code>/caveman</code>, the shorter <code>/ultracave</code>, or <code>/megacave</code>, which uses classical Chinese.</p>
+<h2>How to start, step by step</h2>
+<p><strong>What you need first:</strong> Node.js version 22.13 or newer (a free program you can get from nodejs.org), and an AI coding tool such as Claude Code.</p>
+<ol>
+<li>Open Terminal and paste:</li>
+</ol>
+<pre><code class="language-bash">npx @caveman-ai/cli@latest
+</code></pre>
+<ol>
+<li>Caveman finds your AI tools and shows what it will change.</li>
+<li>Press Enter to accept.</li>
+<li>Use your AI tool as normal. Answers should now come back short.</li>
+<li>Type <code>caveman status</code> to see which parts are on. Say "stop caveman" in a chat to go back to normal answers.</li>
+</ol>
+<p><strong>Only want shorter answers?</strong> Install just the voice instead:</p>
+<pre><code class="language-bash">npx skills add JuliusBrussee/caveman -g
+</code></pre>
+<h2>Good to know</h2>
+<ul>
+<li><strong>Savings vary.</strong> The README is honest about this. It shows where Caveman loses, like web pages saved as HTML, which have no shrinker yet. Your results will depend on your work.</li>
+<li><strong>"Be concise" already helps.</strong> The README admits newer AI models already shorten answers when asked. Caveman's extra savings on top of that were small for the standard mode and bigger for <code>/ultracave</code>.</li>
+<li><strong>Not always cheaper.</strong> If your plan charges per request rather than per token (like GitHub Copilot), shorter answers save nothing.</li>
+<li><strong>Privacy:</strong> the voice add-on sends nothing. The full command-line tool sends usage stats by default, but never your prompts, code or file paths. Turn it off with <code>caveman telemetry off</code>. The Auto feature sends parts of your conversation to Caveman's cloud, and only after you sign in and choose it.</li>
+<li><strong>Cost:</strong> the tool is free. Your AI provider still bills you as usual. A separate Caveman Cloud service exists for teams building their own AI agents.</li>
+<li><strong>License (Apache-2.0):</strong> free to use, change and even use in a business. Keep the license notice. The "Caveman" name and rock logo are trademarks of the author.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>Caveman makes your AI coding assistant get to the point and read less noise. It installs with one command, keeps code exact, and is open about where it helps and where it does not. If long AI replies are eating your time or budget, it is an easy thing to try.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/JuliusBrussee/caveman">github.com/JuliusBrussee/caveman</a></p>
+<p>📲 <a href='https://www.instagram.com/reel/Def5VgTBSBP/'>Watch the 30-second video on Instagram</a></p>
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

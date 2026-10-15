@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mole: a free way to deep-clean your Mac | Git Trending Global</title><meta name="description" content="Mole is a free, open-source tool that cleans junk, fully uninstalls apps, and shows what is filling up your Mac."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/tw93-mole.html">
+<meta property="og:title" content="Mole: a free way to deep-clean your Mac | Git Trending Global"><meta property="og:description" content="Mole is a free, open-source tool that cleans junk, fully uninstalls apps, and shows what is filling up your Mac."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/tw93-mole.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-01-15 · 4 min read</p><h1>Mole: a free way to deep-clean your Mac</h1>
+<p class="lede">Mole is a free, open-source tool that cleans junk, fully uninstalls apps, and shows what is filling up your Mac.</p><div class="chips"><a class="chip" href="../industry/everyone.html">Everyone</a><a class="chip" href="../industry/developers.html">Developers</a></div><p class="meta">stars: 70K · license: GPL-3.0 · platforms: Mac (Windows version in progress)</p><img class="hero" src="../img/tw93-mole.jpg" alt="Mole: a free way to deep-clean your Mac"><h2>The problem it solves</h2>
+<p>Your Mac used to feel fast. Now the disk is nearly full and you get "storage almost full" pop-ups.</p>
+<p>A lot of that space is junk you never see. Cache files (saved copies apps keep to load faster). Old logs. Leftovers from apps you dragged to the Trash years ago. Big installer files sitting in your Downloads folder.</p>
+<p>Paid cleaner apps can fix this, but many want a yearly fee. Mole does much of the same work for free.</p>
+<h2>What it is</h2>
+<p>Mole is a free, open-source Mac cleaning toolkit. Open source means the code is public for anyone to read and check.</p>
+<p>Its maker describes it as CleanMyMac, AppCleaner, DaisyDisk, and iStat Menus style tools rolled into one. It can clean, uninstall apps, do upkeep, map your disk, and show live system health.</p>
+<p>One important detail: Mole runs in Terminal, the Mac's built-in app where you type commands. There are no buttons or windows. You type a short command, then use your arrow keys to pick from simple menus. It sounds techy, but the main command is just two letters: <code>mo</code>.</p>
+<p>There is also a separate app with buttons, called Mole for Mac, sold at mole.fit. That is a different product. This article covers the free Terminal version.</p>
+<h2>Who it's for</h2>
+<ul>
+<li>Mac users who are tired of "disk full" warnings.</li>
+<li>Anyone who does not want to pay for a cleaner app.</li>
+<li>Designers and video editors with huge apps and files to manage.</li>
+<li>Developers, who get extra tools for clearing out old project files.</li>
+<li>People who are okay typing a few short commands.</li>
+</ul>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Deep clean.</strong> <code>mo clean</code> removes caches, logs, temp files, and leftovers from apps you already deleted. It also empties the Trash by default.</li>
+<li><strong>Uninstall apps fully.</strong> <code>mo uninstall</code> removes an app plus the related files it left around your Mac. It keeps your personal settings by default, unless you choose to remove them.</li>
+<li><strong>Map your disk.</strong> <code>mo analyze</code> shows a bar chart of what takes up the most space. You can move items to the Trash after you confirm.</li>
+<li><strong>Check your Mac's health.</strong> <code>mo status</code> shows a live dashboard with CPU, memory, disk, network, and battery, plus an overall health score.</li>
+<li><strong>Do upkeep.</strong> <code>mo optimize</code> refreshes things like icon and preview caches and network settings.</li>
+<li><strong>Clear old installers.</strong> <code>mo installer</code> finds leftover DMG and PKG install files in places like Downloads and the Desktop.</li>
+<li><strong>Clean coding projects.</strong> <code>mo purge</code> finds big rebuildable folders that coding projects create.</li>
+<li><strong>Preview first.</strong> Add <code>--dry-run</code> to see what would happen without deleting anything.</li>
+</ul>
+<h2>How to start, step by step</h2>
+<p>You need a Mac running macOS 12 or newer. It works on both Intel and Apple Silicon Macs. The easiest install uses Homebrew, a free app installer for the Mac.</p>
+<ol>
+<li>Open Terminal. Press Command and Space, type "Terminal," and press Enter.</li>
+<li>Paste this line and press Enter:</li>
+</ol>
+<pre><code class="language-bash">brew install mole
+</code></pre>
+<p>No Homebrew? The README also offers a one-line install script you can paste instead.</p>
+<ol>
+<li>Type <code>mo</code> and press Enter. A menu appears.</li>
+<li>Use the arrow keys to pick <strong>clean</strong>, <strong>uninstall</strong>, or <strong>analyze</strong>.</li>
+<li>Want to be extra safe? Run <code>mo clean --dry-run</code> first. It shows what Mole would remove, without removing it.</li>
+</ol>
+<h2>Good to know</h2>
+<ul>
+<li><strong>It is free.</strong> The Terminal tool costs nothing. The app with buttons, Mole for Mac, is a separate paid-for product from the same maker.</li>
+<li><strong>It can delete files.</strong> Clean, uninstall, purge, and installer can remove things for good. The README advises using <code>--dry-run</code> first.</li>
+<li><strong>It is careful by design.</strong> Mole checks paths, protects system files, and skips anything it cannot prove is safe. It asks for your admin password only when needed.</li>
+<li><strong>You can protect things.</strong> A "whitelist" (a list of items to never touch) lets you keep caches you want, or keep your Trash from being emptied.</li>
+<li><strong>It keeps a log.</strong> Mole records what it cleaned, and you can review it with <code>mo history</code>.</li>
+<li><strong>Watch out for fakes.</strong> The maker says Mole only comes from Homebrew, its GitHub page, and mole.fit. Other sites offering a "Mole-based" app are not connected to it.</li>
+<li><strong>Windows is early.</strong> A Windows version exists on a separate branch, but the main focus is the Mac.</li>
+<li><strong>License: GPL-3.0.</strong> You are free to use it and change it. But if you share a changed version, you must share its code under the same license too.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>Mole packs a Mac cleaner, app remover, disk map, and health monitor into one free tool. It asks you to type a few commands, but the menus are simple and the dry-run option makes it safe to explore. If you are happy with Terminal, it can save you the cost of a paid cleaner.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/tw93/Mole">github.com/tw93/Mole</a></p>
+<p>📲 <a href='https://www.instagram.com/reel/DefjSQBhPoo/'>Watch the 30-second video on Instagram</a></p>
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Karpathy Skills: one free file that makes AI coders think first | Git Trending Global</title><meta name="description" content="One free instruction file, based on Andrej Karpathy&#x27;s advice, that helps AI coding tools ask first, stay simple and only change what you asked."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/multica-ai-andrej-karpathy-skills.html">
+<meta property="og:title" content="Karpathy Skills: one free file that makes AI coders think first | Git Trending Global"><meta property="og:description" content="One free instruction file, based on Andrej Karpathy&#x27;s advice, that helps AI coding tools ask first, stay simple and only change what you asked."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/multica-ai-andrej-karpathy-skills.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-04-15 · 3 min read</p><h1>Karpathy Skills: one free file that makes AI coders think first</h1>
+<p class="lede">One free instruction file, based on Andrej Karpathy&#x27;s advice, that helps AI coding tools ask first, stay simple and only change what you asked.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a></div><p class="meta">stars: 220K · license: MIT · platforms: Works inside Claude Code and Cursor</p><img class="hero" src="../img/multica-ai-andrej-karpathy-skills.jpg" alt="Karpathy Skills: one free file that makes AI coders think first"><h2>The problem it solves</h2>
+<p>You ask an AI coding tool for a small fix. It comes back with a giant rewrite. It changed files you never mentioned. It added features nobody asked for. And it guessed at what you meant instead of asking.</p>
+<p>You are not alone. Andrej Karpathy, a well-known AI researcher, wrote about these exact habits. He said AI models make wrong guesses and run with them without checking. He said they like to overcomplicate code, and sometimes change or delete things they do not fully understand.</p>
+<p>This project turns his advice into rules your AI tool can follow.</p>
+<h2>What it is</h2>
+<p>Karpathy Skills is a single instruction file called <code>CLAUDE.md</code>. Claude Code (an AI coding tool from Anthropic) reads this file at the start of each session and follows what it says. Think of it as a short house-rules sheet for your AI helper.</p>
+<p>It was written by the project's author, based on Karpathy's public observations. It is inspired by Karpathy, not made by him.</p>
+<p>The file is built around four simple principles.</p>
+<h2>Who it's for</h2>
+<ul>
+<li>Developers who use Claude Code or Cursor every day.</li>
+<li>Team leads who want AI-written code that is easier to review.</li>
+<li>Solo builders and hobby coders tired of AI tools that go overboard.</li>
+</ul>
+<p>If you do not use an AI coding tool, this one will not do much for you. It is a set of rules for those tools.</p>
+<h2>What you can do with it</h2>
+<p>The file teaches your AI four habits:</p>
+<ul>
+<li><strong>Think before coding.</strong> State its guesses out loud. Ask when unsure. Offer options when a request could mean more than one thing. Push back if there is a simpler way.</li>
+<li><strong>Simplicity first.</strong> Write the least code that solves the problem. No extra features, no "just in case" settings. The README's test: would a senior engineer call this overcomplicated? If yes, simplify.</li>
+<li><strong>Surgical changes.</strong> Touch only what you must. Do not "improve" nearby code or reformat things. If it spots unrelated old code, mention it instead of deleting it. Every changed line should trace back to your request.</li>
+<li><strong>Goal-driven work.</strong> Turn vague asks into checkable goals. "Fix the bug" becomes "write a test that shows the bug, then make it pass." For bigger tasks, list a short plan with a check after each step.</li>
+</ul>
+<p>Other things the README covers:</p>
+<ul>
+<li><strong>Works with Cursor too.</strong> The project includes a matching rule file for Cursor.</li>
+<li><strong>Easy to mix in.</strong> You can add it to an existing <code>CLAUDE.md</code> alongside your own project rules.</li>
+</ul>
+<p>The README also lists signs it is working: fewer surprise changes, fewer rewrites, and questions that come before the work instead of after a mistake.</p>
+<h2>How to start, step by step</h2>
+<p><strong>What you need first:</strong> Claude Code installed and working. (For Cursor, see the project's CURSOR.md guide.)</p>
+<p>The README recommends installing it as a Claude Code plugin, which makes it work in all your projects.</p>
+<ol>
+<li>Open Claude Code.</li>
+<li>Add the plugin source by typing:</li>
+</ol>
+<pre><code>/plugin marketplace add forrestchang/andrej-karpathy-skills
+</code></pre>
+<ol>
+<li>Install the plugin by typing:</li>
+</ol>
+<pre><code>/plugin install andrej-karpathy-skills@karpathy-skills
+</code></pre>
+<ol>
+<li>Keep working as usual. Your AI should now ask more questions up front and make smaller, cleaner changes.</li>
+</ol>
+<p><strong>Prefer one project only?</strong> In your project folder, run this in Terminal to download the file:</p>
+<pre><code class="language-bash">curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md
+</code></pre>
+<p>If you already have a <code>CLAUDE.md</code>, the README shows how to add these rules to the end of it instead of replacing it.</p>
+<h2>Good to know</h2>
+<ul>
+<li><strong>It favors care over speed.</strong> The README says so plainly. For tiny fixes like a typo, use your judgment. Not every change needs the full process.</li>
+<li><strong>It is guidance, not a guarantee.</strong> The file shapes how the AI behaves. It does not change the AI model itself.</li>
+<li><strong>Cost:</strong> the file is free. You still need access to Claude Code or Cursor, which may have their own costs.</li>
+<li><strong>Privacy:</strong> it is just a text file. It does not send anything anywhere.</li>
+<li><strong>License (MIT):</strong> free to use, change and even use in a business. Just keep the license notice.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>Karpathy Skills is one small file with a big effect: it nudges your AI coder to ask before acting, keep things simple and stay in its lane. It takes two commands to install. If your AI tool keeps overdoing it, this is the easiest fix to try first.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/multica-ai/andrej-karpathy-skills">github.com/multica-ai/andrej-karpathy-skills</a></p>
+<p>📲 <a href='https://www.instagram.com/reel/Def3s8FBXcz/'>Watch the 30-second video on Instagram</a></p>
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

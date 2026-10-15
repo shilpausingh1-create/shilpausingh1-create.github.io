@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VibeVoice: Microsoft&#x27;s free AI that transcribes an hour of audio | Git Trending Global</title><meta name="description" content="VibeVoice is Microsoft&#x27;s open-source voice AI that turns up to 60 minutes of audio into text, labeling who spoke and when."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/microsoft-vibevoice.html">
+<meta property="og:title" content="VibeVoice: Microsoft&#x27;s free AI that transcribes an hour of audio | Git Trending Global"><meta property="og:description" content="VibeVoice is Microsoft&#x27;s open-source voice AI that turns up to 60 minutes of audio into text, labeling who spoke and when."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/microsoft-vibevoice.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-01-15 · 4 min read</p><h1>VibeVoice: Microsoft&#x27;s free AI that transcribes an hour of audio</h1>
+<p class="lede">VibeVoice is Microsoft&#x27;s open-source voice AI that turns up to 60 minutes of audio into text, labeling who spoke and when.</p><div class="chips"><a class="chip" href="../industry/media.html">Media</a><a class="chip" href="../industry/business.html">Business</a><a class="chip" href="../industry/developers.html">Developers</a></div><p class="meta">stars: 55K · license: MIT · platforms: Mac, Windows, Linux (needs a strong GPU)</p><img class="hero" src="../img/microsoft-vibevoice.jpg" alt="VibeVoice: Microsoft&#x27;s free AI that transcribes an hour of audio"><h2>The problem it solves</h2>
+<p>You recorded a long interview, a podcast, or a team meeting. Now you need it in writing.</p>
+<p>Typing it out by hand takes hours. Many transcription tools help, but they often stumble on long recordings. They chop the audio into small pieces. Along the way, they lose track of who is talking. You end up with a wall of text and no idea which person said what.</p>
+<p>Microsoft built VibeVoice to fix that.</p>
+<h2>What it is</h2>
+<p>VibeVoice is a family of open-source voice AI models from Microsoft. Open source means the code and models are public for anyone to use and study. A model is the trained "brain" that does the AI work.</p>
+<p>The star of the family right now is <strong>VibeVoice-ASR</strong>. ASR stands for automatic speech recognition, which simply means turning speech into text. It can take up to 60 minutes of audio in one go. It does not cut the audio into tiny chunks, so it keeps track of each speaker across the whole hour.</p>
+<p>The result is a tidy transcript that shows three things. Who spoke. When they spoke. And what they said.</p>
+<p>The family also includes text-to-speech models (AI that reads text out loud). One of them, VibeVoice-Realtime, starts speaking in about 300 milliseconds.</p>
+<h2>Who it's for</h2>
+<ul>
+<li>Podcasters who want transcripts of full episodes.</li>
+<li>Journalists and researchers transcribing long interviews.</li>
+<li>Teams that record meetings and need clear notes.</li>
+<li>Teachers and students with recorded lectures.</li>
+<li>Developers and AI researchers building voice tools.</li>
+</ul>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Transcribe an hour at once.</strong> Up to 60 minutes of audio in a single pass.</li>
+<li><strong>See who said what.</strong> It labels each speaker and adds timestamps.</li>
+<li><strong>Work in many languages.</strong> The README says it supports over 50 languages.</li>
+<li><strong>Teach it special words.</strong> You can give it "hotwords," like names, product terms, or jargon, to help it get them right.</li>
+<li><strong>Transcribe live.</strong> A streaming version writes text while the audio is still coming in. The newest streaming model handles 10 languages.</li>
+<li><strong>Run it without a graphics card.</strong> A newer version called VibeVoice-ASR-BitNet is made to run on a normal computer processor (CPU), no GPU required. It shrinks the model from 4.62 GB to 1.58 GB.</li>
+<li><strong>Make speech from text.</strong> VibeVoice-Realtime is a small, fast text-to-speech model that can read long text, around 10 minutes, out loud.</li>
+</ul>
+<h2>How to start, step by step</h2>
+<p>The easiest way needs no install at all. Microsoft offers an online demo called the Playground.</p>
+<ol>
+<li>Open the VibeVoice GitHub page and click the <strong>ASR Playground</strong> link near the top.</li>
+<li>Upload an audio recording, up to 60 minutes long.</li>
+<li>Wait for it to process.</li>
+<li>Read your transcript, with speaker labels and timestamps.</li>
+</ol>
+<p>Want to run it on your own computer? That is for tech-savvy users. Start by copying the project:</p>
+<pre><code class="language-bash">git clone https://github.com/microsoft/VibeVoice.git
+</code></pre>
+<p>Then follow the guides in the project's docs folder. Running the main model locally needs a strong GPU (graphics card). If you do not have one, look at the BitNet CPU version linked in the README. Developers can also use the speech model through Hugging Face Transformers, a popular AI code library.</p>
+<h2>Good to know</h2>
+<ul>
+<li><strong>It is for research.</strong> Microsoft says plainly that it does not recommend using VibeVoice in business or real-world products without more testing. It is meant for research and development.</li>
+<li><strong>Check the output.</strong> The README warns the model can produce unexpected, biased, or wrong results. Always double-check important transcripts.</li>
+<li><strong>Some parts were removed.</strong> In September 2025, Microsoft pulled the code for its long-form text-to-speech model, VibeVoice-TTS. It found people using it in ways it did not intend. The model page now shows that demo as disabled.</li>
+<li><strong>Use it honestly.</strong> Microsoft warns that realistic AI voices can be misused for fake audio and fraud. It asks users to follow the law and say when content is AI-made.</li>
+<li><strong>Hardware matters.</strong> The full model needs a powerful graphics card. The online Playground and the CPU version are easier options.</li>
+<li><strong>Microsoft cloud option.</strong> VibeVoice-ASR is also available to test in Microsoft's Azure AI Foundry Labs.</li>
+<li><strong>License: MIT.</strong> The license itself lets you use, change, and share the code, even in business, as long as you keep the notice. But remember Microsoft's own advice to treat it as a research tool for now.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>VibeVoice-ASR can turn a full hour of audio into a clean transcript that knows who said what and when, in over 50 languages. The free online Playground makes it easy to try. Just treat it as a research tool, and check its work before you rely on it.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/microsoft/VibeVoice">github.com/microsoft/VibeVoice</a></p>
+<p>📲 <a href='https://www.instagram.com/reel/DefipdMBP4T/'>Watch the 30-second video on Instagram</a></p>
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

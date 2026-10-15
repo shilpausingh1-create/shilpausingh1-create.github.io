@@ -1,0 +1,97 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hindsight: give your AI helper a memory that actually learns | Git Trending Global</title><meta name="description" content="A free memory system that helps AI agents remember past chats and learn from them, instead of starting from zero every time."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/vectorize-io-hindsight.html">
+<meta property="og:title" content="Hindsight: give your AI helper a memory that actually learns | Git Trending Global"><meta property="og:description" content="A free memory system that helps AI agents remember past chats and learn from them, instead of starting from zero every time."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/vectorize-io-hindsight.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-09-15 · 4 min read</p><h1>Hindsight: give your AI helper a memory that actually learns</h1>
+<p class="lede">A free memory system that helps AI agents remember past chats and learn from them, instead of starting from zero every time.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a><a class="chip" href="../industry/business.html">Business</a></div><p class="meta">stars: 50K · license: MIT · platforms: Mac, Linux, or anywhere with Docker</p><img class="hero" src="../img/vectorize-io-hindsight.jpg" alt="Hindsight: give your AI helper a memory that actually learns"><h2>The problem it solves</h2>
+<p>You tell an AI chatbot your name, your job and what you like. The next day, it has forgotten all of it. You explain everything again.</p>
+<p>This is a real headache for anyone building AI helpers. A support bot forgets the customer it spoke to last week. A sales helper forgets which emails worked. Every chat starts from a blank page.</p>
+<p>Hindsight is built to fix that.</p>
+<h2>What it is</h2>
+<p>Hindsight is a free, open-source memory system for AI agents. An "agent" is an AI helper that can do tasks on its own, not just answer one question.</p>
+<p>Most memory tools only replay old chat history. Hindsight goes further. Its goal is to help agents learn, not just remember.</p>
+<p>It sorts memories a bit like a human brain does:</p>
+<ul>
+<li><strong>World facts:</strong> things that are true about the world.</li>
+<li><strong>Experiences:</strong> what the agent itself did and what happened.</li>
+<li><strong>Observations:</strong> beliefs it forms from many memories, with the proof kept alongside.</li>
+<li><strong>Mental models:</strong> a standing answer to a question, like "What does this user prefer?", which it keeps up to date.</li>
+</ul>
+<p>The team says it scores at the top of LongMemEval, a well-known test of long-term memory. They also say outside researchers at Virginia Tech and The Washington Post reproduced those results.</p>
+<h2>Who it's for</h2>
+<p>Hindsight is mainly for people who build AI apps. That includes:</p>
+<ul>
+<li><strong>Developers</strong> adding memory to a chatbot or AI assistant.</li>
+<li><strong>Startups</strong> building "AI employees" that handle open-ended work.</li>
+<li><strong>Teams</strong> making support, sales or project helpers that should get smarter over time.</li>
+</ul>
+<p>The README gives examples like an AI project manager thinking about risks, a sales agent working out why some messages get replies, and a support agent spotting questions the help docs don't answer.</p>
+<p>If you are not technical, you won't use this directly. But it may power the AI tools you use at work.</p>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Retain:</strong> save new facts. It pulls out key facts, dates, people and how they connect.</li>
+<li><strong>Recall:</strong> look up memories four ways at once (by meaning, by keyword, by links between things, and by time), then rank the best results.</li>
+<li><strong>Reflect:</strong> think deeply over everything it knows to answer a harder question.</li>
+<li><strong>Memory banks:</strong> keep a separate "brain" for each user, agent or project, with no mixing between them.</li>
+<li><strong>Many AI providers:</strong> works with 25+ AI providers, such as OpenAI, Anthropic and Gemini, plus options that run on your own machine.</li>
+<li><strong>Lots of add-ons:</strong> the README lists 60+ integrations, including coding helpers like Claude Code and Cursor, and no-code tools like n8n and Zapier.</li>
+<li><strong>Two-line setup for existing bots:</strong> a "wrapper" saves and fetches memories on every AI call with almost no code changes.</li>
+<li><strong>Many languages:</strong> facts stay in the language they were written in.</li>
+<li><strong>Memory Defense:</strong> an optional setting that scans for secrets and personal details and hides or blocks them before they are saved.</li>
+<li><strong>Clients for many coding languages:</strong> Python, JavaScript, Go and a command-line tool.</li>
+</ul>
+<h2>How to start, step by step</h2>
+<p>You need a computer (Mac, Linux or Windows), the free Docker app, and an account key from an AI provider such as OpenAI.</p>
+<ol>
+<li><strong>Install Docker.</strong> Docker is a free app that runs other apps in a neat box. Get it from docker.com.</li>
+<li><strong>Get an AI account key.</strong> For example, an OpenAI API key. An API key is a password that lets apps use your AI account.</li>
+<li><strong>Open Terminal</strong> and paste the start command from the README, with your key in place of <code>sk-xxx</code>:</li>
+</ol>
+<pre><code class="language-bash">export OPENAI_API_KEY=sk-xxx
+
+docker run -it --pull always --name hindsight --restart unless-stopped -p 8888:8888 -p 9999:9999 \
+  -e HINDSIGHT_API_LLM_API_KEY=$OPENAI_API_KEY \
+  -v hindsight-data:/home/hindsight/.pg0 \
+  ghcr.io/vectorize-io/hindsight:latest
+</code></pre>
+<ol>
+<li><strong>Open the dashboard.</strong> Go to <code>http://localhost:9999</code> in your browser. The API (the part apps talk to) lives at <code>http://localhost:8888</code>.</li>
+<li><strong>Connect your app.</strong> Install the client, for example <code>pip install hindsight-client</code>, and follow the README's short examples.</li>
+</ol>
+<p>Prefer not to use Docker? You can also install it with <code>pip install hindsight-api</code>.</p>
+<h2>Good to know</h2>
+<ul>
+<li><strong>It needs an AI model.</strong> Hindsight uses an AI model to pull out facts. If you use a paid provider like OpenAI, you pay that provider for what you use.</li>
+<li><strong>There is a paid hosted option.</strong> Hindsight Cloud runs it for you. The README says billing is based on use, with free credits to start and no fixed monthly fee. The self-hosted version is free.</li>
+<li><strong>Your data stays with you</strong> when you run it yourself. Memories are stored on your own machine.</li>
+<li><strong>It may be too much for simple jobs.</strong> The README itself says it may be overkill for simple workflows.</li>
+<li><strong>Intel Macs</strong> need a slimmer version. The README explains which one.</li>
+<li><strong>MIT license</strong> means you can use, change and share it for free, even in a business. Just keep the copyright notice.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>Hindsight gives AI helpers a real memory that grows over time. It is free, works with many AI providers, and has strong test scores. It takes some setup, so it's best for people building their own AI tools.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/vectorize-io/hindsight">github.com/vectorize-io/hindsight</a></p>
+
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

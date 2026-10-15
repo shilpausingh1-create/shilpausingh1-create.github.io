@@ -1,0 +1,97 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Headroom: same AI answers, a much smaller token bill | Git Trending Global</title><meta name="description" content="Headroom shrinks the logs, files and data your AI reads, right on your computer, so you pay for fewer tokens and get the same answers."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/headroomlabs-ai-headroom.html">
+<meta property="og:title" content="Headroom: same AI answers, a much smaller token bill | Git Trending Global"><meta property="og:description" content="Headroom shrinks the logs, files and data your AI reads, right on your computer, so you pay for fewer tokens and get the same answers."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/headroomlabs-ai-headroom.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-06-15 · 4 min read</p><h1>Headroom: same AI answers, a much smaller token bill</h1>
+<p class="lede">Headroom shrinks the logs, files and data your AI reads, right on your computer, so you pay for fewer tokens and get the same answers.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a><a class="chip" href="../industry/business.html">Business</a><a class="chip" href="../industry/finance.html">Finance</a></div><p class="meta">stars: 75K · license: Apache-2.0 · platforms: Mac, Windows, Linux</p><img class="hero" src="../img/headroomlabs-ai-headroom.jpg" alt="Headroom: same AI answers, a much smaller token bill"><h2>The problem it solves</h2>
+<p>AI tools charge by the token. A token is a small chunk of text, roughly part of a word. Every word your AI reads costs money. Every word it writes back costs money too.</p>
+<p>Now picture what an AI coding helper reads all day. Long error logs. Search results. Big files. Data dumps full of the same lines repeated again and again. Most of it is filler. But you pay for every bit.</p>
+<p>For heavy users, this is where the bill quietly balloons.</p>
+<h2>What it is</h2>
+<p>Headroom is a free, open-source tool that shrinks everything your AI reads before it reaches the AI. That includes tool results, logs, files, search results and chat history.</p>
+<p>The idea is simple: same answers, a fraction of the tokens. The README shows an example where a log of 10,144 tokens was shrunk to 1,260 tokens, and the AI still found the one important error line.</p>
+<p>The shrinking happens on your own computer. Your prompts and files are not sent anywhere to be compressed.</p>
+<p>Nothing is thrown away, either. Headroom keeps the original text on your computer. If the AI needs the full version, it can ask for it.</p>
+<h2>Who it's for</h2>
+<ul>
+<li><strong>Heavy users of AI coding tools</strong> like Claude Code, Codex or Cursor.</li>
+<li><strong>Developers building AI apps</strong> who want lower running costs.</li>
+<li><strong>Support and operations teams</strong> whose AI reads long logs to find problems.</li>
+<li><strong>Startups and finance teams</strong> keeping an eye on monthly AI spending.</li>
+<li><strong>Anyone who hits usage limits</strong> on their AI plan too quickly.</li>
+</ul>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Wrap your AI tool in one command.</strong> <code>headroom wrap claude</code> starts Claude Code through Headroom. It also works with Codex, Copilot, Aider, OpenCode, Cline and more. Undo it with <code>headroom unwrap</code>.</li>
+<li><strong>Watch your savings live</strong> with <code>headroom dashboard</code>.</li>
+<li><strong>Shrink what the AI writes back.</strong> An optional setting asks the AI to skip filler like long intros and repeated code.</li>
+<li><strong>Share memory across AI tools</strong>, so Claude, Codex, Gemini and Grok can use one shared store.</li>
+<li><strong>Learn from mistakes.</strong> <code>headroom learn</code> looks at failed sessions and writes fixes into your AI's instruction file.</li>
+<li><strong>Use it in your own app.</strong> Developers can call it from Python or TypeScript code.</li>
+<li><strong>Run it as a proxy</strong> (a middle step all AI traffic passes through), with no code changes.</li>
+</ul>
+<p><strong>How much does it save?</strong> In the makers' tests on four real-world examples, savings ran from 21% to 57%. They say very repetitive data, like repeated log lines, can shrink by over 90%. Plain writing shrinks very little. In their accuracy tests, answers stayed about the same.</p>
+<h2>How to start, step by step</h2>
+<p><strong>What you need first:</strong> a computer with Python 3.10 or newer, and an AI coding tool such as Claude Code.</p>
+<ol>
+<li>Open Terminal (Mac or Linux) or PowerShell (Windows).</li>
+<li>Install Headroom:</li>
+</ol>
+<pre><code class="language-bash">pip install &quot;headroom-ai[all]&quot;
+</code></pre>
+<p>The README also offers a <code>uv tool install</code> option, which keeps it neatly separate from other Python tools.</p>
+<ol>
+<li>Start your AI tool through Headroom. For Claude Code:</li>
+</ol>
+<pre><code class="language-bash">headroom wrap claude
+</code></pre>
+<p>Launch it this way each time so the savings apply.</p>
+<ol>
+<li>Check that it works:</li>
+</ol>
+<pre><code class="language-bash">headroom doctor
+</code></pre>
+<ol>
+<li>In another Terminal window, open the savings dashboard:</li>
+</ol>
+<pre><code class="language-bash">headroom dashboard
+</code></pre>
+<p><strong>Using Cursor?</strong> It needs a manual step. Headroom starts the proxy and prints the addresses to paste into Cursor's settings.</p>
+<h2>Good to know</h2>
+<ul>
+<li><strong>The tool is free.</strong> You still pay your AI provider, just for fewer tokens.</li>
+<li><strong>Compression is local.</strong> The README says no prompt or file content is sent anywhere to be compressed.</li>
+<li><strong>Anonymous stats are on by default.</strong> Headroom reports how well compression worked, plus your system type and AI model names. It never sends prompts, answers, code or file paths. Turn it off with the setting <code>HEADROOM_BEACON=off</code>.</li>
+<li><strong>It adds a helper tool.</strong> <code>headroom wrap</code> also installs a code navigation tool called Serena for that project. You can skip it with <code>--code-memory none</code>.</li>
+<li><strong>Savings depend on your data.</strong> Repetitive logs save a lot. Plain text saves little. Run <code>headroom savings</code> to see your real number.</li>
+<li><strong>There is a paid team version.</strong> Headroom Enterprise adds extra features for teams. The free version is built for one person on one laptop.</li>
+<li><strong>The npm package is different.</strong> It is only for developers' code and does not include the <code>headroom</code> command.</li>
+<li><strong>License:</strong> Apache-2.0. You can use, change and use it at work for free. Just keep the copyright notice.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>Headroom trims the filler from what your AI reads, on your own computer, so you get the same answers for fewer tokens. If your AI bill or usage limits sting, it is a quick win to try.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/headroomlabs-ai/headroom">github.com/headroomlabs-ai/headroom</a></p>
+<p>📲 <a href='https://www.instagram.com/reel/DegHgdLhJrs/'>Watch the 30-second video on Instagram</a></p>
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

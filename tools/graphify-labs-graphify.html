@@ -1,0 +1,103 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Graphify: give your AI helper a map of your whole project | Git Trending Global</title><meta name="description" content="Graphify turns your code, docs, PDFs, images and videos into one clickable map, so your AI helper looks things up instead of guessing."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/graphify-labs-graphify.html">
+<meta property="og:title" content="Graphify: give your AI helper a map of your whole project | Git Trending Global"><meta property="og:description" content="Graphify turns your code, docs, PDFs, images and videos into one clickable map, so your AI helper looks things up instead of guessing."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/graphify-labs-graphify.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-04-15 · 4 min read</p><h1>Graphify: give your AI helper a map of your whole project</h1>
+<p class="lede">Graphify turns your code, docs, PDFs, images and videos into one clickable map, so your AI helper looks things up instead of guessing.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a><a class="chip" href="../industry/business.html">Business</a><a class="chip" href="../industry/students.html">Students</a></div><p class="meta">stars: 127K · license: Apache-2.0 · platforms: Mac, Windows, Linux</p><img class="hero" src="../img/graphify-labs-graphify.jpg" alt="Graphify: give your AI helper a map of your whole project"><h2>The problem it solves</h2>
+<p>You ask your AI coding helper a simple question about your project. It starts opening files. One after another. It reads, it searches, it reads some more. Then it gives you an answer that is only half right.</p>
+<p>The bigger the project, the worse this gets. The AI has no big picture. It is like asking someone to find a room in a huge building with no floor plan. They will get there in the end, but they will waste a lot of time and energy on the way.</p>
+<p>And with AI, wasted time is wasted money. Most AI tools charge by the token (a small chunk of text the AI reads or writes).</p>
+<h2>What it is</h2>
+<p>Graphify is a free, open-source tool that builds a map of your whole project. It calls this map a knowledge graph (a web of things and the links between them).</p>
+<p>You type <code>/graphify</code> in your AI coding assistant. Graphify reads your code, docs, PDFs, images and even videos. Then it maps how everything connects. Your AI can then ask the map a question instead of digging through every file.</p>
+<p>You get three things at the end:</p>
+<ul>
+<li><strong>graph.html</strong>, a page you open in any browser. You can click around, filter and search.</li>
+<li><strong>GRAPH_REPORT.md</strong>, a short summary of the key ideas, surprising links and suggested questions.</li>
+<li><strong>graph.json</strong>, the full map, saved so the AI can use it any time without re-reading your files.</li>
+</ul>
+<h2>Who it's for</h2>
+<ul>
+<li><strong>Developers</strong> working on big or unfamiliar code projects.</li>
+<li><strong>New team members</strong> who need to learn how a project fits together, fast.</li>
+<li><strong>Tech leads and managers</strong> who want a bird's-eye view of a system.</li>
+<li><strong>Students and researchers</strong> who want to link papers, notes and code in one place.</li>
+<li><strong>Anyone using an AI coding helper</strong> like Claude Code, Cursor, Codex, Gemini CLI or GitHub Copilot.</li>
+</ul>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Map code, docs, PDFs, images and video</strong> into the same graph.</li>
+<li><strong>Find the "god nodes"</strong>, the most connected ideas that everything flows through.</li>
+<li><strong>See communities</strong>, meaning your project split into groups of related parts.</li>
+<li><strong>Ask a plain-language question</strong> with <code>graphify query</code>.</li>
+<li><strong>Trace a path</strong> between two things with <code>graphify path</code>, to see how they connect.</li>
+<li><strong>Explain one idea</strong> with <code>graphify explain</code>.</li>
+<li><strong>Add outside sources</strong>, like a research paper link or a YouTube video, with <code>/graphify add</code>.</li>
+<li><strong>Tell what is fact and what is a guess.</strong> Every link is marked either "extracted" (written right there in the source) or "inferred" (worked out by Graphify).</li>
+<li><strong>Work across about 40 programming languages.</strong></li>
+<li><strong>Rebuild only what changed</strong>, so updates are quick.</li>
+<li><strong>Make your assistant always use the map</strong>, with a one-time setup command.</li>
+</ul>
+<p>It works with more than 20 AI assistants on Mac, Windows and Linux.</p>
+<h2>How to start, step by step</h2>
+<p><strong>What you need first:</strong> a computer with Python 3.10 or newer, a free tool called uv (or pipx), and an AI coding assistant such as Claude Code.</p>
+<ol>
+<li>Open Terminal (on a Mac) or PowerShell (on Windows).</li>
+<li>Install Graphify:</li>
+</ol>
+<pre><code class="language-bash">uv tool install graphifyy
+</code></pre>
+<p>Note the double "y". The official package is <code>graphifyy</code>. Other similar names are not from the same team.</p>
+<ol>
+<li>Connect it to your AI assistant. This finds your assistant on its own:</li>
+</ol>
+<pre><code class="language-bash">graphify install
+</code></pre>
+<ol>
+<li>Open your AI assistant inside your project folder and type:</li>
+</ol>
+<pre><code>/graphify .
+</code></pre>
+<p>The dot means "this folder". Wait for it to finish.</p>
+<ol>
+<li>Open <code>graphify-out/graph.html</code> in your browser to explore your map. Or just ask your AI a question about the project.</li>
+</ol>
+<p>If the <code>graphify</code> command is not found after step 2, the README suggests running <code>uv tool update-shell</code>.</p>
+<h2>Good to know</h2>
+<ul>
+<li><strong>Code stays on your computer.</strong> Code is read locally. No AI is used for that part and nothing leaves your machine.</li>
+<li><strong>Docs, PDFs and images are different.</strong> These are sent to the AI model your assistant uses, so it can understand them. Your normal AI usage costs apply.</li>
+<li><strong>Video and audio are transcribed (turned into text) locally.</strong> That also stays on your machine.</li>
+<li><strong>Extra file types need extras.</strong> PDF, Word and Excel, and video support are optional add-ons you install separately.</li>
+<li><strong>No tracking.</strong> The README says there is no telemetry (usage data sent back to the makers).</li>
+<li><strong>It keeps a local log of your questions</strong> in a file on your computer. You can turn this off with a setting.</li>
+<li><strong>There is a paid version.</strong> Graphify Cloud is a separate, always-on service with a free 14-day trial. The free tool on GitHub works without it.</li>
+<li><strong>License:</strong> Apache-2.0. In plain words, you can use it, change it and even use it at work for free. Just keep the copyright notice.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>Graphify gives your AI helper a floor plan of your project, so it stops wandering from file to file. Setup takes two commands, the code part runs fully on your own computer, and the map is useful for people too, not just the AI.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/Graphify-Labs/graphify">github.com/Graphify-Labs/graphify</a></p>
+<p>📲 <a href='https://www.instagram.com/reel/Def6sw1BmIi/'>Watch the 30-second video on Instagram</a></p>
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

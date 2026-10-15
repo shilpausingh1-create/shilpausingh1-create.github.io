@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>gstack: use Y Combinator&#x27;s CEO&#x27;s own AI coding setup for free | Git Trending Global</title><meta name="description" content="Garry Tan&#x27;s free Claude Code skills that act like a virtual CEO, designer, code reviewer, QA tester and release engineer."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/garrytan-gstack.html">
+<meta property="og:title" content="gstack: use Y Combinator&#x27;s CEO&#x27;s own AI coding setup for free | Git Trending Global"><meta property="og:description" content="Garry Tan&#x27;s free Claude Code skills that act like a virtual CEO, designer, code reviewer, QA tester and release engineer."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/garrytan-gstack.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-03-15 · 4 min read</p><h1>gstack: use Y Combinator&#x27;s CEO&#x27;s own AI coding setup for free</h1>
+<p class="lede">Garry Tan&#x27;s free Claude Code skills that act like a virtual CEO, designer, code reviewer, QA tester and release engineer.</p><div class="chips"><a class="chip" href="../industry/developers.html">Developers</a><a class="chip" href="../industry/business.html">Business</a></div><p class="meta">stars: 136K · license: MIT · platforms: Works inside Claude Code</p><img class="hero" src="../img/garrytan-gstack.jpg" alt="gstack: use Y Combinator&#x27;s CEO&#x27;s own AI coding setup for free"><h2>The problem it solves</h2>
+<p>An AI coding helper with a blank prompt is powerful but aimless. It builds exactly what you typed, even if what you typed is not what you need. It rarely pushes back. It does not ask, "Is this the right product?" And it often skips the boring parts: reviews, testing and careful releases.</p>
+<p>Real companies have people for each of those jobs. A solo founder usually does not.</p>
+<h2>What it is</h2>
+<p>gstack is a free, open-source set of tools for Claude Code (Anthropic's AI coding helper). It was made by Garry Tan, President and CEO of Y Combinator, a famous startup program.</p>
+<p>It turns Claude Code into a virtual team. Each tool is a slash command (a shortcut you type starting with "/") that plays a role: a CEO who rethinks the product, an engineering manager who locks the plan, a designer who catches sloppy AI design, a reviewer who hunts bugs, a QA lead who tests in a real browser, a security officer, and a release engineer. The README counts twenty-three specialists and eight power tools.</p>
+<p>The tools run in the order of a work sprint: think, plan, build, review, test, ship, reflect. Each step passes notes to the next.</p>
+<h2>Who it's for</h2>
+<p>The README names three groups:</p>
+<ul>
+<li><strong>Founders and CEOs</strong>, especially technical ones who still want to ship.</li>
+<li><strong>First-time Claude Code users</strong> who want clear roles instead of a blank prompt.</li>
+<li><strong>Tech leads and senior engineers</strong> who want careful review, testing and releases on every change.</li>
+</ul>
+<p>It also fits product managers and designers who build with AI and want a second opinion before code is written.</p>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Get "office hours."</strong> <code>/office-hours</code> asks six tough questions about your idea, challenges your thinking, and writes a design doc.</li>
+<li><strong>Rethink the plan like a CEO.</strong> <code>/plan-ceo-review</code> looks for the better product hiding in your request.</li>
+<li><strong>Lock the technical plan.</strong> <code>/plan-eng-review</code> maps data flow, edge cases and tests.</li>
+<li><strong>Review the design.</strong> <code>/plan-design-review</code> rates each design choice from 0 to 10 and explains how to improve it.</li>
+<li><strong>Explore design options.</strong> <code>/design-shotgun</code> makes several AI mockups and lets you pick favorites.</li>
+<li><strong>Find bugs before launch.</strong> <code>/review</code> looks for problems that pass basic checks but break later, and fixes the obvious ones.</li>
+<li><strong>Test like a QA lead.</strong> <code>/qa</code> opens a real browser, clicks through your app, and fixes what it finds.</li>
+<li><strong>Run a security check.</strong> <code>/cso</code> audits for common security risks.</li>
+<li><strong>Ship it.</strong> <code>/ship</code> runs tests and opens a pull request (a proposed change for review). <code>/land-and-deploy</code> takes it live.</li>
+<li><strong>Stay safe.</strong> <code>/careful</code> warns before destructive commands. <code>/freeze</code> limits edits to one folder.</li>
+<li><strong>Reflect.</strong> <code>/retro</code> gives a weekly look back at what shipped.</li>
+<li><strong>Make documents.</strong> <code>/make-pdf</code> turns notes into polished PDFs, and <code>/diagram</code> turns plain English into diagrams.</li>
+</ul>
+<h2>How to start, step by step</h2>
+<p>What you need first: Claude Code, Git (a free tool for tracking code changes), and Bun (a free tool that runs code). Windows users also need Node.js. Windows works through Git Bash or WSL.</p>
+<ol>
+<li><strong>Install the tools above</strong> if you do not have them.</li>
+<li><strong>Open Claude Code and paste the install line</strong> from the README. Claude does the rest. The core command it runs is:</li>
+</ol>
+<pre><code class="language-bash">git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack &amp;&amp; cd ~/.claude/skills/gstack &amp;&amp; ./setup
+</code></pre>
+<p>The README's full paste also tells Claude to note the gstack skills in your settings file. The README says setup takes about 30 seconds on a fast machine, and longer on slower ones.</p>
+<ol>
+<li><strong>Run <code>/office-hours</code></strong> and describe what you are building.</li>
+<li><strong>Try <code>/plan-ceo-review</code></strong> on a feature idea.</li>
+<li><strong>Run <code>/review</code></strong> on code you changed, then <code>/qa</code> on your test website.</li>
+</ol>
+<p>The README's advice: stop there. You will know if it is for you.</p>
+<h2>Good to know</h2>
+<ul>
+<li><strong>Free, no premium tier.</strong> The README says there is no paid version and no waitlist.</li>
+<li><strong>AI costs are separate.</strong> You need Claude Code, which may have its own fees. Some features send code to a second AI (OpenAI's Codex) for an outside review using your own login. You can turn that off.</li>
+<li><strong>Telemetry is off unless you say yes.</strong> It asks once on first run. It never sends your code, file names or prompts.</li>
+<li><strong>It checks for updates.</strong> It asks GitHub for the latest version. You can turn that off too.</li>
+<li><strong>Best on Claude Code.</strong> Other AI tools are supported, but most are marked experimental.</li>
+<li><strong>Some extras need more setup.</strong> For example, some design tools use an OpenAI key.</li>
+<li><strong>License: MIT.</strong> Free to use, change and even use in business. Just keep the copyright notice.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>gstack gives a solo builder the habits of a full product team: question the idea, plan it, review it, test it, ship it. It is free and installs in minutes inside Claude Code. Start with <code>/office-hours</code> and see how hard it pushes back.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/garrytan/gstack">github.com/garrytan/gstack</a></p>
+<p>📲 <a href='https://www.instagram.com/reel/DefujwKhMIB/'>Watch the 30-second video on Instagram</a></p>
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>

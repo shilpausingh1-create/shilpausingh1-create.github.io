@@ -1,0 +1,94 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pake: turn any website into a tiny desktop app for free | Git Trending Global</title><meta name="description" content="Turn any website into a small, fast desktop app, often under 10 MB, with ready-made apps for ChatGPT and more."><link rel="canonical" href="https://gittrendingglobal.pages.dev/tools/tw93-pake.html">
+<meta property="og:title" content="Pake: turn any website into a tiny desktop app for free | Git Trending Global"><meta property="og:description" content="Turn any website into a small, fast desktop app, often under 10 MB, with ready-made apps for ChatGPT and more."><meta property="og:image" content="https://gittrendingglobal.pages.dev/img/tw93-pake.jpg">
+<link rel="alternate" type="application/rss+xml" href="../feed.xml"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@500;800&display=swap"><style>
+:root{--bg:#0a0c10;--panel:#11151c;--line:#232a33;--fg:#e6edf3;--muted:#8b949e;--green:#3fb950;--blue:#58a6ff}
+@media (prefers-color-scheme: light){:root{--bg:#f7f8f6;--panel:#fff;--line:#dfe3e0;--fg:#15191e;--muted:#5d6670;--green:#1a7f37;--blue:#0969da}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 Inter,system-ui,sans-serif}
+a{color:var(--green)}header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between;padding-block:22px;border-bottom:1px solid var(--line)}
+.brand{font:800 20px 'JetBrains Mono',monospace;color:var(--fg);text-decoration:none}.brand b{color:var(--green)}
+nav{display:flex;flex-wrap:wrap;gap:16px}nav a{color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--fg)}
+h1{font:900 clamp(32px,5vw,48px)/1.1 Inter,sans-serif;letter-spacing:-.02em;margin:36px 0 12px;text-wrap:balance}
+h2{font:800 26px/1.25 Inter,sans-serif;margin:40px 0 10px}p,li{max-width:68ch}
+.lede{color:var(--muted);font-size:19px}.meta{font:500 14px 'JetBrains Mono',monospace;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.chip{font:600 13px Inter,sans-serif;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);text-decoration:none}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--fg);display:flex;flex-direction:column}
+.card img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;display:block}.card div{padding:14px 16px}.card h3{margin:4px 0 6px;font-size:17px;line-height:1.3}.card p{margin:0;color:var(--muted);font-size:14px}
+article img.hero{width:100%;max-width:640px;border-radius:12px;border:1px solid var(--line)}
+pre{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;overflow-x:auto}code{font-family:'JetBrains Mono',monospace;font-size:14px}
+.cta{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px;padding:16px 18px;margin:36px 0}
+footer{color:var(--muted);font-size:14px;padding-block:40px;border-top:1px solid var(--line);margin-top:60px}
+</style></head><body>
+<header><a class="brand" href="../index.html"><b>●</b> gittrendingglobal</a>
+<nav><a href="../links.html">Links</a><a href="../tools/index.html">Free AI tools</a><a href="../news/index.html">AI news</a><a href="../lists/index.html">Top repos</a><a href="../industry/index.html">By industry</a></nav></header>
+<main><article><p class="meta">Free AI tools · 2026-06-15 · 3 min read</p><h1>Pake: turn any website into a tiny desktop app for free</h1>
+<p class="lede">Turn any website into a small, fast desktop app, often under 10 MB, with ready-made apps for ChatGPT and more.</p><div class="chips"><a class="chip" href="../industry/everyone.html">Everyone</a><a class="chip" href="../industry/business.html">Business</a><a class="chip" href="../industry/developers.html">Developers</a></div><p class="meta">stars: 62K · license: GPL-3.0 · platforms: Mac, Windows, Linux</p><img class="hero" src="../img/tw93-pake.jpg" alt="Pake: turn any website into a tiny desktop app for free"><h2>The problem it solves</h2>
+<p>Many of us live in a few websites all day. ChatGPT, Gemini, Notion, YouTube Music. They sit in a sea of browser tabs. You lose them, close them by accident, or hunt for the right tab ten times an hour.</p>
+<p>Some sites offer desktop apps, but many of those are big and hungry for memory. Others do not offer an app at all.</p>
+<h2>What it is</h2>
+<p>Pake is a free, open-source tool that turns any webpage into its own desktop app with one command. The app gets its own window and icon, just like a normal program.</p>
+<p>The apps are small. The README says the installer is nearly 20 times smaller than apps built with Electron (a common, heavier way to make desktop apps), and typically under 10 MB on disk. Pake is built with Rust and Tauri, which are tools that make apps fast and light on memory.</p>
+<p>It works on Mac, Windows and Linux.</p>
+<h2>Who it's for</h2>
+<ul>
+<li><strong>Office workers</strong> who want Notion, ChatGPT or a team tool in its own window.</li>
+<li><strong>Writers and students</strong> who keep AI chat apps open all day.</li>
+<li><strong>Music lovers</strong> who want YouTube Music as a separate app.</li>
+<li><strong>Designers</strong> who use web tools like Excalidraw (a free sketching whiteboard).</li>
+<li><strong>Small business owners</strong> who want a simple desktop app for their own website.</li>
+<li><strong>Developers</strong> who want to package a web tool for their team.</li>
+</ul>
+<h2>What you can do with it</h2>
+<ul>
+<li><strong>Download ready-made apps.</strong> No setup. The README offers apps for ChatGPT, Gemini, Grok, DeepSeek, YouTube, YouTube Music, Twitter, Notion, Excalidraw, and more, for Mac, Windows and Linux.</li>
+<li><strong>Make an app from any site</strong> with one command. It grabs the site's icon automatically.</li>
+<li><strong>Customize it.</strong> Choose your own icon, window size, and hide the title bar.</li>
+<li><strong>Build online.</strong> Skip the command line by using the project's online building option on GitHub.</li>
+<li><strong>Use handy shortcuts.</strong> Go back and forward, zoom, refresh, copy the page link, and clear cache.</li>
+<li><strong>Extra features.</strong> Immersive windows, drag and drop, style changes, and ad removal.</li>
+<li><strong>Hide instead of quit.</strong> Closing the window hides it, so your app stays ready.</li>
+<li><strong>Let AI do it.</strong> Pake has an official skill for AI helpers like Claude Code and Codex.</li>
+</ul>
+<h2>How to start, step by step</h2>
+<p><strong>The easiest way (no setup):</strong></p>
+<ol>
+<li>Open the Pake page on GitHub.</li>
+<li>Scroll down to <strong>Popular Packages</strong>.</li>
+<li>Click your app (for example, ChatGPT) and pick Mac, Windows or Linux.</li>
+<li>Install it like any other app and open it.</li>
+</ol>
+<p>More apps are on the project's Releases page.</p>
+<p><strong>Make your own app from any website:</strong></p>
+<p>First you need: Node.js and pnpm (free tools that install small programs from the command line).</p>
+<ol>
+<li>Open Terminal and install the Pake tool:</li>
+</ol>
+<pre><code class="language-bash">pnpm install -g pake-cli
+</code></pre>
+<ol>
+<li>Turn a site into an app. For example:</li>
+</ol>
+<pre><code class="language-bash">pake https://github.com --name GitHub
+</code></pre>
+<ol>
+<li>Wait. The first build sets things up and takes a while. Later builds are fast.</li>
+<li>Open your new app.</li>
+</ol>
+<p>Not a fan of typing commands? The README links to a guide for building apps online through GitHub instead.</p>
+<h2>Good to know</h2>
+<ul>
+<li><strong>It is still the website.</strong> The app shows the real website in its own window. You still log in and need internet like normal.</li>
+<li><strong>First build is slow.</strong> Making your own app the first time takes a while as it sets up.</li>
+<li><strong>Free to use.</strong> No paid services are needed. The creator also sells a separate paid Mac cleanup app called Mole, but you do not need it.</li>
+<li><strong>Apps you build are yours.</strong> The README says apps you make with Pake are entirely yours to use and share.</li>
+<li><strong>License.</strong> Pake uses GPL-3.0 with a special exception for output apps. In plain words: the tool is free to use and change, and if you share a changed version of Pake itself, you must share your code too. If you fork it into your own product, the author asks you to rename it and credit Pake.</li>
+<li><strong>Developers going deeper</strong> need Rust and Node to build Pake from source.</li>
+</ul>
+<h2>The bottom line</h2>
+<p>Pake turns the websites you use most into small, fast desktop apps. Start by downloading a ready-made app like ChatGPT or Notion, no setup needed. If you want more, one command can turn almost any site into its own app.</p>
+<p><strong>Get it:</strong> <a href="https://github.com/tw93/Pake">github.com/tw93/Pake</a></p>
+<p>📲 <a href='https://www.instagram.com/reel/DegKy1pBqm-/'>Watch the 30-second video on Instagram</a></p>
+<h2>Keep reading</h2><div class="cards"><a class="card" href="../tools/t8y2-dbx.html"><img src="../img/t8y2-dbx.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>DBX: one small free app to open and edit 100+ kinds of databases</h3><p>DBX is a free, tiny app that lets you browse, search and edit over 100 kinds of databases, with an AI helper that writes queries for you.</p></div></a><a class="card" href="../tools/momenbasel-puremac.html"><img src="../img/momenbasel-puremac.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>PureMac: free up space on your Mac without a subscription</h3><p>PureMac is a free, open-source Mac cleaner that removes junk, fully uninstalls apps, and never tracks you or tries to scare you.</p></div></a><a class="card" href="../tools/niko1221-strata.html"><img src="../img/niko1221-strata.jpg" alt="" loading="lazy"><div><span class="meta">2026-10</span><h3>Strata: run a big, private AI chatbot on your own gaming PC</h3><p>A free one-click installer that runs a large Qwen AI model on a normal gaming PC, so your chats never leave your computer.</p></div></a></div>
+<div class="cta">📲 Like this? Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for one free AI tool and the AI news that matters, every day.</div></article></main><footer>Git Trending Global · Free AI tools from GitHub and the AI news that matters, explained simply. Follow <a href="https://www.instagram.com/gittrendingglobal/">@gittrendingglobal</a> on Instagram for a new free tool every day.<br>Find us everywhere: <a href="https://www.instagram.com/gittrendingglobal/">Instagram</a> · <a href="https://gittrendingglobal.wordpress.com">WordPress</a> · <a href="https://gittrendingglobal.blogspot.com">Blogger</a> · <a href="../feed.xml">RSS</a> · <a href="../links.html">All links</a></footer></body></html>
