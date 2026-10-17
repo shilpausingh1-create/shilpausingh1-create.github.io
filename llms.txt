@@ -160,6 +160,7 @@
 
 ## Daily AI news
 
+- [AI News, 18 Oct 2026: DeepSeek's free model update chases](https://itstrendingglobal.pages.dev/news/daily-2026-10-18): AI news for 18 October 2026, explained simply: DeepSeek's free model update chases Claude on coding. Every story lists its sources.
 - [AI News, 17 Oct 2026: Claude solves a 25-year-old encryption](https://itstrendingglobal.pages.dev/news/daily-2026-10-17): AI news for 17 October 2026, explained simply: Claude solves a 25-year-old encryption mystery. Also: Apple bans AI nudify apps from the App Store.
 - [AI News, 16 Oct 2026: Meta gives away its big Muse Spark AI](https://itstrendingglobal.pages.dev/news/daily-2026-10-16): AI news for 16 October 2026, explained simply: Meta gives away its big Muse Spark AI for free. Also: OpenAI's AI spent crypto from a wallet it didn't own.
 
