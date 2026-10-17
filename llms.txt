@@ -141,9 +141,24 @@
 - [Top GitHub Repos, Week of January 12, 2026](https://gittrendingglobal.pages.dev/lists/week-2026-01-12): Top GitHub repos week of January 12, 2026: OpenCode, Superpowers, Claude Code, Ralph and UI-TARS Desktop, explained in plain words with setup.
 - [Trending GitHub Repos, Week of January 5, 2026](https://gittrendingglobal.pages.dev/lists/week-2026-01-05): Trending GitHub repos week of January 5, 2026: OpenCode, Claude Code, Memos, Vibe Kanban and Superpowers, explained simply with setup steps.
 
+## Sections
+
+- [Today in AI](https://gittrendingglobal.pages.dev/news/daily): The AI news that matters, every day, in plain words: what happened, why it matters to you and the sources. A new digest every morning, free to read.
+- [For engineers](https://gittrendingglobal.pages.dev/tools/for/engineers): 27 free, open-source AI tools for engineers and developers, explained simply: DBX, Moli and more, with setup steps, real examples and an FAQ.
+- [For designers](https://gittrendingglobal.pages.dev/tools/for/designers): 7 free, open-source AI tools for designers, explained simply: PhotoCraft, OpenPencil and more, with setup steps, real examples and an FAQ.
+- [For business owners](https://gittrendingglobal.pages.dev/tools/for/business): 14 free, open-source AI tools for business owners and small teams, explained simply: OpenSEO, Odysseus and more, with setup steps.
+- [For creators](https://gittrendingglobal.pages.dev/tools/for/creators): 11 free, open-source AI tools for creators, explained simply: Recordly, PhotoCraft and more, with setup steps, real examples and an FAQ.
+- [For students](https://gittrendingglobal.pages.dev/tools/for/students): 11 free, open-source AI tools for students, explained simply: Tolaria, OfficeCLI and more, with setup steps, real examples and an FAQ.
+- [For marketers](https://gittrendingglobal.pages.dev/tools/for/marketers): 9 free, open-source AI tools for marketers, explained simply: Recordly, OpenSEO and more, with setup steps, real examples and an FAQ.
+- [For everyone](https://gittrendingglobal.pages.dev/tools/for/everyone): 21 free, open-source AI tools for everyday use and privacy, explained simply: PureMac, Strata and more, with setup steps.
+- [Free AI tools](https://gittrendingglobal.pages.dev/tools/): 63 plain-English guides to free, open-source AI tools from GitHub, sorted by who they are for: engineers, designers, creators, students and more.
+- [Top lists](https://gittrendingglobal.pages.dev/lists/): The fastest-rising GitHub repos, ranked by stars gained and explained simply: 40 weekly top 5 lists, 10 monthly lists and 3 quarterly roundups.
+- [AI news by month](https://gittrendingglobal.pages.dev/news/): Every month's biggest AI news in plain words: what happened, why it matters to you and the sources, with a quarterly look back. Free to read, no sign-up.
+- [AI by industry](https://gittrendingglobal.pages.dev/industry/): Free AI tools and AI news sorted by the work you do, from 13 fields: jobs, finance, health, marketing, education and more. Plain words, setup steps included.
+- [Market pulse](https://gittrendingglobal.pages.dev/pulse): Real numbers on what's rising in AI: GitHub star jumps, hot topics, the top repo of each month, which AI companies made the news and trending models.
+
 ## Daily AI news
 
-- [Daily AI news](https://gittrendingglobal.pages.dev/news/daily): every day's digest, newest first
 - [AI News, 17 Oct 2026: Claude solves a 25-year-old encryption](https://gittrendingglobal.pages.dev/news/daily-2026-10-17): AI news for 17 October 2026, explained simply: Claude solves a 25-year-old encryption mystery. Also: Apple bans AI nudify apps from the App Store.
 - [AI News, 16 Oct 2026: Meta gives away its big Muse Spark AI](https://gittrendingglobal.pages.dev/news/daily-2026-10-16): AI news for 16 October 2026, explained simply: Meta gives away its big Muse Spark AI for free. Also: OpenAI's AI spent crypto from a wallet it didn't own.
 
