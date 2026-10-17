@@ -4,5 +4,7 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 /img/*
   Cache-Control: public, max-age=2592000
+/css/*
+  Cache-Control: public, max-age=2592000
 /static/*
   Cache-Control: public, max-age=2592000

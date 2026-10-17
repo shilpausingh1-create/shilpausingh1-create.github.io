@@ -168,4 +168,5 @@
 
 ## About
 
-- [All links](https://itstrendingglobal.pages.dev/links): Instagram @gittrendingglobal, newsletter and mirrors
+- [Home](https://itstrendingglobal.pages.dev/): today's AI news, free AI tools, AI models, market pulse and top lists in one page
+- [All links](https://itstrendingglobal.pages.dev/links): Instagram @itstrendingglobal and every section in one short list
