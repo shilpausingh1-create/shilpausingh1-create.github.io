@@ -239,6 +239,11 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visi
 .ccn{flex:none;min-width:52px;text-align:center;font:800 13px/1 'JetBrains Mono',monospace;color:var(--b2)}
 .cd{width:44px;height:44px;display:grid;place-items:center;padding:0;border:0;background:none;cursor:pointer}.cd:before{content:"";width:8px;height:8px;border-radius:99px;background:#3a4656;transition:width .3s,background .3s}
 .cd[aria-current=true]:before{width:22px;background:var(--b2)}.cd:hover:before{background:#a5d0ff}.cb:focus-visible,.cd:focus-visible{outline:2px solid var(--b2);outline-offset:2px}
+/* owner 18 Oct: no control bar; prev/next float on the card edges and show only on hover or keyboard focus (touch: swipe) */
+.cc{position:absolute;inset:0;margin:0;pointer-events:none;display:block}.cc[hidden]{display:none}.cds,.ccn,.cpp{display:none!important}
+.cc .cpv,.cc .cnx{position:absolute;top:50%;transform:translateY(-50%);pointer-events:auto;opacity:0;transition:opacity .2s;background:rgba(13,17,23,.78);backdrop-filter:blur(6px);border-color:#1f3b5e}
+.cc .cpv{left:-16px}.cc .cnx{right:-16px}.cc .cb{width:36px;height:36px;border-radius:50%;z-index:2}.cc .cb .ic{width:18px;height:18px}.car:hover .cc .cb,.car:focus-within .cc .cb{opacity:1}
+@media (hover:none){.cc .cpv,.cc .cnx{display:none}}
 @container (max-width:380px){.cd{width:30px}}
 .hcar{margin:22px 0 4px}
 /* Up next: synced list beside the lead carousel on / */
