@@ -141,6 +141,12 @@
 - [Top GitHub Repos, Week of January 12, 2026](https://gittrendingglobal.pages.dev/lists/week-2026-01-12): Top GitHub repos week of January 12, 2026: OpenCode, Superpowers, Claude Code, Ralph and UI-TARS Desktop, explained in plain words with setup.
 - [Trending GitHub Repos, Week of January 5, 2026](https://gittrendingglobal.pages.dev/lists/week-2026-01-05): Trending GitHub repos week of January 5, 2026: OpenCode, Claude Code, Memos, Vibe Kanban and Superpowers, explained simply with setup steps.
 
+## Daily AI news
+
+- [Daily AI news](https://gittrendingglobal.pages.dev/news/daily): every day's digest, newest first
+- [AI News, 17 Oct 2026: Claude solves a 25-year-old encryption](https://gittrendingglobal.pages.dev/news/daily-2026-10-17): AI news for 17 October 2026, explained simply: Claude solves a 25-year-old encryption mystery. Also: Apple bans AI nudify apps from the App Store.
+- [AI News, 16 Oct 2026: Meta gives away its big Muse Spark AI](https://gittrendingglobal.pages.dev/news/daily-2026-10-16): AI news for 16 October 2026, explained simply: Meta gives away its big Muse Spark AI for free. Also: OpenAI's AI spent crypto from a wallet it didn't own.
+
 ## About
 
 - [All links](https://gittrendingglobal.pages.dev/links): Instagram @gittrendingglobal, newsletter and mirrors
