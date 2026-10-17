@@ -144,6 +144,7 @@
 ## Sections
 
 - [Today in AI](https://itstrendingglobal.pages.dev/news/daily): The AI news that matters, every day, in plain words: what happened, why it matters to you and the sources. A new digest every morning, free to read.
+- [Latest AI research](https://itstrendingglobal.pages.dev/research): New AI, tech and chip research explained in plain words every day: today's top papers, peer-reviewed studies, lab posts and the researchers to follow.
 - [For engineers](https://itstrendingglobal.pages.dev/tools/for/engineers): 27 free, open-source AI tools for engineers and developers, explained simply: DBX, Moli and more, with setup steps, real examples and an FAQ.
 - [For designers](https://itstrendingglobal.pages.dev/tools/for/designers): 7 free, open-source AI tools for designers, explained simply: PhotoCraft, OpenPencil and more, with setup steps, real examples and an FAQ.
 - [For business owners](https://itstrendingglobal.pages.dev/tools/for/business): 14 free, open-source AI tools for business owners and small teams, explained simply: OpenSEO, Odysseus and more, with setup steps.
@@ -166,7 +167,11 @@
 
 - [Best AI models by use case](https://itstrendingglobal.pages.dev/models): ranked benchmark scores with sources, updated 2026-10-17 18:00 IST
 
+## Latest AI research
+
+- [Latest AI research, explained simply](https://itstrendingglobal.pages.dev/research): new AI, tech and chip papers in plain words with their sources, today's most upvoted papers and the researchers to follow, updated 2026-10-18
+
 ## About
 
-- [Home](https://itstrendingglobal.pages.dev/): today's AI news, free AI tools, AI models, market pulse and top lists in one page
+- [Home](https://itstrendingglobal.pages.dev/): today's AI news, free AI tools, AI models, AI research, market pulse and top lists in one page
 - [All links](https://itstrendingglobal.pages.dev/links): Instagram ITG Now and every section in one short list
