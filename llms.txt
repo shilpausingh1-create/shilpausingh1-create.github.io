@@ -165,7 +165,8 @@
 
 ## AI model benchmarks
 
-- [Best AI models by use case](https://itstrendingglobal.pages.dev/models): ranked benchmark scores with sources, updated 2026-10-17 18:00 IST
+- [Best AI models by use case](https://itstrendingglobal.pages.dev/models): ranked benchmark scores with sources, updated 2026-10-18 12:00 IST
+- [Open vs closed AI models](https://itstrendingglobal.pages.dev/models#open-vs-closed): best open-weight model vs best closed model on each benchmark, the gap in points, with sources, updated 2026-10-18
 
 ## Latest AI research
 
