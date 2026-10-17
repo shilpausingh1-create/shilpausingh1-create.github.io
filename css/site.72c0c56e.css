@@ -134,7 +134,7 @@ body{background:var(--bg) linear-gradient(var(--grid) 1px,transparent 1px) 0 0/4
 .rise{animation:rise .6s cubic-bezier(.16,1,.3,1) both}.rise:nth-child(2){animation-delay:.08s}.rise:nth-child(3){animation-delay:.16s}.rise:nth-child(4){animation-delay:.24s}
 @keyframes rise{from{opacity:0;transform:translateY(14px)}}
 @media (min-width:720px){
- .news{grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);align-items:start}.news.one{grid-template-columns:minmax(0,1fr)}
+ .news{grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);align-items:stretch}.news .upn{contain:size;overflow-y:auto;position:relative;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.14) transparent}.news .upn::-webkit-scrollbar{width:6px}.news .upn::-webkit-scrollbar-track{background:transparent}.news .upn::-webkit-scrollbar-thumb{background:rgba(255,255,255,.14);border-radius:6px}.news.one{grid-template-columns:minmax(0,1fr)}
  .tg{grid-template-columns:repeat(4,1fr);gap:16px}.row{grid-auto-columns:240px;margin:0;padding-inline:0;scroll-padding:0}
  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pnl.wide{grid-column:1/-1}.pnl{padding:22px}
 .sparks{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 28px}.axis{display:none}
