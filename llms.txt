@@ -4,6 +4,7 @@
 
 ## Free AI tools
 
+- [ArtCraft: Free AI Video and Image Studio (2026)](https://itstrendingglobal.pages.dev/tools/storytold-artcraft): ArtCraft is a free AI video and image studio. Build your scene in 2D or 3D first, then let an AI model make the image or video. Mac and Windows.
 - [DBX: Free Database Client for 100+ Databases, With AI (2026)](https://itstrendingglobal.pages.dev/tools/t8y2-dbx): DBX is a free database client that opens 100+ kinds of databases in a 25 MB app. Its AI helper turns plain English into database queries for you.
 - [PureMac: Free CleanMyMac Alternative, No Subscription](https://itstrendingglobal.pages.dev/tools/momenbasel-puremac): PureMac is a free CleanMyMac alternative. It clears junk, fully uninstalls apps and finds duplicates, with no subscription, no tracking and no scare tactics.
 - [Strata: Run Big Local AI on a Gaming PC, Free](https://itstrendingglobal.pages.dev/tools/niko1221-strata): Strata is a free installer that runs big, private local AI on a gaming PC. It sets up a large Qwen model, so your chats never leave your computer.
@@ -146,18 +147,18 @@
 - [Today in AI](https://itstrendingglobal.pages.dev/news/daily): The AI news that matters, every day, in plain words: what happened, why it matters to you and the sources. A new digest every morning, free to read.
 - [Latest AI research](https://itstrendingglobal.pages.dev/research): New AI, tech and chip research explained in plain words every day: today's top papers, peer-reviewed studies, lab posts and the researchers to follow.
 - [For engineers](https://itstrendingglobal.pages.dev/tools/for/engineers): 27 free, open-source AI tools for engineers and developers, explained simply: DBX, Moli and more, with setup steps, real examples and an FAQ.
-- [For designers](https://itstrendingglobal.pages.dev/tools/for/designers): 7 free, open-source AI tools for designers, explained simply: PhotoCraft, OpenPencil and more, with setup steps, real examples and an FAQ.
+- [For designers](https://itstrendingglobal.pages.dev/tools/for/designers): 8 free, open-source AI tools for designers, explained simply: ArtCraft, PhotoCraft and more, with setup steps, real examples and an FAQ.
 - [For business owners](https://itstrendingglobal.pages.dev/tools/for/business): 14 free, open-source AI tools for business owners and small teams, explained simply: OpenSEO, Odysseus and more, with setup steps.
-- [For creators](https://itstrendingglobal.pages.dev/tools/for/creators): 11 free, open-source AI tools for creators, explained simply: Recordly, PhotoCraft and more, with setup steps, real examples and an FAQ.
+- [For creators](https://itstrendingglobal.pages.dev/tools/for/creators): 12 free, open-source AI tools for creators, explained simply: ArtCraft, Recordly and more, with setup steps, real examples and an FAQ.
 - [For students](https://itstrendingglobal.pages.dev/tools/for/students): 11 free, open-source AI tools for students, explained simply: Tolaria, OfficeCLI and more, with setup steps, real examples and an FAQ.
-- [For marketers](https://itstrendingglobal.pages.dev/tools/for/marketers): 9 free, open-source AI tools for marketers, explained simply: Recordly, OpenSEO and more, with setup steps, real examples and an FAQ.
+- [For marketers](https://itstrendingglobal.pages.dev/tools/for/marketers): 10 free, open-source AI tools for marketers, explained simply: ArtCraft, Recordly and more, with setup steps, real examples and an FAQ.
 - [For everyone](https://itstrendingglobal.pages.dev/tools/for/everyone): 21 free, open-source AI tools for everyday use and privacy, explained simply: PureMac, Strata and more, with setup steps.
-- [Free AI tools](https://itstrendingglobal.pages.dev/tools/): 63 plain-English guides to free, open-source AI tools from GitHub, sorted by who they are for: engineers, designers, creators, students and more.
+- [Free AI tools](https://itstrendingglobal.pages.dev/tools/): 64 plain-English guides to free, open-source AI tools from GitHub, sorted by who they are for: engineers, designers, creators, students and more.
 - [Top lists](https://itstrendingglobal.pages.dev/lists/): The fastest-rising GitHub repos, ranked by stars gained and explained simply: 40 weekly top 5 lists, 10 monthly lists and 3 quarterly roundups.
 - [AI news by month](https://itstrendingglobal.pages.dev/news/): Every month's biggest AI news in plain words: what happened, why it matters to you and the sources, with a quarterly look back. Free to read, no sign-up.
 - [AI for Business](https://itstrendingglobal.pages.dev/industry/business): Free AI tools and AI news for Business, explained simply: DBX, Strata and OpenSEO. Setup steps, sources and our honest take.
-- [AI for Creators](https://itstrendingglobal.pages.dev/industry/creators): Free AI tools and AI news for Creators, explained simply: PureMac, Recordly and OpenSEO. Setup steps, sources and our honest take.
-- [AI for Design](https://itstrendingglobal.pages.dev/industry/design): Free AI tools and AI news for Design, explained simply: PhotoCraft, OpenPencil and Compositor. Setup steps, sources and our honest take.
+- [AI for Creators](https://itstrendingglobal.pages.dev/industry/creators): Free AI tools and AI news for Creators, explained simply: ArtCraft, PureMac and Recordly. Setup steps, sources and our honest take.
+- [AI for Design](https://itstrendingglobal.pages.dev/industry/design): Free AI tools and AI news for Design, explained simply: ArtCraft, PhotoCraft and OpenPencil. Setup steps, sources and our honest take.
 - [AI for Developers](https://itstrendingglobal.pages.dev/industry/developers): Free AI tools and AI news for Developers, explained simply: DBX, PureMac and Strata. Setup steps, sources and our honest take.
 - [AI for Education](https://itstrendingglobal.pages.dev/industry/education): Free AI tools and AI news for Education, explained simply: Recordly, Archify and Open Notebook. Setup steps, sources and our honest take.
 - [AI for Everyone](https://itstrendingglobal.pages.dev/industry/everyone): Free AI tools and AI news for Everyone, explained simply: PureMac, Strata and Tolaria. Setup steps, sources and our honest take.
@@ -165,7 +166,7 @@
 - [AI for Government & Law](https://itstrendingglobal.pages.dev/industry/government-law): Free AI tools and AI news for Government & Law, explained simply. Setup steps, sources and our honest take. Free to read, no sign-up.
 - [AI for Healthcare](https://itstrendingglobal.pages.dev/industry/healthcare): Free AI tools and AI news for Healthcare, explained simply: openGym, Meetily and Project NOMAD. Setup steps, sources and our honest take.
 - [AI for Jobs & Careers](https://itstrendingglobal.pages.dev/industry/jobs-careers): Free AI tools and AI news for Jobs & Careers, explained simply: AI Job Search, Career-Ops and Handy. Setup steps, sources and our honest take.
-- [AI for Marketing](https://itstrendingglobal.pages.dev/industry/marketing): Free AI tools and AI news for Marketing, explained simply: Recordly, OpenSEO and PhotoCraft. Setup steps, sources and our honest take.
+- [AI for Marketing](https://itstrendingglobal.pages.dev/industry/marketing): Free AI tools and AI news for Marketing, explained simply: ArtCraft, Recordly and OpenSEO. Setup steps, sources and our honest take.
 - [AI for Media](https://itstrendingglobal.pages.dev/industry/media): Free AI tools and AI news for Media, explained simply: OpenReel, OpenCut and CorridorKey. Setup steps, sources and our honest take.
 - [AI for Students](https://itstrendingglobal.pages.dev/industry/students): Free AI tools and AI news for Students, explained simply: Tolaria, DeepSeek Harness and OfficeCLI. Setup steps, sources and our honest take.
 - [AI by industry](https://itstrendingglobal.pages.dev/industry/): Free AI tools and AI news sorted by the work you do, from 13 fields: jobs, finance, health, marketing, education and more. Plain words, setup steps included.
