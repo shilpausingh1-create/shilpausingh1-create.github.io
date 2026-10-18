@@ -85,7 +85,7 @@
 - [AI News February 2026: SpaceX-xAI, Claude, Pentagon](https://itstrendingglobal.pages.dev/news/2026-02): AI news February 2026: SpaceX buys xAI, Claude Opus 4.6 and Cowork shake software stocks, Anthropic raises $30B, and the Pentagon fights Anthropic.
 - [AI News January 2026: Siri, ChatGPT Ads and Health](https://itstrendingglobal.pages.dev/news/2026-01): AI news January 2026: Apple picks Gemini for Siri, Amazon cuts 16,000 jobs, two countries block Grok, ChatGPT gets a Health space and ads.
 
-## Top repos
+## Top lists
 
 - [Trending GitHub Repos October 2026: The Top 5 So Far](https://itstrendingglobal.pages.dev/lists/top5-2026-10): The trending GitHub repos of October 2026 so far: a free Photoshop-style editor, an AI art studio, a big AI model for gaming PCs and more, explained.
 - [Trending GitHub Repos This Week, Oct 5 2026: The Top 5](https://itstrendingglobal.pages.dev/lists/week-2026-10-05): Trending GitHub repos this week Oct 5 2026: Matt Pocock's skills, the openGym workout tracker, e2e testing, HyperFrames video and claude-mem memory.
@@ -155,12 +155,25 @@
 - [Free AI tools](https://itstrendingglobal.pages.dev/tools/): 63 plain-English guides to free, open-source AI tools from GitHub, sorted by who they are for: engineers, designers, creators, students and more.
 - [Top lists](https://itstrendingglobal.pages.dev/lists/): The fastest-rising GitHub repos, ranked by stars gained and explained simply: 40 weekly top 5 lists, 10 monthly lists and 3 quarterly roundups.
 - [AI news by month](https://itstrendingglobal.pages.dev/news/): Every month's biggest AI news in plain words: what happened, why it matters to you and the sources, with a quarterly look back. Free to read, no sign-up.
+- [AI for Business](https://itstrendingglobal.pages.dev/industry/business): Free AI tools and AI news for Business, explained simply: DBX, Strata and OpenSEO. Setup steps, sources and our honest take.
+- [AI for Creators](https://itstrendingglobal.pages.dev/industry/creators): Free AI tools and AI news for Creators, explained simply: PureMac, Recordly and OpenSEO. Setup steps, sources and our honest take.
+- [AI for Design](https://itstrendingglobal.pages.dev/industry/design): Free AI tools and AI news for Design, explained simply: PhotoCraft, OpenPencil and Compositor. Setup steps, sources and our honest take.
+- [AI for Developers](https://itstrendingglobal.pages.dev/industry/developers): Free AI tools and AI news for Developers, explained simply: DBX, PureMac and Strata. Setup steps, sources and our honest take.
+- [AI for Education](https://itstrendingglobal.pages.dev/industry/education): Free AI tools and AI news for Education, explained simply: Recordly, Archify and Open Notebook. Setup steps, sources and our honest take.
+- [AI for Everyone](https://itstrendingglobal.pages.dev/industry/everyone): Free AI tools and AI news for Everyone, explained simply: PureMac, Strata and Tolaria. Setup steps, sources and our honest take.
+- [AI for Finance](https://itstrendingglobal.pages.dev/industry/finance): Free AI tools and AI news for Finance, explained simply: Headroom and World Monitor. Setup steps, sources and our honest take.
+- [AI for Government & Law](https://itstrendingglobal.pages.dev/industry/government-law): Free AI tools and AI news for Government & Law, explained simply. Setup steps, sources and our honest take. Free to read, no sign-up.
+- [AI for Healthcare](https://itstrendingglobal.pages.dev/industry/healthcare): Free AI tools and AI news for Healthcare, explained simply: openGym, Meetily and Project NOMAD. Setup steps, sources and our honest take.
+- [AI for Jobs & Careers](https://itstrendingglobal.pages.dev/industry/jobs-careers): Free AI tools and AI news for Jobs & Careers, explained simply: AI Job Search, Career-Ops and Handy. Setup steps, sources and our honest take.
+- [AI for Marketing](https://itstrendingglobal.pages.dev/industry/marketing): Free AI tools and AI news for Marketing, explained simply: Recordly, OpenSEO and PhotoCraft. Setup steps, sources and our honest take.
+- [AI for Media](https://itstrendingglobal.pages.dev/industry/media): Free AI tools and AI news for Media, explained simply: OpenReel, OpenCut and CorridorKey. Setup steps, sources and our honest take.
+- [AI for Students](https://itstrendingglobal.pages.dev/industry/students): Free AI tools and AI news for Students, explained simply: Tolaria, DeepSeek Harness and OfficeCLI. Setup steps, sources and our honest take.
 - [AI by industry](https://itstrendingglobal.pages.dev/industry/): Free AI tools and AI news sorted by the work you do, from 13 fields: jobs, finance, health, marketing, education and more. Plain words, setup steps included.
 - [Market pulse](https://itstrendingglobal.pages.dev/pulse): Real numbers on what's rising in AI: GitHub star jumps, hot topics, the top repo of each month, which AI companies made the news and trending models.
 
 ## Daily AI news
 
-- [AI News, 18 Oct 2026: DeepSeek's free model update chases](https://itstrendingglobal.pages.dev/news/daily-2026-10-18): AI news for 18 October 2026, explained simply: DeepSeek's free model update chases Claude on coding. Every story lists its sources.
+- [AI News, 18 Oct 2026: DeepSeek's free model update chases](https://itstrendingglobal.pages.dev/news/daily-2026-10-18): AI news for 18 October 2026, explained simply: DeepSeek's free model update chases Claude on coding. Also: Meta pulls web-scraping line from its business terms.
 - [AI News, 17 Oct 2026: Claude solves a 25-year-old encryption](https://itstrendingglobal.pages.dev/news/daily-2026-10-17): AI news for 17 October 2026, explained simply: Claude solves a 25-year-old encryption mystery. Also: Apple bans AI nudify apps from the App Store.
 - [AI News, 16 Oct 2026: Meta gives away its big Muse Spark AI](https://itstrendingglobal.pages.dev/news/daily-2026-10-16): AI news for 16 October 2026, explained simply: Meta gives away its big Muse Spark AI for free. Also: OpenAI's AI spent crypto from a wallet it didn't own.
 
