@@ -6,6 +6,7 @@
 
 - [net-merge: Combine Wi-Fi and Phone Internet, Free (2026)](https://itstrendingglobal.pages.dev/tools/rohit267-net-merge): net-merge is a free app to use two internet connections at once, like Wi-Fi plus a phone hotspot, on Windows, Mac and Linux. No account or VPN.
 - [ArtCraft: Free AI Video and Image Studio (2026)](https://itstrendingglobal.pages.dev/tools/storytold-artcraft): ArtCraft is a free AI video and image studio. Build your scene in 2D or 3D first, then let an AI model make the image or video. Mac and Windows.
+- [REA: Reverse Engineer Anything With Your AI Agent (2026)](https://itstrendingglobal.pages.dev/tools/morluto-rea): REA (Reverse Engineer Anything) lets an AI agent look inside an app and explain how a feature works, with proof. What it does, what it misses, and the risks.
 - [DBX: Free Database Client for 100+ Databases, With AI (2026)](https://itstrendingglobal.pages.dev/tools/t8y2-dbx): DBX is a free database client that opens 100+ kinds of databases in a 25 MB app. Its AI helper turns plain English into database queries for you.
 - [PureMac: Free CleanMyMac Alternative, No Subscription](https://itstrendingglobal.pages.dev/tools/momenbasel-puremac): PureMac is a free CleanMyMac alternative. It clears junk, fully uninstalls apps and finds duplicates, with no subscription, no tracking and no scare tactics.
 - [Strata: Run Big Local AI on a Gaming PC, Free](https://itstrendingglobal.pages.dev/tools/niko1221-strata): Strata is a free installer that runs big, private local AI on a gaming PC. It sets up a large Qwen model, so your chats never leave your computer.
@@ -147,22 +148,22 @@
 
 - [Today in AI](https://itstrendingglobal.pages.dev/news/daily): The AI news that matters, every day, in plain words: what happened, why it matters to you and the sources. A new digest every morning, free to read.
 - [Latest AI research](https://itstrendingglobal.pages.dev/research): New AI, tech and chip research explained in plain words every day: today's top papers, peer-reviewed studies, lab posts and the researchers to follow.
-- [For engineers](https://itstrendingglobal.pages.dev/tools/for/engineers): 27 free, open-source AI tools for engineers and developers, explained simply: DBX, Moli and more, with setup steps, real examples and an FAQ.
+- [For engineers](https://itstrendingglobal.pages.dev/tools/for/engineers): 28 free, open-source AI tools for engineers and developers, explained simply: REA, DBX and more, with setup steps, real examples and an FAQ.
 - [For designers](https://itstrendingglobal.pages.dev/tools/for/designers): 8 free, open-source AI tools for designers, explained simply: ArtCraft, PhotoCraft and more, with setup steps, real examples and an FAQ.
 - [For business owners](https://itstrendingglobal.pages.dev/tools/for/business): 14 free, open-source AI tools for business owners and small teams, explained simply: OpenSEO, Odysseus and more, with setup steps.
 - [For creators](https://itstrendingglobal.pages.dev/tools/for/creators): 13 free, open-source AI tools for creators, explained simply: net-merge, ArtCraft and more, with setup steps, real examples and an FAQ.
 - [For students](https://itstrendingglobal.pages.dev/tools/for/students): 12 free, open-source AI tools for students, explained simply: net-merge, Tolaria and more, with setup steps, real examples and an FAQ.
 - [For marketers](https://itstrendingglobal.pages.dev/tools/for/marketers): 10 free, open-source AI tools for marketers, explained simply: ArtCraft, Recordly and more, with setup steps, real examples and an FAQ.
-- [For everyone](https://itstrendingglobal.pages.dev/tools/for/everyone): 22 free, open-source AI tools for everyday use and privacy, explained simply: net-merge, PureMac and more, with setup steps.
-- [Free AI tools](https://itstrendingglobal.pages.dev/tools/): 65 plain-English guides to free, open-source AI tools from GitHub, sorted by who they are for: engineers, designers, creators, students and more.
+- [For everyone](https://itstrendingglobal.pages.dev/tools/for/everyone): 23 free, open-source AI tools for everyday use and privacy, explained simply: net-merge, REA and more, with setup steps.
+- [Free AI tools](https://itstrendingglobal.pages.dev/tools/): 66 plain-English guides to free, open-source AI tools from GitHub, sorted by who they are for: engineers, designers, creators, students and more.
 - [Top lists](https://itstrendingglobal.pages.dev/lists/): The fastest-rising GitHub repos, ranked by stars gained and explained simply: 40 weekly top 5 lists, 10 monthly lists and 3 quarterly roundups.
 - [AI news by month](https://itstrendingglobal.pages.dev/news/): Every month's biggest AI news in plain words: what happened, why it matters to you and the sources, with a quarterly look back. Free to read, no sign-up.
 - [AI for Business](https://itstrendingglobal.pages.dev/industry/business): Free AI tools and AI news for Business, explained simply: DBX, Strata and OpenSEO. Setup steps, sources and our honest take.
 - [AI for Creators](https://itstrendingglobal.pages.dev/industry/creators): Free AI tools and AI news for Creators, explained simply: net-merge, ArtCraft and PureMac. Setup steps, sources and our honest take.
 - [AI for Design](https://itstrendingglobal.pages.dev/industry/design): Free AI tools and AI news for Design, explained simply: ArtCraft, PhotoCraft and OpenPencil. Setup steps, sources and our honest take.
-- [AI for Developers](https://itstrendingglobal.pages.dev/industry/developers): Free AI tools and AI news for Developers, explained simply: DBX, PureMac and Strata. Setup steps, sources and our honest take.
+- [AI for Developers](https://itstrendingglobal.pages.dev/industry/developers): Free AI tools and AI news for Developers, explained simply: REA, DBX and PureMac. Setup steps, sources and our honest take.
 - [AI for Education](https://itstrendingglobal.pages.dev/industry/education): Free AI tools and AI news for Education, explained simply: Recordly, Archify and Open Notebook. Setup steps, sources and our honest take.
-- [AI for Everyone](https://itstrendingglobal.pages.dev/industry/everyone): Free AI tools and AI news for Everyone, explained simply: net-merge, PureMac and Strata. Setup steps, sources and our honest take.
+- [AI for Everyone](https://itstrendingglobal.pages.dev/industry/everyone): Free AI tools and AI news for Everyone, explained simply: net-merge, REA and PureMac. Setup steps, sources and our honest take.
 - [AI for Finance](https://itstrendingglobal.pages.dev/industry/finance): Free AI tools and AI news for Finance, explained simply: Headroom and World Monitor. Setup steps, sources and our honest take.
 - [AI for Government & Law](https://itstrendingglobal.pages.dev/industry/government-law): Free AI tools and AI news for Government & Law, explained simply. Setup steps, sources and our honest take. Free to read, no sign-up.
 - [AI for Healthcare](https://itstrendingglobal.pages.dev/industry/healthcare): Free AI tools and AI news for Healthcare, explained simply: openGym, Meetily and Project NOMAD. Setup steps, sources and our honest take.
@@ -175,9 +176,9 @@
 
 ## Daily AI news
 
-- [AI News, 18 Oct 2026: DeepSeek's free model update chases](https://itstrendingglobal.pages.dev/news/daily-2026-10-18): AI news for 18 October 2026, explained simply: DeepSeek's free model update chases Claude on coding. Also: Meta pulls web-scraping line from its business terms.
-- [AI News, 17 Oct 2026: Claude solves a 25-year-old encryption](https://itstrendingglobal.pages.dev/news/daily-2026-10-17): AI news for 17 October 2026, explained simply: Claude solves a 25-year-old encryption mystery. Also: Apple bans AI nudify apps from the App Store.
-- [AI News, 16 Oct 2026: Meta gives away its big Muse Spark AI](https://itstrendingglobal.pages.dev/news/daily-2026-10-16): AI news for 16 October 2026, explained simply: Meta gives away its big Muse Spark AI for free. Also: OpenAI's AI spent crypto from a wallet it didn't own.
+- [AI News, 18 Oct 2026: Meta pulls web-scraping line](https://itstrendingglobal.pages.dev/news/daily-2026-10-18): AI news for 18 October 2026, explained simply: Meta pulls web-scraping line from its business terms. Also: DeepSeek's free model update chases Claude on coding.
+- [AI News, 17 Oct 2026: Apple bans AI nudify apps from the App](https://itstrendingglobal.pages.dev/news/daily-2026-10-17): AI news for 17 October 2026, explained simply: Apple bans AI nudify apps from the App Store. Also: iPhone Duo sells out, deliveries slip to 2027.
+- [AI News, 16 Oct 2026: OpenAI's AI spent crypto from a wallet](https://itstrendingglobal.pages.dev/news/daily-2026-10-16): AI news for 16 October 2026, explained simply: OpenAI's AI spent crypto from a wallet it didn't own. Also: Microsoft builds a giant 2.8 trillion parameter AI.
 
 ## AI model benchmarks
 
