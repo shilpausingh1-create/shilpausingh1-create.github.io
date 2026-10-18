@@ -278,6 +278,20 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visi
  .tpr{left:24px;right:24px;top:20px}.tpp{right:20px;top:34px}
 }
 @media (prefers-reduced-motion:reduce){.tpr .cur i{animation:none;transform:none}}
+/* Tools and repos header (/tools/, owner 19 Oct): the same block in green; rail = categories with their audience icons (names shown), right side = the guide's first infographic */
+.tr.old .trb{opacity:.45;border-style:dashed}.tr.old:hover .trb,.tr.old[aria-selected=true] .trb{opacity:1}  /* top companies with no story this window: latest older story (owner 19 Oct) */
+.tiat .tch button:hover,.tiat .tpp:hover,.tiat .tra:hover{border-color:var(--green)}
+.tiat .tr .trn{position:static;width:auto;height:auto;overflow:hidden;clip:auto;white-space:normal;max-width:84px;font:700 11px/1.2 Inter,sans-serif;color:#c9d1d9;text-align:center}
+.tiat .trb .ic{width:30px;height:30px;color:var(--g2)}.tiat .trb em{background:var(--green)}
+.tiat .tr[aria-selected=true] .trb{border-color:var(--green);box-shadow:0 0 0 4px rgba(63,185,80,.2)}
+.tiat .tr.new .trb{background:linear-gradient(#0d1117,#0d1117) padding-box,conic-gradient(from 210deg,#7ee787,#2ea043,#7ee787) border-box}
+.tiat .ths{scrollbar-color:var(--g3) transparent}
+.tiat .th{border-color:#1f4d2b;background:radial-gradient(85% 140% at 80% 45%,rgba(63,185,80,.2),transparent 66%),radial-gradient(60% 90% at 0% 100%,rgba(63,185,80,.08),transparent 70%),linear-gradient(115deg,#0b120d 0%,#0d1a11 55%,#0f2215 100%)}
+.tiat .tpl{color:var(--g2)}.tiat .tpl .ic{width:18px;height:18px}.tiat .thl a:hover{text-decoration-color:var(--green)}.tiat .twy{border-left-color:var(--green)}.tiat .tmr{color:var(--g2)}
+.tiat .tv{--gl:rgba(63,185,80,.35)}
+.tvi{display:block;width:auto;height:auto;max-width:100%;max-height:220px;border-radius:14px;border:1px solid #1f4d2b;box-shadow:0 18px 50px -18px rgba(63,185,80,.55)}
+@media (min-width:860px){.tvi{max-height:300px}}
+.tsub{margin:22px 0 10px!important}.tsum+.lsum{margin-top:18px}.nb .tk{color:var(--b2)}.nb .tile:hover{border-color:var(--blue)}
 @media (prefers-reduced-motion:reduce){.tia *{transition:none!important;animation:none!important}}
 .onl{list-style:none;margin:0;padding:0;display:grid;gap:8px}.onl li{max-width:none;margin:0;min-width:0}
 .onl a{display:flex;align-items:flex-start;gap:10px;height:100%;min-height:44px;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--fg);text-decoration:none;font:700 15px/1.35 Inter,sans-serif;transition:border-color .15s}
