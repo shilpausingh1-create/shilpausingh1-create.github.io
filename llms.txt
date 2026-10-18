@@ -176,7 +176,7 @@
 
 ## Daily AI news
 
-- [AI News, 18 Oct 2026: Meta pulls web-scraping line](https://itstrendingglobal.pages.dev/news/daily-2026-10-18): AI news for 18 October 2026, explained simply: Meta pulls web-scraping line from its business terms. Also: DeepSeek's free model update chases Claude on coding.
+- [AI News, 18 Oct 2026: World Bank bets on 'small AI'](https://itstrendingglobal.pages.dev/news/daily-2026-10-18): AI news for 18 October 2026, explained simply: World Bank bets on 'small AI' for poorer countries. Also: Meta pulls web-scraping line from its business terms.
 - [AI News, 17 Oct 2026: Apple bans AI nudify apps from the App](https://itstrendingglobal.pages.dev/news/daily-2026-10-17): AI news for 17 October 2026, explained simply: Apple bans AI nudify apps from the App Store. Also: iPhone Duo sells out, deliveries slip to 2027.
 - [AI News, 16 Oct 2026: OpenAI's AI spent crypto from a wallet](https://itstrendingglobal.pages.dev/news/daily-2026-10-16): AI news for 16 October 2026, explained simply: OpenAI's AI spent crypto from a wallet it didn't own. Also: Microsoft builds a giant 2.8 trillion parameter AI.
 
