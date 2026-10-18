@@ -265,7 +265,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visi
 .tia.on .tv{cursor:pointer}
 .tvl{flex:none;width:84px;height:84px;fill:#a5d0ff}.tvl.lc{filter:drop-shadow(0 6px 24px rgba(0,0,0,.35))}
 .tvn{font:900 26px/1.1 Inter,sans-serif;letter-spacing:-.02em;color:#c9d1d9;text-align:center;overflow-wrap:anywhere}
-.tvf{font:900 30px/1 Inter,sans-serif;letter-spacing:-.03em;color:var(--b2);white-space:nowrap}
+
 .tpr{position:absolute;left:18px;right:18px;top:14px;display:flex;gap:6px}.tpr:empty{display:none}
 .tpr span{flex:1;height:3px;border-radius:2px;background:rgba(230,237,243,.22);overflow:hidden}.tpr i{display:block;height:100%;width:100%;background:var(--fg);transform-origin:left;transform:scaleX(0)}
 .tpr .done i{transform:none}.tpr .cur i{animation:tpf 6.5s linear forwards}.tia.ps .tpr .cur i{animation-play-state:paused}@keyframes tpf{to{transform:none}}
@@ -274,7 +274,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visi
 @media (min-width:860px){
  .th{flex-basis:88%;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);min-height:330px}
  .tx{padding:32px 40px 26px;justify-content:center}.thl{font-size:clamp(32px,3.1vw,44px)}.twy{font-size:18px}
- .tv{flex-direction:column;gap:16px;padding:40px 24px 28px}.tvl{width:170px;height:170px}.tvn{font-size:38px}.tvf{font-size:36px}
+ .tv{flex-direction:column;gap:16px;padding:40px 24px 28px}.tvl{width:170px;height:170px}.tvn{font-size:38px}
  .tpr{left:24px;right:24px;top:20px}.tpp{right:20px;top:34px}
 }
 @media (prefers-reduced-motion:reduce){.tpr .cur i{animation:none;transform:none}}
