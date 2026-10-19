@@ -19,7 +19,7 @@ pre{background:#0d1117;border:1px solid var(--line);border-radius:10px;padding:1
 p code,li code,td code{background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:1px 5px;font-size:.86em}
 article img{max-width:100%;height:auto;border-radius:12px}.ab p>img{max-width:min(100%,560px);display:block}.crumbs{font-size:14px;color:var(--muted);margin:24px 0 0}.crumbs a{color:var(--muted);display:inline-block;padding:10px 0}
 .toc{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 18px;margin:24px 0}.toc ul{margin:6px 0;padding-left:20px}.toc a{color:var(--fg)}.toc li{font-size:15px;line-height:1.5;margin:4px 0}.toc b{font:800 12px 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.05em;color:var(--g2)}
-table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:15px}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}th{background:var(--panel2)}tr:nth-child(even) td{background:rgba(22,27,35,.5)}
+table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;font-size:15px}.tblw{overflow-x:auto;margin:1em 0}.tblw table{display:table;min-width:100%}@media (max-width:700px){.tblw table{min-width:560px}.tblw:after{content:"Swipe the table sideways to see every column \2192";display:block;font-size:12px;color:var(--muted);margin-top:6px}}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}th{background:var(--panel2)}tr:nth-child(even) td{background:rgba(22,27,35,.5)}
 blockquote{margin:24px 0;padding:14px 18px;background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--green);border-radius:10px}blockquote p{margin:0}
 .s-news blockquote,.dg blockquote{border-left-color:var(--blue)}.s-news .ab a,.story a{color:var(--b2)}
 .copy{position:absolute;top:8px;right:8px;min-height:44px;min-width:64px;font:700 13px Inter,sans-serif;padding:6px 12px;border-radius:8px;border:0;background:var(--green);color:#04130a;cursor:pointer}
@@ -96,12 +96,14 @@ var q=document.getElementById("srq"),L=document.getElementById("srl"),up=b.getAt
 N=function(s){return(s||"").toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g,"")},E=function(s){return(s||"").replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
 function load(){if(ix)return;ix=[];fetch(up+"search.json").then(function(r){return r.json()}).then(function(j){ix=j.map(function(x){x.n=N(x.t);x.m=N(x.t+" "+x.s+" "+(x.w||"")+" "+x.k);return x});run()}).catch(function(){L.innerHTML='<li class="sre">Search could not load. Try again.</li>'})}
 function hl(s,ts){s=E(s);ts.forEach(function(t){if(t.length>1)s=s.replace(new RegExp("("+t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","ig"),"<mark>$1</mark>")});return s}
-function run(){var v=N(q.value).trim(),ts=v.split(/\s+/).filter(Boolean);cur=-1;
+var SW=["how","do","i","to","the","a","an","for","of","in","on","is","what","and","with","my","can","best","free"],SY={sue:"lawsuit",sued:"lawsuit",suing:"lawsuit",lawsuits:"lawsuit",suit:"lawsuit",email:"mail",emails:"mail"},
+S=function(t){t=SY[t]||t;return t.length>4?t.replace(/(ing|ed|es|s)$/,""):t};
+function run(){var v=N(q.value).trim(),t0=v.split(/\s+/).filter(Boolean),ts=t0.filter(function(t){return SW.indexOf(t)<0});if(!ts.length)ts=t0;ts=ts.map(S);cur=-1;
 if(!ts.length){L.innerHTML='<li class="sre">Type to search every guide, story and page.</li>';return}
-var r=[];for(var i=0;i<ix.length;i++){var x=ix[i],sc=0,ok=true;for(var k=0;k<ts.length;k++){var t=ts[k];if(x.m.indexOf(t)<0){ok=false;break}
-sc+=(x.n.indexOf(t)>=0?10:1)+(new RegExp("(^|\\W)"+t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).test(x.n)?6:0)}if(ok)r.push([sc+(x.p||0),x])}
+var r=[],need=Math.max(1,Math.ceil(ts.length*0.6));for(var i=0;i<ix.length;i++){var x=ix[i],sc=0,hit=0;for(var k=0;k<ts.length;k++){var t=ts[k];if(x.m.indexOf(t)<0)continue;hit++;
+sc+=(x.n.indexOf(t)>=0?10:1)+(new RegExp("(^|\\W)"+t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).test(x.n)?6:0)}if(hit>=need)r.push([sc+hit*20+(x.p||0),x])}
 r.sort(function(a,c){return c[0]-a[0]});r=r.slice(0,20);
-L.innerHTML=r.length?r.map(function(e,i){var x=e[1];return '<li><a role="option" href="'+up+x.u+'"><small class="'+(x.c||"")+'">'+E(x.k)+'</small><b>'+hl(x.t,ts)+'</b>'+(x.s?'<span>'+hl(x.s,ts)+'</span>':'')+'</a></li>'}).join(""):'<li class="sre">Nothing found for "'+E(q.value)+'". Try a simpler word.</li>'}
+L.innerHTML=r.length?r.map(function(e,i){var x=e[1];return '<li><a role="option" href="'+up+x.u+'"><small class="'+(x.c||"")+'">'+E(x.k)+'</small><b>'+hl(x.t,ts)+'</b>'+(x.s?'<span>'+hl(x.s,ts)+'</span>':'')+'</a></li>'}).join(""):'<li class="sre">Nothing found for "'+E(q.value)+'". Try a simpler word, or start here:</li><li><a href="'+up+'tools/for/everyone"><b>Free AI tools anyone can use</b></a></li><li><a href="'+up+'news/daily"><b>Latest AI news</b></a></li><li><a href="'+up+'models"><b>Compare AI models</b></a></li>'}
 function mv(k){var a=L.querySelectorAll("a");if(!a.length)return;cur=(cur+k+a.length)%a.length;a.forEach(function(x,i){x.classList.toggle("on",i==cur)});a[cur].scrollIntoView({block:"nearest"})}
 function open(){load();d.showModal();q.focus();q.select();run()}
 b.onclick=open;q.addEventListener("input",function(){ix&&run()});
