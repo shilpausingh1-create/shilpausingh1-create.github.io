@@ -401,6 +401,28 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visi
 .audg .apg{grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr))}
 @media (min-width:1000px){.audg{grid-template-columns:minmax(0,1fr) minmax(0,1.6fr)}}
 .audj{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin:0 0 12px;padding:0 16px;border:1px solid #1f4d2b;border-radius:999px;background:rgba(63,185,80,.1);color:var(--g2);font:700 14px/1.3 Inter,sans-serif;text-decoration:none}.audj[hidden]{display:none}.audj:hover{border-color:var(--green)}.audj:focus-visible{outline:2px solid var(--fg);outline-offset:2px}.audj .ic{width:16px;height:16px;transform:rotate(90deg)}
+/* /tools/ (owner 20 Oct): GitHub repos lead in the wide main column; AI tools sit in a narrow sticky side list (a folded drawer after the hero on phones) */
+.tlay{display:grid;grid-template-columns:minmax(0,1fr);gap:0 36px}.tlay>*{min-width:0}.tside{margin:14px 0 0}
+.tsd{border:1px solid var(--line);border-radius:14px;background:var(--panel)}
+.tsd>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;min-height:52px;padding:6px 16px}.tsd>summary::-webkit-details-marker{display:none}
+.tsd>summary h2{margin:0;font:800 18px/1.2 Inter,sans-serif;letter-spacing:-.01em}
+.tsd>summary:after{content:"+";margin-left:auto;font:700 20px 'JetBrains Mono',monospace;color:var(--muted)}.tsd[open]>summary:after{content:"\2013"}
+.tsdi{padding:0 16px 14px}
+.apsg h3{display:flex;align-items:center;gap:8px;margin:14px 0 2px;font:800 12px 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.05em;color:var(--g2)}.apsg h3 .ic{width:16px;height:16px}
+.aps{list-style:none;margin:0;padding:0}.aps li{max-width:none;margin:0}
+.aps a{display:flex;align-items:center;gap:10px;min-height:44px;padding:4px 8px;margin:0 -8px;border-radius:8px;color:var(--fg);text-decoration:none;font:600 15px/1.25 Inter,sans-serif}
+.aps a:hover{background:var(--panel2)}.aps a span{min-width:0;overflow-wrap:anywhere}.aps .lg{width:24px;height:24px;border-radius:6px}.aps .lg svg{width:14px;height:14px}.aps a>.ic{width:18px;height:18px;color:var(--g2)}
+.aps small{margin-left:auto;padding-left:8px;font:600 12px 'JetBrains Mono',monospace;color:var(--muted);text-align:right}
+.apsm>summary{list-style:none;cursor:pointer;display:flex;align-items:center;min-height:44px;font:700 14px Inter,sans-serif;color:var(--g2)}.apsm>summary::-webkit-details-marker{display:none}.apsm[open]>summary{display:none}
+.tsau{margin-top:8px;padding-top:4px;border-top:1px solid var(--line)}
+@media (min-width:1000px){.tlay{grid-template-columns:minmax(0,1fr) 280px}.tmh,.tmr{grid-column:1}.tmh{grid-row:1}.tmr{grid-row:2}
+ .tside{grid-column:2;grid-row:1/3;align-self:start;position:sticky;top:16px;margin:22px 0 0;max-height:calc(100vh - 32px);overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;border-radius:14px}
+ .tsd>summary{pointer-events:none}.tsd>summary:after{display:none}.aps a{min-height:36px}.apsm>summary{min-height:36px}}
+/* AI app explainer pages (tools/app/<slug>) */
+.apx .ph h1{max-width:24ch;font-size:clamp(30px,3.6vw,48px)}.apmk{display:flex;align-items:center;gap:10px;margin:0 0 6px;color:var(--muted)}.apmk b{color:var(--fg)}
+.apmk .lg{width:40px;height:40px;border-radius:10px}.apmk .lg svg{width:22px;height:22px}.apx .chips{margin:10px 0 0}.apx .chips .meta{align-self:center;margin-right:2px}
+.apx span.chip:hover{border-color:var(--line);color:var(--muted)}.apsrc{margin:10px 0 0;font:600 13px 'JetBrains Mono',monospace;color:var(--muted)}.apsrc a{color:var(--g2)}
+.apgo{width:100%;justify-content:center;min-height:52px;font-size:17px}
 
 /* /research */
 .bdg{display:inline-flex;align-items:center;gap:6px;font:800 11px/1.7 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.05em;padding:0 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:var(--panel2);white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
