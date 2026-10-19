@@ -242,7 +242,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visi
 .trt{padding:4px;font:800 11px/1.15 Inter,sans-serif;color:#c9d1d9;text-align:center;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .trb em{position:absolute;right:-7px;top:-7px;min-width:24px;height:24px;padding:0 5px;border-radius:12px;background:var(--blue);color:var(--bg);border:2px solid var(--bg);font:900 12px/20px Inter,sans-serif;font-style:normal;text-align:center}.trb em[hidden]{display:none}
 .tr{position:relative}.trn,.tr time{position:absolute;left:0;top:0;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}  /* owner 19 Oct: logos only; names stay for screen readers */
-.trx .ic{width:30px;height:30px;color:#c9d1d9}
+.upd time{color:var(--mut,#8b949e);font-weight:500}.updl li{margin:.3em 0}.trx .ic{width:30px;height:30px;color:#c9d1d9}
 .tr time,.tr small{font:600 11px/1.2 'JetBrains Mono',monospace;color:var(--muted)}
 .trm .trb{border:2px dashed #30363d;background:transparent;font:900 16px Inter,sans-serif;color:var(--muted)}.trm:hover .trb{border-color:var(--b2);color:var(--fg)}.trm:focus-visible{outline:2px solid var(--fg);outline-offset:3px}
 .tra{position:absolute;right:0;top:19px;z-index:2;width:44px;height:44px;display:grid;place-items:center;padding:0 0 3px;border-radius:50%;border:1px solid #30363d;background:var(--panel2);color:var(--fg);font:800 24px/1 Inter,sans-serif;cursor:pointer}.tra[hidden]{display:none}
