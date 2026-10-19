@@ -5,3 +5,6 @@
 /industry /trends#industries 301
 /news/ /news/daily#by-month 301
 /news /news/daily#by-month 301
+/links https://itgnow.vercel.app/links 302
+/links/ https://itgnow.vercel.app/links 302
+/links.html https://itgnow.vercel.app/links 302
