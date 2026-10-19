@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://itgnow.vercel.app/sitemap.xml
+Sitemap: https://itgnow.vercel.app/sitemap-news.xml
