@@ -174,6 +174,7 @@
 
 ## Daily AI news
 
+- [AI News, 19 Oct 2026: Anthropic puts 5% of its shares](https://itstrendingglobal.pages.dev/news/daily-2026-10-19): AI news for 19 October 2026, explained simply: Anthropic puts 5% of its shares in a public fund. Also: Microsoft pulls out of a UK AI data center deal.
 - [AI News, 18 Oct 2026: World Bank bets on 'small AI'](https://itstrendingglobal.pages.dev/news/daily-2026-10-18): AI news for 18 October 2026, explained simply: World Bank bets on 'small AI' for poorer countries. Also: Meta pulls web-scraping line from its business terms.
 - [AI News, 17 Oct 2026: Apple bans AI nudify apps from the App](https://itstrendingglobal.pages.dev/news/daily-2026-10-17): AI news for 17 October 2026, explained simply: Apple bans AI nudify apps from the App Store. Also: iPhone Duo sells out, deliveries slip to 2027.
 - [AI News, 16 Oct 2026: OpenAI's AI spent crypto from a wallet](https://itstrendingglobal.pages.dev/news/daily-2026-10-16): AI news for 16 October 2026, explained simply: OpenAI's AI spent crypto from a wallet it didn't own. Also: Microsoft builds a giant 2.8 trillion parameter AI.
@@ -185,7 +186,7 @@
 
 ## Latest AI research
 
-- [Latest AI research, explained simply](https://itstrendingglobal.pages.dev/research): new AI, tech and chip papers in plain words with their sources, today's most upvoted papers and the researchers to follow, updated 2026-10-18
+- [Latest AI research, explained simply](https://itstrendingglobal.pages.dev/research): new AI, tech and chip papers in plain words with their sources, today's most upvoted papers and the researchers to follow, updated 2026-10-19
 
 ## About
 
