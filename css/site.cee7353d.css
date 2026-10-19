@@ -396,6 +396,39 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visi
 /* article contents: drawer at the end of the header below 1100px, sticky rail list from 1100px */
 @media (max-width:1099px){.rail .toc{display:none}}@media (min-width:1100px){.tocd{display:none}}.tocd .ddi li{margin:0}.tocd .ddi a{display:block;padding:10px 0}
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* Top AI apps (/tools/, owner 19 Oct): task chips, compact app cards (whole card opens the app's own site), New badges, audience view */
+.apt{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}.apt[hidden]{display:none}
+@media (max-width:600px){.apt{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;overscroll-behavior-x:contain;margin-right:-16px;padding-right:16px}.apt::-webkit-scrollbar{display:none}.apt button{flex:none}}
+.apt button{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:0 14px;border:1px solid #30363d;border-radius:999px;background:transparent;color:#c9d1d9;font:700 14px Inter,sans-serif;cursor:pointer}
+.apt .ic{width:18px;height:18px;color:var(--g2)}.apt i{font:800 12px 'JetBrains Mono',monospace;font-style:normal;color:var(--muted)}.apt button:hover{border-color:var(--green)}
+.apt button[aria-pressed=true]{background:var(--fg);border-color:var(--fg);color:var(--bg)}.apt button[aria-pressed=true] .ic{color:#1a7f37}.apt button[aria-pressed=true] i{color:#3b434d}
+.apt button:focus-visible,.apc a:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+.apg{list-style:none;margin:0;padding:0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,270px),1fr))}
+.apc{position:relative;max-width:none;margin:0;min-width:0;display:flex;gap:12px;align-items:flex-start;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--panel);transition:border-color .15s}
+.apc:hover{border-color:var(--green)}.apc[hidden]{display:none}.apc:focus-within{border-color:var(--green)}
+.apc>.lg{width:44px;height:44px;border-radius:12px}.apc>.lg svg{width:24px;height:24px}.lgt .ic{width:22px;height:22px;color:var(--g2)}.lg.lgt{background:rgba(63,185,80,.1);border-color:#1f4d2b}
+.apx{min-width:0;flex:1}.apc h3{margin:0;font:800 17px/1.25 Inter,sans-serif}
+.apn{color:var(--fg);text-decoration:none}.apn:after{content:"";position:absolute;inset:0;border-radius:14px}.apn:focus-visible{outline:none}.apn:focus-visible:after{outline:2px solid var(--fg);outline-offset:2px}
+.apc .apm{margin:1px 0 0;font:600 12px 'JetBrains Mono',monospace;color:var(--muted)}
+.apc .apw{margin:6px 0 8px;font-size:14px;line-height:1.45;color:#c9d1d9}
+.apc .apl{display:flex;flex-wrap:wrap;gap:6px;margin:0}
+.app,.aos{display:inline-flex;align-items:center;padding:3px 9px;border-radius:999px;font:700 12px/1.3 Inter,sans-serif;border:1px solid #1f4d2b;color:var(--g2);background:rgba(63,185,80,.1)}
+.aos{border-color:#30363d;color:var(--fg);background:var(--panel2)}
+.apc .apk{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:0 14px;margin:2px 0 -10px;font:600 12px 'JetBrains Mono',monospace;color:var(--muted)}
+.apk a,.apk span{display:inline-flex;align-items:center;gap:4px;min-height:44px;white-space:nowrap}.apk a{color:var(--muted);text-underline-offset:3px}.apk a:hover{color:var(--fg)}.apk a+a{color:var(--g2)}.apk .ic{width:14px;height:14px}
+.nwb{position:absolute;left:50%;bottom:-9px;transform:translateX(-50%);padding:0 6px;border-radius:999px;border:2px solid var(--bg);background:var(--green);color:#04130a;font:900 10px/16px Inter,sans-serif;font-style:normal;letter-spacing:.05em;text-transform:uppercase}
+.nwk{padding:1px 8px;border-radius:999px;background:var(--green);color:#04130a;letter-spacing:.05em}
+.tpx{align-self:flex-start;margin:0 0 12px;padding:4px 12px;border:1px solid #1f4d2b;border-radius:999px;background:rgba(63,185,80,.1);font:700 14px/1.35 Inter,sans-serif;color:var(--g2)}
+.tv .apv{width:120px;height:120px;border-radius:32px;background:rgba(13,17,23,.6);border-color:#1f4d2b}.tv .apv svg{width:64px;height:64px}.tv .apv .ic{width:60px;height:60px}
+@media (min-width:860px){.tv .apv{width:150px;height:150px}.tv .apv svg{width:80px;height:80px}}
+.audv{margin:16px 0 0;padding:18px;border:1px solid #1f4d2b;border-radius:18px;background:linear-gradient(160deg,rgba(63,185,80,.08),transparent 60%),var(--panel);scroll-margin-top:16px}.audv[hidden],.audp[hidden]{display:none}
+.audp>h3{display:flex;align-items:center;gap:10px;margin:0 0 14px;font:900 22px/1.2 Inter,sans-serif}.audp>h3 .ic{width:24px;height:24px;padding:7px;box-sizing:content-box;border-radius:10px;background:rgba(63,185,80,.12);color:var(--g2)}
+.audg{display:grid;gap:20px}.audg>div{min-width:0}.audg h4{display:flex;align-items:center;gap:8px;margin:0 0 10px;font:800 13px 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.05em;color:var(--g2)}
+.audg h4 .ic{width:18px;height:18px}.audg h4 small{font:600 12px 'JetBrains Mono',monospace;color:var(--muted);text-transform:none;letter-spacing:0}
+.audg .onl{grid-template-columns:minmax(0,1fr)}.audg .onl .ic{flex:none;width:18px;height:18px;margin-top:2px;color:var(--g2)}.audg .shm{display:inline-flex;align-items:center;gap:6px;min-height:44px;margin-top:4px;color:var(--g2)}
+.audg .apg{grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr))}
+@media (min-width:1000px){.audg{grid-template-columns:minmax(0,1fr) minmax(0,1.6fr)}}
+.audj{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin:0 0 12px;padding:0 16px;border:1px solid #1f4d2b;border-radius:999px;background:rgba(63,185,80,.1);color:var(--g2);font:700 14px/1.3 Inter,sans-serif;text-decoration:none}.audj[hidden]{display:none}.audj:hover{border-color:var(--green)}.audj:focus-visible{outline:2px solid var(--fg);outline-offset:2px}.audj .ic{width:16px;height:16px;transform:rotate(90deg)}
 
 /* /research */
 .bdg{display:inline-flex;align-items:center;gap:6px;font:800 11px/1.7 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.05em;padding:0 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:var(--panel2);white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
