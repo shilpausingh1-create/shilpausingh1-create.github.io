@@ -4,6 +4,8 @@
 
 ## Free AI tools
 
+- [VoiceStudio: Free ElevenLabs Alternative (2026 Guide)](https://itstrendingglobal.pages.dev/tools/debpalash-voicestudio): VoiceStudio is a free ElevenLabs alternative. Clone a voice, dub videos and turn text into speech on your own Mac, Windows or Linux computer.
+- [HyperFrames: Make AI Videos From HTML (2026 Guide)](https://itstrendingglobal.pages.dev/tools/heygen-com-hyperframes): HyperFrames is a free tool that makes AI video from HTML. Your AI agent writes a web page, and HyperFrames renders it into an MP4 video.
 - [Folia: Free Animated Lyrics Music Player (2026)](https://itstrendingglobal.pages.dev/tools/chthollyphile-folia-major): Folia is a free animated lyrics music player that shows full-screen moving lyrics for your local music, Navidrome and more. What it does and how to start.
 - [net-merge: Combine Wi-Fi and Phone Internet, Free (2026)](https://itstrendingglobal.pages.dev/tools/rohit267-net-merge): net-merge is a free app to use two internet connections at once, like Wi-Fi plus a phone hotspot, on Windows, Mac and Linux. No account or VPN.
 - [ArtCraft: Free AI Video and Image Studio (2026)](https://itstrendingglobal.pages.dev/tools/storytold-artcraft): ArtCraft is a free AI video and image studio. Build your scene in 2D or 3D first, then let an AI model make the image or video. Mac and Windows.
@@ -149,28 +151,29 @@
 
 - [Today in AI](https://itstrendingglobal.pages.dev/news/daily): The AI news that matters, every day, in plain words: what happened, why it matters to you and the sources. A new digest every morning, free to read.
 - [Latest AI research](https://itstrendingglobal.pages.dev/research): New AI, tech and chip research explained in plain words every day: today's top papers, peer-reviewed studies, lab posts and the researchers to follow.
-- [For engineers](https://itstrendingglobal.pages.dev/tools/for/engineers): 28 free, open-source AI tools for engineers and developers, explained simply: REA, DBX and more, with setup steps, real examples and an FAQ.
+- [For engineers](https://itstrendingglobal.pages.dev/tools/for/engineers): 29 free, open-source AI tools for engineers and developers, explained simply: HyperFrames, REA and more, with setup steps.
 - [For designers](https://itstrendingglobal.pages.dev/tools/for/designers): 8 free, open-source AI tools for designers, explained simply: ArtCraft, PhotoCraft and more, with setup steps, real examples and an FAQ.
 - [For business owners](https://itstrendingglobal.pages.dev/tools/for/business): 14 free, open-source AI tools for business owners and small teams, explained simply: OpenSEO, Odysseus and more, with setup steps.
-- [For creators](https://itstrendingglobal.pages.dev/tools/for/creators): 14 free, open-source AI tools for creators, explained simply: Folia, net-merge and more, with setup steps, real examples and an FAQ.
+- [For creators](https://itstrendingglobal.pages.dev/tools/for/creators): 16 free, open-source AI tools for creators, explained simply: VoiceStudio, HyperFrames and more, with setup steps, real examples and an FAQ.
 - [For students](https://itstrendingglobal.pages.dev/tools/for/students): 12 free, open-source AI tools for students, explained simply: net-merge, Tolaria and more, with setup steps, real examples and an FAQ.
-- [For marketers](https://itstrendingglobal.pages.dev/tools/for/marketers): 10 free, open-source AI tools for marketers, explained simply: ArtCraft, Recordly and more, with setup steps, real examples and an FAQ.
-- [For everyone](https://itstrendingglobal.pages.dev/tools/for/everyone): 24 free, open-source AI tools for everyday use and privacy, explained simply: Folia, net-merge and more, with setup steps.
-- [Tools and repos](https://itstrendingglobal.pages.dev/tools/): 67 plain-English guides to free AI tools from GitHub, sorted by who they are for, plus the top GitHub repos every week, month and quarter.
+- [For marketers](https://itstrendingglobal.pages.dev/tools/for/marketers): 12 free, open-source AI tools for marketers, explained simply: VoiceStudio, HyperFrames and more, with setup steps, real examples and an FAQ.
+- [For everyone](https://itstrendingglobal.pages.dev/tools/for/everyone): 25 free, open-source AI tools for everyday use and privacy, explained simply: VoiceStudio, Folia and more, with setup steps.
+- [Tools and repos](https://itstrendingglobal.pages.dev/tools/): 69 plain-English guides to free AI tools from GitHub, sorted by who they are for, plus the top GitHub repos every week, month and quarter.
 - [AI for Business](https://itstrendingglobal.pages.dev/industry/business): Free AI tools and AI news for Business, explained simply: DBX, Strata and OpenSEO. Setup steps, sources and our honest take.
-- [AI for Creators](https://itstrendingglobal.pages.dev/industry/creators): Free AI tools and AI news for Creators, explained simply: Folia, net-merge and ArtCraft. Setup steps, sources and our honest take.
+- [AI for Creators](https://itstrendingglobal.pages.dev/industry/creators): Free AI tools and AI news for Creators, explained simply: VoiceStudio, HyperFrames and Folia. Setup steps, sources and our honest take.
 - [AI for Design](https://itstrendingglobal.pages.dev/industry/design): Free AI tools and AI news for Design, explained simply: ArtCraft, PhotoCraft and OpenPencil. Setup steps, sources and our honest take.
 - [AI for Developers](https://itstrendingglobal.pages.dev/industry/developers): Free AI tools and AI news for Developers, explained simply: REA, DBX and PureMac. Setup steps, sources and our honest take.
 - [AI for Education](https://itstrendingglobal.pages.dev/industry/education): Free AI tools and AI news for Education, explained simply: Recordly, Archify and Open Notebook. Setup steps, sources and our honest take.
-- [AI for Everyone](https://itstrendingglobal.pages.dev/industry/everyone): Free AI tools and AI news for Everyone, explained simply: Folia, net-merge and REA. Setup steps, sources and our honest take.
+- [AI for Engineers](https://itstrendingglobal.pages.dev/industry/engineers): Free AI tools and AI news for Engineers, explained simply: HyperFrames. Setup steps, sources and our honest take. Free to read, no sign-up.
+- [AI for Everyone](https://itstrendingglobal.pages.dev/industry/everyone): Free AI tools and AI news for Everyone, explained simply: VoiceStudio, Folia and net-merge. Setup steps, sources and our honest take.
 - [AI for Finance](https://itstrendingglobal.pages.dev/industry/finance): Free AI tools and AI news for Finance, explained simply: Headroom and World Monitor. Setup steps, sources and our honest take.
 - [AI for Government & Law](https://itstrendingglobal.pages.dev/industry/government-law): Free AI tools and AI news for Government & Law, explained simply. Setup steps, sources and our honest take. Free to read, no sign-up.
 - [AI for Healthcare](https://itstrendingglobal.pages.dev/industry/healthcare): Free AI tools and AI news for Healthcare, explained simply: openGym, Meetily and Project NOMAD. Setup steps, sources and our honest take.
 - [AI for Jobs & Careers](https://itstrendingglobal.pages.dev/industry/jobs-careers): Free AI tools and AI news for Jobs & Careers, explained simply: AI Job Search, Career-Ops and Handy. Setup steps, sources and our honest take.
-- [AI for Marketing](https://itstrendingglobal.pages.dev/industry/marketing): Free AI tools and AI news for Marketing, explained simply: ArtCraft, Recordly and OpenSEO. Setup steps, sources and our honest take.
+- [AI for Marketing](https://itstrendingglobal.pages.dev/industry/marketing): Free AI tools and AI news for Marketing, explained simply: VoiceStudio, HyperFrames and ArtCraft. Setup steps, sources and our honest take.
 - [AI for Media](https://itstrendingglobal.pages.dev/industry/media): Free AI tools and AI news for Media, explained simply: Folia, OpenReel and OpenCut. Setup steps, sources and our honest take.
 - [AI for Students](https://itstrendingglobal.pages.dev/industry/students): Free AI tools and AI news for Students, explained simply: net-merge, Tolaria and DeepSeek Harness. Setup steps, sources and our honest take.
-- [AI trends](https://itstrendingglobal.pages.dev/trends): Real numbers on what's rising in AI: GitHub star jumps, hot topics, who made the news, plus free AI tools and news for 13 fields of work.
+- [AI trends](https://itstrendingglobal.pages.dev/trends): Real numbers on what's rising in AI: GitHub star jumps, hot topics, who made the news, plus free AI tools and news for 14 fields of work.
 
 ## Daily AI news
 
