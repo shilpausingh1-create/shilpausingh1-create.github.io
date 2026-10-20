@@ -177,7 +177,7 @@
 
 ## Daily AI news
 
-- [AI News, 20 Oct 2026: Chip startup Tenstorrent raises $1.5B](https://itgnow.vercel.app/news/daily-2026-10-20): AI news for 20 October 2026, explained simply: Chip startup Tenstorrent raises $1.5B at $6.2B value. Every story lists its sources.
+- [AI News, 20 Oct 2026: Ex-OpenAI engineer in bugging case](https://itgnow.vercel.app/news/daily-2026-10-20): AI news for 20 October 2026, explained simply: Ex-OpenAI engineer in bugging case held as flight risk. Every story lists its sources.
 - [AI News, 19 Oct 2026: Anthropic puts 5% of its shares](https://itgnow.vercel.app/news/daily-2026-10-19): AI news for 19 October 2026, explained simply: Anthropic puts 5% of its shares in a public fund. Also: Microsoft pulls out of a UK AI data center deal.
 - [AI News, 18 Oct 2026: World Bank bets on 'small AI'](https://itgnow.vercel.app/news/daily-2026-10-18): AI news for 18 October 2026, explained simply: World Bank bets on 'small AI' for poorer countries. Also: Meta pulls web-scraping line from its business terms.
 - [AI News, 17 Oct 2026: Apple spells out its ban on AI nudify](https://itgnow.vercel.app/news/daily-2026-10-17): AI news for 17 October 2026, explained simply: Apple spells out its ban on AI nudify apps. Also: iPhone Duo sells out, deliveries slip to 2027.
