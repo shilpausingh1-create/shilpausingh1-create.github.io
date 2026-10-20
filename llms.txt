@@ -161,6 +161,7 @@
 - [Tools and repos](https://itgnow.vercel.app/tools/): 69 plain-English guides to free AI tools from GitHub, sorted by who they are for, plus the top GitHub repos every week, month and quarter.
 - [Companies](https://itgnow.vercel.app/companies): 50 AI companies on ITG Now: every news story about each one, its AI models with scores and its apps with prices, explained simply.
 - [Free alternatives](https://itgnow.vercel.app/alternatives): Free, open-source alternatives to 8 paid apps, from CleanMyMac, Photoshop, CapCut to more. Every pick has a plain-English guide with setup steps.
+- [Newsletter archive](https://itgnow.vercel.app/newsletter): Every ITG Now newsletter issue that went out on LinkedIn, newest first: the week's free AI tools and the AI news that matters, explained simply.
 - [AI for Business](https://itgnow.vercel.app/industry/business): Free AI tools and AI news for Business, explained simply: DBX, Strata and OpenSEO. Setup steps, sources and our honest take.
 - [AI for Creators](https://itgnow.vercel.app/industry/creators): Free AI tools and AI news for Creators, explained simply: VoiceStudio, HyperFrames and Folia. Setup steps, sources and our honest take.
 - [AI for Design](https://itgnow.vercel.app/industry/design): Free AI tools and AI news for Design, explained simply: ArtCraft, PhotoCraft and OpenPencil. Setup steps, sources and our honest take.
@@ -259,6 +260,10 @@
 - [Free Alternatives to Logitech Options+ (Open Source, 2026)](https://itgnow.vercel.app/alternatives/logitech-options): 1 free, open-source alternative to Logitech Options+, explained simply: OpenLogi. Setup steps, license and our honest take.
 - [Free Alternatives to NotebookLM (Open Source, 2026)](https://itgnow.vercel.app/alternatives/notebooklm): 1 free, open-source alternative to NotebookLM, explained simply: Open Notebook. Setup steps, license and our honest take.
 - [Free Alternatives to Semrush (Open Source, 2026) | ITG Now](https://itgnow.vercel.app/alternatives/semrush): 1 free, open-source alternative to Semrush, explained simply: OpenSEO. Setup steps, license and our honest take. Free to read.
+
+## Newsletter archive
+
+- [ITG Now Weekly: Meta gives away its big Muse Spark AI for free](https://itgnow.vercel.app/newsletter/2026-10-18): Here's your week in free AI tools and AI news, 12 Oct to 18 Oct 2026, in plain words. We picked three free tools you can try today, a few stories that...
 
 ## AI glossary
 
