@@ -174,6 +174,7 @@
 - [AI for Media](https://itgnow.vercel.app/industry/media): Free AI tools and AI news for Media, explained simply: Folia, OpenReel and OpenCut. Setup steps, sources and our honest take.
 - [AI for Students](https://itgnow.vercel.app/industry/students): Free AI tools and AI news for Students, explained simply: net-merge, Tolaria and DeepSeek Harness. Setup steps, sources and our honest take.
 - [AI trends](https://itgnow.vercel.app/trends): Real numbers on what's rising in AI: GitHub star jumps, hot topics, who made the news, plus free AI tools and news for 14 fields of work.
+- [AI glossary](https://itgnow.vercel.app/glossary): 200 AI words explained in plain English: LLM, AI agent, MCP, open weights, tokens, RAG, benchmarks and more. One short answer each, with sources.
 
 ## Daily AI news
 
@@ -192,6 +193,210 @@
 ## Latest AI research
 
 - [Latest AI research, explained simply](https://itgnow.vercel.app/research): new AI, tech and chip papers in plain words with their sources, today's most upvoted papers and the researchers to follow, updated 2026-10-20
+
+## AI glossary
+
+- [AI glossary](https://itgnow.vercel.app/glossary): 200 AI words explained in plain English: LLM, AI agent, MCP, open weights, tokens, RAG, benchmarks and more. One short answer each, with sources.
+- [What is AI 3D generation?](https://itgnow.vercel.app/glossary/3d-generation): 3D generation is AI that makes a 3D model from a text description or a photo.
+- [What is A2A (Agent2Agent)?](https://itgnow.vercel.app/glossary/a2a): A2A, or Agent2Agent, is an open standard that lets AI agents from different makers talk to each other and share work.
+- [What is an acquisition?](https://itgnow.vercel.app/glossary/acquisition): An acquisition is when one company buys another company, or most of it.
+- [What are agent skills?](https://itgnow.vercel.app/glossary/agent-skills): Agent skills are small packs of instructions and files that teach an AI agent how to do one kind of task well.
+- [What is Agentic AI?](https://itgnow.vercel.app/glossary/agentic-ai): Agentic AI is AI that acts on its own to reach a goal, making plans and taking steps instead of only answering questions.
+- [What is AGI?](https://itgnow.vercel.app/glossary/agi): AGI, or artificial general intelligence, is a future AI that could learn and do most thinking tasks as well as a person.
+- [What is the AGPL license?](https://itgnow.vercel.app/glossary/agpl): The AGPL is a strict open-source license like the GPL, but it also covers software people use over a network.
+- [What is an AI agent?](https://itgnow.vercel.app/glossary/ai-agent): An AI agent is an AI that can plan steps and use tools on its own to finish a goal you give it.
+- [What is AI alignment?](https://itgnow.vercel.app/glossary/alignment): AI alignment is the work of making an AI system do what people actually want and follow human values.
+- [What is an AI avatar?](https://itgnow.vercel.app/glossary/ai-avatar): An AI avatar is a digital character or person on screen that speaks and moves using AI.
+- [What is the AI bubble?](https://itgnow.vercel.app/glossary/ai-bubble): The AI bubble is the worry that prices and spending on AI have grown much faster than the real money AI earns.
+- [What is an AI chip?](https://itgnow.vercel.app/glossary/ai-chip): An AI chip is a computer chip built to run AI math fast, such as a GPU, a TPU or an NPU.
+- [What is an AI coding agent?](https://itgnow.vercel.app/glossary/coding-agent): An AI coding agent is a tool that can read your code, write changes, run commands and fix errors with little help.
+- [What is AI memory?](https://itgnow.vercel.app/glossary/ai-memory): AI memory is a way for an AI to keep facts about you or your work so it can use them in later chats.
+- [What is an AI model?](https://itgnow.vercel.app/glossary/ai-model): An AI model is a computer program that learned patterns from examples and uses them to make predictions or create things.
+- [What is AI music generation?](https://itgnow.vercel.app/glossary/ai-music): AI music generation is technology that creates songs, tunes or sound from a written description.
+- [What is an AI PC?](https://itgnow.vercel.app/glossary/ai-pc): An AI PC is a laptop or desktop with a built-in chip for AI tasks, so it can run some AI features on the device.
+- [What is AI regulation?](https://itgnow.vercel.app/glossary/ai-regulation): AI regulation means the laws and rules that governments make about how AI can be built and used.
+- [What is AI safety?](https://itgnow.vercel.app/glossary/ai-safety): AI safety is the work of making sure AI systems are reliable and don't cause harm, whether by mistake or by misuse.
+- [What is AI upscaling?](https://itgnow.vercel.app/glossary/ai-upscaling): AI upscaling is using AI to make a small or blurry image or video larger and sharper.
+- [What is an AI watermark?](https://itgnow.vercel.app/glossary/ai-watermark): An AI watermark is a hidden or visible mark added to AI-made content so it can be recognized as AI-generated.
+- [What is the Apache 2.0 license?](https://itgnow.vercel.app/glossary/apache-2): Apache 2.0 is a popular open-source license that allows broad use and includes a clear patent permission.
+- [What is an API?](https://itgnow.vercel.app/glossary/api): An API is a set of rules that lets one piece of software ask another piece of software to do something.
+- [What is an API key?](https://itgnow.vercel.app/glossary/api-key): An API key is a secret code that proves to a service that a request comes from you.
+- [How does AI API pricing work?](https://itgnow.vercel.app/glossary/api-pricing): API pricing is how AI companies charge developers for using their models, usually by the amount of text sent and received.
+- [What is Apple Silicon?](https://itgnow.vercel.app/glossary/apple-silicon): Apple Silicon is the family of chips Apple designs for its Mac, iPhone and iPad, with the processor and graphics on one chip.
+- [What is ARC-AGI?](https://itgnow.vercel.app/glossary/arc-agi): ARC-AGI is a set of visual puzzles that tests whether an AI can learn a new pattern from just a few examples.
+- [What is ARR?](https://itgnow.vercel.app/glossary/arr): ARR is the yearly money a company expects from its regular customers, based on what they pay now.
+- [What is AI background removal?](https://itgnow.vercel.app/glossary/background-removal): Background removal is AI that cuts the main subject out of a photo and removes everything behind it.
+- [What is an AI benchmark?](https://itgnow.vercel.app/glossary/benchmark): A benchmark is a standard test that lets you compare how well different AI models do the same tasks.
+- [What is Benchmark contamination?](https://itgnow.vercel.app/glossary/contamination): Benchmark contamination is when an AI has already seen a test's questions or answers, so its score looks better than its real skill.
+- [What is a browser agent?](https://itgnow.vercel.app/glossary/browser-agent): A browser agent is an AI that uses a web browser for you, clicking links, filling forms and reading pages like a person would.
+- [What is Chain of thought?](https://itgnow.vercel.app/glossary/chain-of-thought): Chain of thought is when an AI writes out its steps one by one before it gives a final answer.
+- [What is a chatbot?](https://itgnow.vercel.app/glossary/chatbot): A chatbot is a program you talk to in everyday language, by typing or speaking, and it replies like a person would.
+- [What is ChatGPT?](https://itgnow.vercel.app/glossary/chatgpt): ChatGPT is an AI chatbot from OpenAI that answers questions, writes text and helps with tasks in plain language.
+- [What is Claude?](https://itgnow.vercel.app/glossary/claude): Claude is a family of AI models and a chatbot made by the company Anthropic.
+- [What is Claude Code?](https://itgnow.vercel.app/glossary/claude-code): Claude Code is a coding tool from Anthropic that lets the Claude AI read your code, edit files and run commands for you.
+- [What is a CLI?](https://itgnow.vercel.app/glossary/cli): A CLI is a way to control a program by typing short text commands instead of clicking buttons.
+- [What is a closed AI model?](https://itgnow.vercel.app/glossary/closed-model): A closed model is an AI model whose files are kept private, so you can only use it through the maker's app or service.
+- [What is Cloud computing?](https://itgnow.vercel.app/glossary/cloud-computing): Cloud computing means using computers owned by someone else, over the internet, instead of your own.
+- [What is OpenAI Codex?](https://itgnow.vercel.app/glossary/codex): Codex is a coding agent from OpenAI that can read your code, make changes and run tasks for you.
+- [What is a commit in Git?](https://itgnow.vercel.app/glossary/commit): A commit is a saved snapshot of your changes in Git, with a short note about what you changed.
+- [What does compute mean in AI?](https://itgnow.vercel.app/glossary/compute): Compute is the computing power used to train and run AI, mostly made up of chips, time and electricity.
+- [What is computer use in AI?](https://itgnow.vercel.app/glossary/computer-use): Computer use is when an AI looks at a screen and clicks, types and scrolls like a person to do tasks on a computer.
+- [What is Computer vision?](https://itgnow.vercel.app/glossary/computer-vision): Computer vision is AI that lets computers understand what is in pictures and videos.
+- [What is a container in software?](https://itgnow.vercel.app/glossary/container): A container is a small, sealed package that holds an app and everything it needs to run.
+- [What is Content Credentials?](https://itgnow.vercel.app/glossary/content-credentials): Content Credentials are a digital label attached to a file that shows who made it and whether AI was used.
+- [What is Context engineering?](https://itgnow.vercel.app/glossary/context-engineering): Context engineering is choosing what information an AI sees, such as instructions, files and past messages, so it can do its job well.
+- [What is a context window?](https://itgnow.vercel.app/glossary/context-window): A context window is the amount of text an AI model can keep in mind at one time while it answers.
+- [How does copyright work with AI?](https://itgnow.vercel.app/glossary/copyright): Copyright is the legal right of a creator to control who can copy, share or sell their original work.
+- [What is a CPU?](https://itgnow.vercel.app/glossary/cpu): A CPU is the main chip in a computer, the part that follows instructions and runs your programs one step after another.
+- [What is CUDA?](https://itgnow.vercel.app/glossary/cuda): CUDA is software from NVIDIA that lets programs use NVIDIA graphics cards for fast math, and many AI tools depend on it.
+- [What is Cursor (the AI code editor)?](https://itgnow.vercel.app/glossary/cursor): Cursor is a code editor with AI built in, so you can ask it to write, change or explain code.
+- [What is a data center?](https://itgnow.vercel.app/glossary/data-center): A data center is a big building full of computers that store data and run online services, including AI models.
+- [What is Deep learning?](https://itgnow.vercel.app/glossary/deep-learning): Deep learning is a kind of machine learning that uses neural networks with many layers to learn complex patterns.
+- [What is a deepfake?](https://itgnow.vercel.app/glossary/deepfake): A deepfake is a fake photo, video or voice made by AI that looks or sounds like a real person.
+- [What is a dependency in software?](https://itgnow.vercel.app/glossary/dependency): A dependency is another piece of software that a program needs to work.
+- [What is a diffusion model?](https://itgnow.vercel.app/glossary/diffusion-model): A diffusion model is an AI that makes images by starting from random noise and cleaning it up step by step.
+- [What is distillation in AI?](https://itgnow.vercel.app/glossary/distillation): Distillation is a way to teach a small AI model to copy the answers of a bigger one.
+- [What is Docker?](https://itgnow.vercel.app/glossary/docker): Docker is a free tool that packs an app and everything it needs into one box so it runs the same anywhere.
+- [What is Edge AI?](https://itgnow.vercel.app/glossary/edge-ai): Edge AI is AI that runs on your own device, like a phone or camera, instead of on a faraway server.
+- [What is an Elo rating?](https://itgnow.vercel.app/glossary/elo-rating): An Elo rating is a score that goes up when you win and down when you lose, based on who you beat.
+- [What are embeddings?](https://itgnow.vercel.app/glossary/embeddings): Embeddings are lists of numbers that stand for the meaning of text, images or other data so a computer can compare them.
+- [What is Encryption?](https://itgnow.vercel.app/glossary/encryption): Encryption scrambles information so only someone with the right key can read it.
+- [What is an environment variable?](https://itgnow.vercel.app/glossary/environment-variable): An environment variable is a named setting stored outside your code, often used to hold things like API keys.
+- [What is the EU AI Act?](https://itgnow.vercel.app/glossary/eu-ai-act): The EU AI Act is a European Union law that sets rules for AI, with stricter rules for uses that carry more risk.
+- [What is Fair use?](https://itgnow.vercel.app/glossary/fair-use): Fair use is a rule in United States law that lets people use parts of copyrighted work in some cases without asking.
+- [What are fake GitHub stars?](https://itgnow.vercel.app/glossary/fake-stars): Fake GitHub stars are stars bought or faked to make a project look more popular than it really is.
+- [What is Fine-tuning?](https://itgnow.vercel.app/glossary/fine-tuning): Fine-tuning is giving an already trained AI model extra practice on specific examples so it gets better at one job.
+- [What is FLOPs?](https://itgnow.vercel.app/glossary/flops): FLOPs count the math steps a computer does, and AI people use them to measure how much work a model needs.
+- [What is a fork on GitHub?](https://itgnow.vercel.app/glossary/fork): A fork is your own copy of someone else's project on GitHub, which you can change without touching the original.
+- [What is a foundation model?](https://itgnow.vercel.app/glossary/foundation-model): A foundation model is a large AI model trained on broad data that can be adapted to many different jobs.
+- [What is Freemium?](https://itgnow.vercel.app/glossary/freemium): Freemium is a pricing style where a basic version is free and extra features cost money.
+- [What is a frontier model?](https://itgnow.vercel.app/glossary/frontier-model): A frontier model is one of the most capable AI models available at a given time, made by a top AI lab.
+- [What is a funding round?](https://itgnow.vercel.app/glossary/funding-round): A funding round is a moment when a company sells shares to investors to raise money.
+- [What is GDPR?](https://itgnow.vercel.app/glossary/gdpr): GDPR is a European Union privacy law that gives people control over their personal data and sets rules for companies.
+- [What is Gemini?](https://itgnow.vercel.app/glossary/gemini): Gemini is Google's family of AI models and the chatbot that uses them.
+- [What is Generative AI?](https://itgnow.vercel.app/glossary/generative-ai): Generative AI is AI that creates new things, such as text, images, sound, video or code, from a short instruction.
+- [What is Git?](https://itgnow.vercel.app/glossary/git): Git is a free tool that keeps track of every change made to a project's files, so you can go back or work with others.
+- [What does git clone mean?](https://itgnow.vercel.app/glossary/git-clone): Git clone is a command that downloads a full copy of a GitHub project onto your computer.
+- [What is GitHub?](https://itgnow.vercel.app/glossary/github): GitHub is a website where people store, share, and work together on code and other project files.
+- [What is GitHub Copilot?](https://itgnow.vercel.app/glossary/github-copilot): GitHub Copilot is an AI coding helper from GitHub that suggests code and answers questions while you work.
+- [What are GitHub stars?](https://itgnow.vercel.app/glossary/github-stars): GitHub stars are like bookmarks or likes that people give to a project on GitHub to show interest.
+- [What is GitHub Trending?](https://itgnow.vercel.app/glossary/github-trending): GitHub Trending is a page on GitHub that lists projects getting a lot of attention right now.
+- [What is the GPL license?](https://itgnow.vercel.app/glossary/gpl): The GPL is an open-source license that lets you use and change software, but asks you to share your changes under the same rules.
+- [What is GPQA Diamond?](https://itgnow.vercel.app/glossary/gpqa): GPQA Diamond is a set of very hard science questions that tests whether an AI can reason like an expert.
+- [What is a GPU?](https://itgnow.vercel.app/glossary/gpu): A GPU is a computer chip built to do many small calculations at the same time, which makes it great for graphics and AI.
+- [What are AI guardrails?](https://itgnow.vercel.app/glossary/guardrails): Guardrails are rules and checks that keep an AI system from giving harmful, off-topic or unsafe answers.
+- [What is an AI hallucination?](https://itgnow.vercel.app/glossary/hallucination): A hallucination is when an AI states something false or made up in a confident way.
+- [What is HBM?](https://itgnow.vercel.app/glossary/hbm): HBM is a very fast type of memory stacked in layers and placed right next to an AI chip.
+- [What is a headless browser?](https://itgnow.vercel.app/glossary/headless-browser): A headless browser is a web browser that runs without a visible window, so programs can load and control web pages automatically.
+- [What is Homebrew?](https://itgnow.vercel.app/glossary/homebrew): Homebrew is a free tool for Mac and Linux that installs software using one short command.
+- [What is Hugging Face?](https://itgnow.vercel.app/glossary/hugging-face): Hugging Face is a website where people share AI models, datasets and demo apps, many of them free to use.
+- [What is Humanity's Last Exam?](https://itgnow.vercel.app/glossary/humanitys-last-exam): Humanity's Last Exam is a very hard test with expert questions that is built to challenge the best AI models.
+- [What is an IDE?](https://itgnow.vercel.app/glossary/ide): An IDE is an app where developers write, test, and fix code, with helpful tools all in one place.
+- [What are index points?](https://itgnow.vercel.app/glossary/index-points): Index points are the score on a combined index, such as the Artificial Analysis Intelligence Index, that blends many tests into one number.
+- [What is inference in AI?](https://itgnow.vercel.app/glossary/inference): Inference is when a trained AI model is used to answer a question or make something, as opposed to learning.
+- [What is Inpainting?](https://itgnow.vercel.app/glossary/inpainting): Inpainting is AI that fills in or replaces part of an image, based on the area around it and your instructions.
+- [What is an IPO?](https://itgnow.vercel.app/glossary/ipo): An IPO is when a private company sells its shares to the public for the first time.
+- [What is an AI jailbreak?](https://itgnow.vercel.app/glossary/jailbreak): A jailbreak is a trick that gets an AI to ignore its safety rules and give answers it was built to refuse.
+- [What is JSON?](https://itgnow.vercel.app/glossary/json): JSON is a simple text format for storing and sharing data using names and values.
+- [What is Knowledge cutoff?](https://itgnow.vercel.app/glossary/knowledge-cutoff): A knowledge cutoff is the point in time after which an AI model has no training data, so it may not know newer events.
+- [What is latency in AI?](https://itgnow.vercel.app/glossary/latency): Latency is the wait between sending a request to an AI and getting the first part of its answer.
+- [What is an AI leaderboard?](https://itgnow.vercel.app/glossary/leaderboard): A leaderboard is a ranked list that shows how AI models score on a test or in votes.
+- [What is Linux?](https://itgnow.vercel.app/glossary/linux): Linux is a free, open-source operating system, like Windows or macOS, used on servers and many developer computers.
+- [What is AI lip sync?](https://itgnow.vercel.app/glossary/lip-sync): Lip sync is AI that matches a person's mouth movements in a video to a new audio track.
+- [What is LiveBench?](https://itgnow.vercel.app/glossary/livebench): LiveBench is a test for AI models that uses fresh questions with answers that can be checked automatically.
+- [What is an LLM?](https://itgnow.vercel.app/glossary/llm): An LLM is an AI model trained on huge amounts of text so it can read, write and answer in plain language.
+- [What is LM Studio?](https://itgnow.vercel.app/glossary/lm-studio): LM Studio is a free desktop app that lets you download and chat with AI models on your own computer.
+- [What is LMArena?](https://itgnow.vercel.app/glossary/lmarena): LMArena is a website where people vote on which of two anonymous AI answers is better, creating a public ranking.
+- [What is Local AI?](https://itgnow.vercel.app/glossary/local-ai): Local AI means running an AI model on your own computer or phone instead of sending your questions to a company's servers.
+- [What is Localhost?](https://itgnow.vercel.app/glossary/localhost): Localhost is the name for your own computer when it talks to itself instead of going out on the internet.
+- [What is Machine learning?](https://itgnow.vercel.app/glossary/machine-learning): Machine learning is a way of building software that learns from examples instead of following rules written by hand.
+- [What is Malware?](https://itgnow.vercel.app/glossary/malware): Malware is harmful software made to damage your device, steal your data or spy on you.
+- [What is Markdown?](https://itgnow.vercel.app/glossary/markdown): Markdown is a simple way to format text, like adding headings and bullet points, using plain symbols.
+- [What is Market cap?](https://itgnow.vercel.app/glossary/market-cap): Market cap is the total value of a public company, found by multiplying its share price by its number of shares.
+- [What is MCP?](https://itgnow.vercel.app/glossary/mcp): MCP, or Model Context Protocol, is an open standard that lets AI apps connect to tools and data in a common way.
+- [What is the MIT License?](https://itgnow.vercel.app/glossary/mit-license): The MIT License is a very relaxed open-source license that lets you use, change, and share software with few limits.
+- [What is a mixture of experts model?](https://itgnow.vercel.app/glossary/mixture-of-experts): Mixture of experts is an AI design where a model has many specialist parts and uses only a few for each task.
+- [What are model weights?](https://itgnow.vercel.app/glossary/model-weights): Model weights are the saved numbers that hold everything an AI model learned during training.
+- [What is a multi-agent system?](https://itgnow.vercel.app/glossary/multi-agent): A multi-agent system is a group of AI agents that work together, each with its own role, to finish a job.
+- [What is Multimodal AI?](https://itgnow.vercel.app/glossary/multimodal): Multimodal AI is AI that can work with more than one kind of input or output, like text, images, sound and video.
+- [What is n8n?](https://itgnow.vercel.app/glossary/n8n): n8n is a tool that lets you connect apps and build automations by linking blocks on a screen.
+- [What is a neural network?](https://itgnow.vercel.app/glossary/neural-network): A neural network is a computer system made of many small connected units that learns patterns, loosely like a brain.
+- [What is No-code?](https://itgnow.vercel.app/glossary/no-code): No-code means building apps or automations by clicking and dragging on screen, without writing any code.
+- [What is Node.js?](https://itgnow.vercel.app/glossary/node-js): Node.js is a free program that lets computers run JavaScript code outside a web browser.
+- [What is NotebookLM?](https://itgnow.vercel.app/glossary/notebooklm): NotebookLM is a Google tool that lets you upload your own documents and ask an AI questions about them.
+- [What is npm?](https://itgnow.vercel.app/glossary/npm): npm is a free tool and online library for downloading and installing JavaScript software.
+- [What is an NPU?](https://itgnow.vercel.app/glossary/npu): An NPU is a small chip inside a phone or laptop that is built to run AI tasks quickly while using little battery.
+- [What is OCR?](https://itgnow.vercel.app/glossary/ocr): OCR is technology that reads text in pictures or scans and turns it into text you can edit and search.
+- [What is Ollama?](https://itgnow.vercel.app/glossary/ollama): Ollama is a free tool that lets you download and run AI models on your own computer.
+- [What does open source mean?](https://itgnow.vercel.app/glossary/open-source): Open source means software whose code is public, so anyone can read it, use it, and often change it.
+- [What are open weights?](https://itgnow.vercel.app/glossary/open-weights): Open weights means a company shares an AI model's trained files so anyone can download and run the model.
+- [What is OpenRouter?](https://itgnow.vercel.app/glossary/openrouter): OpenRouter is a service that gives you one account and one API key to use many different AI models.
+- [What is a package manager?](https://itgnow.vercel.app/glossary/package-manager): A package manager is a tool that finds, installs, updates and removes software add-ons for you, so you don't do it by hand.
+- [What are parameters in AI?](https://itgnow.vercel.app/glossary/parameters): Parameters are the many tiny numbers inside an AI model that it adjusts while learning, and they store what it knows.
+- [What does pay as you go mean?](https://itgnow.vercel.app/glossary/pay-as-you-go): Pay as you go means you pay only for what you use, instead of a fixed monthly fee.
+- [What is pip in Python?](https://itgnow.vercel.app/glossary/pip): pip is the tool that downloads and installs add-ons and programs for Python.
+- [What is a plugin?](https://itgnow.vercel.app/glossary/plugin): A plugin is a small add-on that gives an app new features without changing the app itself.
+- [What is a prompt in AI?](https://itgnow.vercel.app/glossary/prompt): A prompt is the text or instruction you give to an AI to tell it what you want.
+- [What is Prompt engineering?](https://itgnow.vercel.app/glossary/prompt-engineering): Prompt engineering is the skill of writing clear instructions so an AI gives you better answers.
+- [What is Prompt injection?](https://itgnow.vercel.app/glossary/prompt-injection): Prompt injection is an attack where hidden text tricks an AI into following the attacker's instructions instead of yours.
+- [What is Pseudocode?](https://itgnow.vercel.app/glossary/pseudocode): Pseudocode is a plain-language outline of how a program works, written in everyday words instead of real code.
+- [What is a pull request?](https://itgnow.vercel.app/glossary/pull-request): A pull request is a message asking the owner of a project to add your changes to it.
+- [What is Python?](https://itgnow.vercel.app/glossary/python): Python is a popular, beginner-friendly programming language, widely used for AI tools.
+- [What is Quantization?](https://itgnow.vercel.app/glossary/quantization): Quantization is a trick that shrinks an AI model by storing its numbers in a simpler, rougher form.
+- [What is RAG?](https://itgnow.vercel.app/glossary/rag): RAG is a method where an AI looks up facts in your documents first, then uses them to write its answer.
+- [What is RAM?](https://itgnow.vercel.app/glossary/ram): RAM is the short-term memory of a computer, where it keeps the programs and data it is using right now.
+- [What is a rate limit?](https://itgnow.vercel.app/glossary/rate-limit): A rate limit is a cap on how many requests you can send to a service in a set amount of time.
+- [What is a README?](https://itgnow.vercel.app/glossary/readme): A README is the first file of a project, written to explain what it is and how to use it.
+- [What is a reasoning model?](https://itgnow.vercel.app/glossary/reasoning-model): A reasoning model is an AI model that works through a problem step by step before it gives its final answer.
+- [What is Red teaming?](https://itgnow.vercel.app/glossary/red-teaming): Red teaming is when a group plays the attacker on purpose to find weak spots in a system before real attackers do.
+- [What is a repo (repository)?](https://itgnow.vercel.app/glossary/repo): A repo, short for repository, is a project folder on GitHub that holds the files and keeps a history of every change.
+- [What is Reverse engineering?](https://itgnow.vercel.app/glossary/reverse-engineering): Reverse engineering is taking a finished product or program apart to figure out how it works, without having the original plans.
+- [What is SaaS?](https://itgnow.vercel.app/glossary/saas): SaaS is software you use through a website or app and pay for by subscription, instead of installing it yourself.
+- [What is a sandbox in software?](https://itgnow.vercel.app/glossary/sandbox): A sandbox is a safe, fenced-off space where code can run without being able to harm the rest of your computer.
+- [What is an SDK?](https://itgnow.vercel.app/glossary/sdk): An SDK is a toolkit of ready-made code that helps developers build apps for a certain service or platform.
+- [What is Self-hosting?](https://itgnow.vercel.app/glossary/self-hosting): Self-hosting means running a tool or service on your own computer or server instead of using the maker's website.
+- [What is Semantic search?](https://itgnow.vercel.app/glossary/semantic-search): Semantic search is search that finds results by meaning, not only by the exact words you typed.
+- [What is a semiconductor?](https://itgnow.vercel.app/glossary/semiconductor): A semiconductor is a material that can switch electricity on and off, and it is what computer chips are made from.
+- [What is a small language model?](https://itgnow.vercel.app/glossary/small-language-model): A small language model is a compact AI language model that is light enough to run on a laptop or phone.
+- [What is a software license?](https://itgnow.vercel.app/glossary/software-license): A software license is a set of rules that says what you are allowed to do with a piece of software.
+- [What is Speech-to-text?](https://itgnow.vercel.app/glossary/speech-to-text): Speech-to-text is technology that listens to speech and turns it into written words.
+- [What is a startup?](https://itgnow.vercel.app/glossary/startup): A startup is a young company built to grow fast, often around a new idea or product.
+- [What is Structured output?](https://itgnow.vercel.app/glossary/structured-output): Structured output is an AI answer in a fixed format, like a JSON form, so a program can read it easily.
+- [What is a subagent?](https://itgnow.vercel.app/glossary/subagent): A subagent is a smaller AI helper that a main AI agent starts to handle one part of a bigger job.
+- [What is Superintelligence?](https://itgnow.vercel.app/glossary/superintelligence): Superintelligence is a possible future AI that would be far smarter than the best human minds in almost every area.
+- [What is a supply chain attack?](https://itgnow.vercel.app/glossary/supply-chain-attack): A supply chain attack sneaks harmful code into software through a tool, package or update that many people trust.
+- [What is SWE-bench?](https://itgnow.vercel.app/glossary/swe-bench): SWE-bench is a test that checks whether an AI can fix real bugs from real open source projects.
+- [What is a system prompt?](https://itgnow.vercel.app/glossary/system-prompt): A system prompt is a hidden set of instructions that tells an AI how to behave before you say anything.
+- [What is temperature in AI?](https://itgnow.vercel.app/glossary/temperature): Temperature is a setting that controls how predictable or creative an AI model's answers are.
+- [What is the terminal?](https://itgnow.vercel.app/glossary/terminal): The terminal is an app on your computer where you type text commands to control it.
+- [What is Terminal-Bench?](https://itgnow.vercel.app/glossary/terminal-bench): Terminal-Bench is a test that checks whether an AI agent can finish real tasks by typing commands in a terminal.
+- [What is Text-to-image?](https://itgnow.vercel.app/glossary/text-to-image): Text-to-image is AI that makes a picture from a short written description called a prompt.
+- [What is Text-to-speech?](https://itgnow.vercel.app/glossary/text-to-speech): Text-to-speech is technology that reads written text out loud in a computer made voice.
+- [What is Text-to-video?](https://itgnow.vercel.app/glossary/text-to-video): Text-to-video is AI that makes a short video clip from a written description or a still image.
+- [What is a token in AI?](https://itgnow.vercel.app/glossary/token): A token is a small chunk of text, often part of a word, that an AI model reads and writes one at a time.
+- [What does tokens per second mean?](https://itgnow.vercel.app/glossary/tokens-per-second): Tokens per second is how fast an AI writes its answer, counted in small pieces of text called tokens.
+- [What is Tool calling?](https://itgnow.vercel.app/glossary/tool-calling): Tool calling is when an AI model asks to use an outside tool, like search or a calculator, and then uses the result.
+- [What is a TPU?](https://itgnow.vercel.app/glossary/tpu): A TPU is a chip made by Google that is designed to run AI math quickly, mostly inside Google's own data centers.
+- [What is training in AI?](https://itgnow.vercel.app/glossary/training): Training is the process where an AI model learns patterns by studying large amounts of example data.
+- [What is Training data?](https://itgnow.vercel.app/glossary/training-data): Training data is the collection of examples an AI model studies to learn, such as text, images or audio.
+- [What is a transformer in AI?](https://itgnow.vercel.app/glossary/transformer): A transformer is the type of AI design behind most chatbots, built to track how words in a text relate to each other.
+- [What is Typosquatting?](https://itgnow.vercel.app/glossary/typosquatting): Typosquatting is when someone makes a fake repo, package or website with a name almost the same as a real one.
+- [What is a startup valuation?](https://itgnow.vercel.app/glossary/valuation): Valuation is the price tag put on a whole company, based on what investors think it is worth.
+- [What is a vector database?](https://itgnow.vercel.app/glossary/vector-database): A vector database is a place that stores text, images or sound as numbers so a computer can find things with similar meaning.
+- [What is Venture capital?](https://itgnow.vercel.app/glossary/venture-capital): Venture capital is money that investors put into young companies in return for a share of them.
+- [What is Vibe coding?](https://itgnow.vercel.app/glossary/vibe-coding): Vibe coding is building software by describing what you want to an AI in plain words, and letting it write the code.
+- [What is a virtual machine?](https://itgnow.vercel.app/glossary/virtual-machine): A virtual machine is a pretend computer that runs as a program inside your real computer.
+- [What is Voice cloning?](https://itgnow.vercel.app/glossary/voice-cloning): Voice cloning is AI that copies how a person sounds, so it can say new words in that voice.
+- [What is VRAM?](https://itgnow.vercel.app/glossary/vram): VRAM is the fast memory on a graphics card, and it decides how large an AI model you can run on your own computer.
+- [What is VS Code?](https://itgnow.vercel.app/glossary/vs-code): VS Code is a free code editor from Microsoft that many developers use to write and manage code.
+- [What is a security vulnerability?](https://itgnow.vercel.app/glossary/vulnerability): A vulnerability is a flaw in software or hardware that an attacker could use to cause harm.
+- [What is a webhook?](https://itgnow.vercel.app/glossary/webhook): A webhook is a way for one app to automatically send a message to another app when something happens.
+- [What is OpenAI Whisper?](https://itgnow.vercel.app/glossary/whisper): Whisper is a free speech recognition model from OpenAI that turns spoken audio into written text.
+- [What is Workflow automation?](https://itgnow.vercel.app/glossary/workflow-automation): Workflow automation is using software to run a repeated set of steps for you, so you don't do them by hand.
+- [What is a world model?](https://itgnow.vercel.app/glossary/world-model): A world model is an AI system that builds an inner picture of how the world works so it can predict what happens next.
+- [What is WSL?](https://itgnow.vercel.app/glossary/wsl): WSL is a Windows feature that lets you run Linux inside your Windows computer.
+- [What is YAML?](https://itgnow.vercel.app/glossary/yaml): YAML is a simple text format for settings files, written with indented lines that are easy to read.
+- [What is a zero-day?](https://itgnow.vercel.app/glossary/zero-day): A zero-day is a security flaw that the maker doesn't know about yet, so there is no fix available.
 
 ## About
 
