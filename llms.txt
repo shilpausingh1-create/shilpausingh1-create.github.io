@@ -177,7 +177,7 @@
 
 ## Daily AI news
 
-- [AI News, 20 Oct 2026: ByteDance, Alibaba, Tencent order $35B](https://itgnow.vercel.app/news/daily-2026-10-20): AI news for 20 October 2026, explained simply: ByteDance, Alibaba, Tencent order $35B of Nvidia chips. Every story lists its sources.
+- [AI News, 20 Oct 2026: Leak: OpenAI's GPT-6.1 Terra spotted](https://itgnow.vercel.app/news/daily-2026-10-20): AI news for 20 October 2026, explained simply: Leak: OpenAI's GPT-6.1 Terra spotted in Microsoft code. Every story lists its sources.
 - [AI News, 19 Oct 2026: Anthropic puts 5% of its shares](https://itgnow.vercel.app/news/daily-2026-10-19): AI news for 19 October 2026, explained simply: Anthropic puts 5% of its shares in a public fund. Also: Microsoft pulls out of a UK AI data center deal.
 - [AI News, 18 Oct 2026: World Bank bets on 'small AI'](https://itgnow.vercel.app/news/daily-2026-10-18): AI news for 18 October 2026, explained simply: World Bank bets on 'small AI' for poorer countries. Also: Meta pulls web-scraping line from its business terms.
 - [AI News, 17 Oct 2026: Apple spells out its ban on AI nudify](https://itgnow.vercel.app/news/daily-2026-10-17): AI news for 17 October 2026, explained simply: Apple spells out its ban on AI nudify apps. Also: iPhone Duo sells out, deliveries slip to 2027.
