@@ -423,6 +423,18 @@ a:focus-visible,button:focus-visible,summary:focus-visible,[tabindex]:focus-visi
 .apmk .lg{width:40px;height:40px;border-radius:10px}.apmk .lg svg{width:22px;height:22px}.apx .chips{margin:10px 0 0}.apx .chips .meta{align-self:center;margin-right:2px}
 .apx span.chip:hover{border-color:var(--line);color:var(--muted)}.apsrc{margin:10px 0 0;font:600 13px 'JetBrains Mono',monospace;color:var(--muted)}.apsrc a{color:var(--g2)}
 .apgo{width:100%;justify-content:center;min-height:52px;font-size:17px}
+/* calmer section pages (site review 21 Oct): on /tools, /models, /trends, /research and /news/daily only the hero card and the moving header keep the brand glow;
+   content cards and boxes are plain border cards (no tint, no shadow, no lift). Scoped to .calm, so the home page is untouched */
+.calm :is(.card,.tc,.tile,.at,.sc,.qc a,.ovw,.ovtz,.audv,.tl li,.qf,.start,.pnl,.onl a,.apc){box-shadow:none;background-image:none}
+.calm :is(.card,.tc,.tile,.at,.sc):hover{transform:none}.calm .tl li.now,.calm .tl.b li.now{background-image:none}
+/* company pages, free alternatives, newsletter archive (21 Oct) */
+.cpc .big{display:flex;align-items:center;gap:14px}.cpc .big .lg{width:60px;height:60px;border-radius:16px}.cpc .big .lg svg{width:34px;height:34px}.cpc .big .lgx{display:none}
+.cpt{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}.cpt li{max-width:none;margin:0}
+.cpt a{display:flex;align-items:center;gap:12px;min-height:64px;height:100%;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--fg);text-decoration:none}.cpt a:hover{border-color:var(--b2)}
+.cpt .lg{width:40px;height:40px;border-radius:10px}.cpt .lg svg{width:22px;height:22px}.cpt b{display:block;font:800 16px/1.25 Inter,sans-serif}.cpt small{display:block;color:var(--muted);font-size:13px;line-height:1.4}
+.apm a{position:relative;z-index:1;display:inline-block;padding:14px 0;margin:-14px 0;color:inherit;text-underline-offset:3px}.apm a:hover{color:var(--fg)}
+.altl{margin:20px 0}.sh h2 a .ic{width:18px;height:18px}
+.nli .byl{color:var(--muted);font-size:15px}.nli .byl a{color:var(--b2)}.nli .ab a{color:var(--b2)}
 
 /* /research */
 .bdg{display:inline-flex;align-items:center;gap:6px;font:800 11px/1.7 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.05em;padding:0 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:var(--panel2);white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
