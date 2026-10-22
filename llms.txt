@@ -184,7 +184,7 @@
 
 ## Daily AI news
 
-- [AI News, 22 Oct 2026: 50 AI stories, explained simply](https://itgnow.vercel.app/news/daily-2026-10-22): AI news for 22 October 2026, explained simply: Tesla, Nvidia reportedly back $2.8B Samsung AI chip plant. Also: European banks build own AI on open models.
+- [AI News, 22 Oct 2026: 51 AI stories, explained simply](https://itgnow.vercel.app/news/daily-2026-10-22): AI news for 22 October 2026, explained simply: Tesla, Nvidia reportedly back $2.8B Samsung AI chip plant. Also: European banks build own AI on open models.
 - [AI News, 21 Oct 2026: GM gives OnStar an in-house AI assistant](https://itgnow.vercel.app/news/daily-2026-10-21): AI news for 21 October 2026, explained simply: GM gives OnStar an in-house AI assistant. Also: GitHub rebuilds Git storage for AI agent traffic.
 - [AI News, 20 Oct 2026: Otter.ai raises $320M from General Catalyst](https://itgnow.vercel.app/news/daily-2026-10-20): AI news for 20 October 2026, explained simply: Otter.ai raises $320M from General Catalyst. Also: OpenAI's GPT-6.1 Terra spotted in Microsoft code.
 - [AI News, 19 Oct 2026: Anthropic puts 5% of its shares in a public fund](https://itgnow.vercel.app/news/daily-2026-10-19): AI news for 19 October 2026, explained simply: Anthropic puts 5% of its shares in a public fund. Also: Microsoft pulls out of a UK AI data center deal.
@@ -217,13 +217,13 @@
 - [Amazon AI news | ITG Now](https://itgnow.vercel.app/company/amazon): Amazon AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Apple AI news | ITG Now](https://itgnow.vercel.app/company/apple): Apple AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [CrowdStrike AI news | ITG Now](https://itgnow.vercel.app/company/crowdstrike): CrowdStrike AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
+- [IBM AI news | ITG Now](https://itgnow.vercel.app/company/ibm): IBM AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Monday.com AI news | ITG Now](https://itgnow.vercel.app/company/monday-com): Monday.com AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [PHP AI news | ITG Now](https://itgnow.vercel.app/company/php): PHP AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Walmart AI news | ITG Now](https://itgnow.vercel.app/company/walmart): Walmart AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Perplexity AI news and apps | ITG Now](https://itgnow.vercel.app/company/perplexity): Perplexity AI news and apps, explained simply: 1 story on ITG Now, 1 app with prices. Newest first, each with its sources.
 - [Allen Institute for AI AI news | ITG Now](https://itgnow.vercel.app/company/allen-institute-for-ai): Allen Institute for AI AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Disney AI news | ITG Now](https://itgnow.vercel.app/company/disney): Disney AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
-- [IBM AI news | ITG Now](https://itgnow.vercel.app/company/ibm): IBM AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Intel AI news | ITG Now](https://itgnow.vercel.app/company/intel): Intel AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [MiniMax AI news | ITG Now](https://itgnow.vercel.app/company/minimax): MiniMax AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Nebius AI news | ITG Now](https://itgnow.vercel.app/company/nebius): Nebius AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
