@@ -4,6 +4,7 @@
 
 ## Free AI tools
 
+- [Twenty: Free Salesforce Alternative, Open Source CRM (2026)](https://itgnow.vercel.app/tools/twentyhq-twenty): Twenty is a free Salesforce alternative: an open source CRM to track customers, deals and emails. Host it yourself for free or use their cloud.
 - [VoiceStudio: Free ElevenLabs Alternative (2026 Guide)](https://itgnow.vercel.app/tools/debpalash-voicestudio): VoiceStudio is a free ElevenLabs alternative. Clone a voice, dub videos and turn text into speech on your own Mac, Windows or Linux computer.
 - [HyperFrames: Make AI Videos From HTML (2026 Guide)](https://itgnow.vercel.app/tools/heygen-com-hyperframes): HyperFrames is a free tool that makes AI video from HTML. Your AI agent writes a web page, and HyperFrames renders it into an MP4 video.
 - [Folia: Free Animated Lyrics Music Player (2026)](https://itgnow.vercel.app/tools/chthollyphile-folia-major): Folia is a free animated lyrics music player that shows full-screen moving lyrics for your local music, Navidrome and more. What it does and how to start.
@@ -45,6 +46,7 @@
 - [Ponytail Skill: Make Your AI Coder Write Less Code (2026)](https://itgnow.vercel.app/tools/dietrichgebert-ponytail): The Ponytail skill is one free prompt that makes your AI coding helper reuse what exists, write half the code, and still keep the tests and safety checks.
 - [Open Notebook: A Free NotebookLM Alternative You Own](https://itgnow.vercel.app/tools/lfnovo-open-notebook): Open Notebook is a free NotebookLM alternative you run yourself. Chat with your PDFs and videos, get cited answers, and turn notes into podcasts.
 - [OpenMontage: Free AI Video Maker for Your AI Helper (2026)](https://itgnow.vercel.app/tools/calesthio-openmontage): OpenMontage is a free AI video maker. Describe a video in plain words and your AI helper researches, scripts, narrates, edits and renders it for you.
+- [freehire: Free IT Job Search Straight From the Source (2026)](https://itgnow.vercel.app/tools/strelov1-freehire): freehire is a free IT job search site with 3.3M+ live postings from company career pages. No recruiter reposts. Every listing links to the real job.
 - [Understand Anything: Visualize Any Codebase for Free (2026)](https://itgnow.vercel.app/tools/egonex-ai-understand-anything): Understand Anything is a free plugin that lets you visualize any codebase as a clickable map with plain-English notes, guided tours and a chat for questions.
 - [Matt Pocock Skills: Free Claude Code Skills That Work](https://itgnow.vercel.app/tools/mattpocock-skills): Matt Pocock skills are free add-ons that make Claude Code, Codex and Copilot ask better questions, test their work and keep your code tidy.
 - [OpenHuman: Open Source AI Agent App That Runs Lean (2026)](https://itgnow.vercel.app/tools/tinyhumansai-openhuman): OpenHuman is an open source AI agent app for Mac, Windows and Linux. Its agents browse, search, remember and use your apps while using less power.
@@ -151,18 +153,18 @@
 
 - [Today in AI](https://itgnow.vercel.app/news/daily): The AI news that matters, every day, in plain words: what happened, why it matters to you and the sources. A new digest every morning, free to read.
 - [Latest AI research](https://itgnow.vercel.app/research): New AI, tech and chip research explained in plain words every day: today's top papers, peer-reviewed studies, lab posts and the researchers to follow.
-- [For engineers](https://itgnow.vercel.app/tools/for/engineers): 29 free, open-source AI tools for engineers and developers, explained simply: HyperFrames, REA and more, with setup steps.
+- [For engineers](https://itgnow.vercel.app/tools/for/engineers): 31 free, open-source AI tools for engineers and developers, explained simply: Twenty, HyperFrames and more, with setup steps.
 - [For designers](https://itgnow.vercel.app/tools/for/designers): 8 free, open-source AI tools for designers, explained simply: ArtCraft, PhotoCraft and more, with setup steps, real examples and an FAQ.
-- [For business owners](https://itgnow.vercel.app/tools/for/business): 14 free, open-source AI tools for business owners and small teams, explained simply: OpenSEO, Odysseus and more, with setup steps.
+- [For business owners](https://itgnow.vercel.app/tools/for/business): 15 free, open-source AI tools for business owners and small teams, explained simply: Twenty, OpenSEO and more, with setup steps.
 - [For creators](https://itgnow.vercel.app/tools/for/creators): 16 free, open-source AI tools for creators, explained simply: VoiceStudio, HyperFrames and more, with setup steps, real examples and an FAQ.
-- [For students](https://itgnow.vercel.app/tools/for/students): 12 free, open-source AI tools for students, explained simply: net-merge, Tolaria and more, with setup steps, real examples and an FAQ.
-- [For marketers](https://itgnow.vercel.app/tools/for/marketers): 12 free, open-source AI tools for marketers, explained simply: VoiceStudio, HyperFrames and more, with setup steps, real examples and an FAQ.
-- [For everyone](https://itgnow.vercel.app/tools/for/everyone): 25 free, open-source AI tools for everyday use and privacy, explained simply: VoiceStudio, Folia and more, with setup steps.
-- [Tools and repos](https://itgnow.vercel.app/tools/): 69 plain-English guides to free AI tools from GitHub, sorted by who they are for, plus the top GitHub repos every week, month and quarter.
+- [For students](https://itgnow.vercel.app/tools/for/students): 13 free, open-source AI tools for students, explained simply: net-merge, Tolaria and more, with setup steps, real examples and an FAQ.
+- [For marketers](https://itgnow.vercel.app/tools/for/marketers): 13 free, open-source AI tools for marketers, explained simply: Twenty, VoiceStudio and more, with setup steps, real examples and an FAQ.
+- [For everyone](https://itgnow.vercel.app/tools/for/everyone): 26 free, open-source AI tools for everyday use and privacy, explained simply: VoiceStudio, Folia and more, with setup steps.
+- [Tools and repos](https://itgnow.vercel.app/tools/): 71 plain-English guides to free AI tools from GitHub, sorted by who they are for, plus the top GitHub repos every week, month and quarter.
 - [Companies](https://itgnow.vercel.app/companies): 64 AI companies on ITG Now: every news story about each one, its AI models with scores and its apps with prices, explained simply.
-- [Free alternatives](https://itgnow.vercel.app/alternatives): Free, open-source alternatives to 8 paid apps, from CleanMyMac, Photoshop, CapCut to more. Every pick has a plain-English guide with setup steps.
+- [Free alternatives](https://itgnow.vercel.app/alternatives): Free, open-source alternatives to 9 paid apps, from CleanMyMac, Photoshop, CapCut to more. Every pick has a plain-English guide with setup steps.
 - [Newsletter archive](https://itgnow.vercel.app/newsletter): Every ITG Now newsletter issue that went out on LinkedIn, newest first: the week's free AI tools and the AI news that matters, explained simply.
-- [AI for Business](https://itgnow.vercel.app/industry/business): Free AI tools and AI news for Business, explained simply: DBX, Strata and OpenSEO. Setup steps, sources and our honest take.
+- [AI for Business](https://itgnow.vercel.app/industry/business): Free AI tools and AI news for Business, explained simply: Twenty, DBX and Strata. Setup steps, sources and our honest take.
 - [AI for Creators](https://itgnow.vercel.app/industry/creators): Free AI tools and AI news for Creators, explained simply: VoiceStudio, HyperFrames and Folia. Setup steps, sources and our honest take.
 - [AI for Design](https://itgnow.vercel.app/industry/design): Free AI tools and AI news for Design, explained simply: ArtCraft, PhotoCraft and OpenPencil. Setup steps, sources and our honest take.
 - [AI for Developers](https://itgnow.vercel.app/industry/developers): Free AI tools and AI news for Developers, explained simply: REA, DBX and PureMac. Setup steps, sources and our honest take.
@@ -172,16 +174,17 @@
 - [AI for Finance](https://itgnow.vercel.app/industry/finance): Free AI tools and AI news for Finance, explained simply: Headroom and World Monitor. Setup steps, sources and our honest take.
 - [AI for Government & Law](https://itgnow.vercel.app/industry/government-law): Free AI tools and AI news for Government & Law, explained simply. Setup steps, sources and our honest take. Free to read, no sign-up.
 - [AI for Healthcare](https://itgnow.vercel.app/industry/healthcare): Free AI tools and AI news for Healthcare, explained simply: openGym, Meetily and Project NOMAD. Setup steps, sources and our honest take.
-- [AI for Jobs & Careers](https://itgnow.vercel.app/industry/jobs-careers): Free AI tools and AI news for Jobs & Careers, explained simply: AI Job Search, Career-Ops and Handy. Setup steps, sources and our honest take.
-- [AI for Marketing](https://itgnow.vercel.app/industry/marketing): Free AI tools and AI news for Marketing, explained simply: VoiceStudio, HyperFrames and ArtCraft. Setup steps, sources and our honest take.
+- [AI for Jobs & Careers](https://itgnow.vercel.app/industry/jobs-careers): Free AI tools and AI news for Jobs & Careers, explained simply: AI Job Search, freehire and Career-Ops. Setup steps, sources and our honest take.
+- [AI for Marketing](https://itgnow.vercel.app/industry/marketing): Free AI tools and AI news for Marketing, explained simply: Twenty, VoiceStudio and HyperFrames. Setup steps, sources and our honest take.
 - [AI for Media](https://itgnow.vercel.app/industry/media): Free AI tools and AI news for Media, explained simply: Folia, OpenReel and OpenCut. Setup steps, sources and our honest take.
+- [AI for Startups](https://itgnow.vercel.app/industry/startups): Free AI tools and AI news for Startups, explained simply: Twenty. Setup steps, sources and our honest take. Free to read, no sign-up.
 - [AI for Students](https://itgnow.vercel.app/industry/students): Free AI tools and AI news for Students, explained simply: net-merge, Tolaria and DeepSeek Harness. Setup steps, sources and our honest take.
-- [AI trends](https://itgnow.vercel.app/trends): Real numbers on what's rising in AI: GitHub star jumps, hot topics, who made the news, plus free AI tools and news for 14 fields of work.
+- [AI trends](https://itgnow.vercel.app/trends): Real numbers on what's rising in AI: GitHub star jumps, hot topics, who made the news, plus free AI tools and news for 15 fields of work.
 - [AI glossary](https://itgnow.vercel.app/glossary): 200 AI words explained in plain English: LLM, AI agent, MCP, open weights, tokens, RAG, benchmarks and more. One short answer each, with sources.
 
 ## Daily AI news
 
-- [AI News, 22 Oct 2026: 35 AI stories, explained simply](https://itgnow.vercel.app/news/daily-2026-10-22): AI news for 22 October 2026, explained simply: Blackstone says AI data-center debt fears overblown. Every story lists its sources.
+- [AI News, 22 Oct 2026: 40 AI stories, explained simply](https://itgnow.vercel.app/news/daily-2026-10-22): AI news for 22 October 2026, explained simply: Google likely to face ex-NPR host's AI voice suit. Also: Blackstone says AI data-center debt fears overblown.
 - [AI News, 21 Oct 2026: GM gives OnStar an in-house AI assistant](https://itgnow.vercel.app/news/daily-2026-10-21): AI news for 21 October 2026, explained simply: GM gives OnStar an in-house AI assistant. Also: GitHub rebuilds Git storage for AI agent traffic.
 - [AI News, 20 Oct 2026: Otter.ai raises $320M from General Catalyst](https://itgnow.vercel.app/news/daily-2026-10-20): AI news for 20 October 2026, explained simply: Otter.ai raises $320M from General Catalyst. Also: OpenAI's GPT-6.1 Terra spotted in Microsoft code.
 - [AI News, 19 Oct 2026: Anthropic puts 5% of its shares in a public fund](https://itgnow.vercel.app/news/daily-2026-10-19): AI news for 19 October 2026, explained simply: Anthropic puts 5% of its shares in a public fund. Also: Microsoft pulls out of a UK AI data center deal.
@@ -202,8 +205,8 @@
 
 - [NVIDIA AI news | ITG Now](https://itgnow.vercel.app/company/nvidia): NVIDIA AI news, explained simply: 15 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [OpenAI AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/openai): OpenAI AI news, models and apps, explained simply: 12 stories on ITG Now, 2 AI models with scores, 2 apps with prices. Newest first, each with its sources.
-- [Anthropic AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/anthropic): Anthropic AI news, models and apps, explained simply: 9 stories on ITG Now, 3 AI models with scores, 2 apps with prices.
-- [Google AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/google): Google AI news, models and apps, explained simply: 6 stories on ITG Now, 3 AI models with scores, 3 apps with prices. Newest first, each with its sources.
+- [Anthropic AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/anthropic): Anthropic AI news, models and apps, explained simply: 10 stories on ITG Now, 3 AI models with scores, 2 apps with prices.
+- [Google AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/google): Google AI news, models and apps, explained simply: 7 stories on ITG Now, 3 AI models with scores, 3 apps with prices. Newest first, each with its sources.
 - [Meta AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/meta): Meta AI news, models and apps, explained simply: 4 stories on ITG Now, 1 AI model with scores, 1 app with prices. Newest first, each with its sources.
 - [Microsoft AI news and apps | ITG Now](https://itgnow.vercel.app/company/microsoft): Microsoft AI news and apps, explained simply: 4 stories on ITG Now, 1 app with prices. Newest first, each with its sources.
 - [DeepSeek AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/deepseek): DeepSeek AI news, models and apps, explained simply: 3 stories on ITG Now, 1 AI model with scores, 1 app with prices. Newest first, each with its sources.
@@ -214,7 +217,6 @@
 - [Amazon AI news | ITG Now](https://itgnow.vercel.app/company/amazon): Amazon AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Apple AI news | ITG Now](https://itgnow.vercel.app/company/apple): Apple AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [CrowdStrike AI news | ITG Now](https://itgnow.vercel.app/company/crowdstrike): CrowdStrike AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
-- [Flapping Airplanes AI news | ITG Now](https://itgnow.vercel.app/company/flapping-airplanes): Flapping Airplanes AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Monday.com AI news | ITG Now](https://itgnow.vercel.app/company/monday-com): Monday.com AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [PHP AI news | ITG Now](https://itgnow.vercel.app/company/php): PHP AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Walmart AI news | ITG Now](https://itgnow.vercel.app/company/walmart): Walmart AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
@@ -228,6 +230,7 @@
 - [OpenCode AI news | ITG Now](https://itgnow.vercel.app/company/opencode): OpenCode AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [OVHcloud AI news | ITG Now](https://itgnow.vercel.app/company/ovhcloud): OVHcloud AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [SAP AI news | ITG Now](https://itgnow.vercel.app/company/sap): SAP AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
+- [ServiceNow AI news | ITG Now](https://itgnow.vercel.app/company/servicenow): ServiceNow AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [SoftBank AI news | ITG Now](https://itgnow.vercel.app/company/softbank): SoftBank AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Spotify AI news | ITG Now](https://itgnow.vercel.app/company/spotify): Spotify AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Tenstorrent AI news | ITG Now](https://itgnow.vercel.app/company/tenstorrent): Tenstorrent AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
@@ -274,6 +277,7 @@
 - [Free Alternatives to Figma (Open Source, 2026) | ITG Now](https://itgnow.vercel.app/alternatives/figma): 1 free, open-source alternative to Figma, explained simply: OpenPencil. Setup steps, license and our honest take. Free to read.
 - [Free Alternatives to Logitech Options+ (Open Source, 2026)](https://itgnow.vercel.app/alternatives/logitech-options): 1 free, open-source alternative to Logitech Options+, explained simply: OpenLogi. Setup steps, license and our honest take.
 - [Free Alternatives to NotebookLM (Open Source, 2026)](https://itgnow.vercel.app/alternatives/notebooklm): 1 free, open-source alternative to NotebookLM, explained simply: Open Notebook. Setup steps, license and our honest take.
+- [Free Alternatives to Salesforce (Open Source, 2026)](https://itgnow.vercel.app/alternatives/salesforce): 1 free, open-source alternative to Salesforce, explained simply: Twenty. Setup steps, license and our honest take. Free to read.
 - [Free Alternatives to Semrush (Open Source, 2026) | ITG Now](https://itgnow.vercel.app/alternatives/semrush): 1 free, open-source alternative to Semrush, explained simply: OpenSEO. Setup steps, license and our honest take. Free to read.
 
 ## Newsletter archive
