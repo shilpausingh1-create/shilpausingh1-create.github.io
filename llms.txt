@@ -184,7 +184,7 @@
 
 ## Daily AI news
 
-- [AI News, 22 Oct 2026: Anthropic's legal tech push hits a reality check](https://itgnow.vercel.app/news/daily-2026-10-22): AI news for 22 October 2026, explained simply: Anthropic's legal tech push hits a reality check. Also: Microsoft says China-state group used AI hacking tool.
+- [AI News, 22 Oct 2026: Hugging Face's Carbon-X lets you chat with DNA](https://itgnow.vercel.app/news/daily-2026-10-22): AI news for 22 October 2026, explained simply: Hugging Face's Carbon-X lets you chat with DNA. Also: Anthropic's legal tech push hits a reality check.
 - [AI News, 21 Oct 2026: GM gives OnStar an in-house AI assistant](https://itgnow.vercel.app/news/daily-2026-10-21): AI news for 21 October 2026, explained simply: GM gives OnStar an in-house AI assistant. Also: GitHub rebuilds Git storage for AI agent traffic.
 - [AI News, 20 Oct 2026: Otter.ai raises $320M from General Catalyst](https://itgnow.vercel.app/news/daily-2026-10-20): AI news for 20 October 2026, explained simply: Otter.ai raises $320M from General Catalyst. Also: OpenAI's GPT-6.1 Terra spotted in Microsoft code.
 - [AI News, 19 Oct 2026: Anthropic puts 5% of its shares in a public fund](https://itgnow.vercel.app/news/daily-2026-10-19): AI news for 19 October 2026, explained simply: Anthropic puts 5% of its shares in a public fund. Also: Microsoft pulls out of a UK AI data center deal.
@@ -221,6 +221,7 @@
 - [IBM AI news | ITG Now](https://itgnow.vercel.app/company/ibm): IBM AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Monday.com AI news | ITG Now](https://itgnow.vercel.app/company/monday-com): Monday.com AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [PHP AI news | ITG Now](https://itgnow.vercel.app/company/php): PHP AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
+- [Hugging Face AI news and apps | ITG Now](https://itgnow.vercel.app/company/hugging-face): Hugging Face AI news and apps, explained simply: 1 story on ITG Now, 1 app with prices. Newest first, each with its sources.
 - [Perplexity AI news and apps | ITG Now](https://itgnow.vercel.app/company/perplexity): Perplexity AI news and apps, explained simply: 1 story on ITG Now, 1 app with prices. Newest first, each with its sources.
 - [Allen Institute for AI AI news | ITG Now](https://itgnow.vercel.app/company/allen-institute-for-ai): Allen Institute for AI AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Barclays AI news | ITG Now](https://itgnow.vercel.app/company/barclays): Barclays AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
@@ -248,7 +249,6 @@
 - [ElevenLabs AI apps | ITG Now](https://itgnow.vercel.app/company/elevenlabs): ElevenLabs AI apps, explained simply: 1 app with prices. Newest first, each with its sources. Free to read.
 - [Figma AI apps | ITG Now](https://itgnow.vercel.app/company/figma): Figma AI apps, explained simply: 1 app with prices. Newest first, each with its sources. Free to read.
 - [Grammarly AI apps | ITG Now](https://itgnow.vercel.app/company/grammarly): Grammarly AI apps, explained simply: 1 app with prices. Newest first, each with its sources. Free to read.
-- [Hugging Face AI apps | ITG Now](https://itgnow.vercel.app/company/hugging-face): Hugging Face AI apps, explained simply: 1 app with prices. Newest first, each with its sources. Free to read.
 - [Ideogram AI apps | ITG Now](https://itgnow.vercel.app/company/ideogram): Ideogram AI apps, explained simply: 1 app with prices. Newest first, each with its sources. Free to read.
 - [Kuaishou AI apps | ITG Now](https://itgnow.vercel.app/company/kuaishou): Kuaishou AI apps, explained simply: 1 app with prices. Newest first, each with its sources. Free to read.
 - [Lovable AI apps | ITG Now](https://itgnow.vercel.app/company/lovable): Lovable AI apps, explained simply: 1 app with prices. Newest first, each with its sources. Free to read.
