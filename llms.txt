@@ -196,7 +196,7 @@
 
 ## Latest AI research
 
-- [Latest AI research, explained simply](https://itgnow.vercel.app/research): new AI, tech and chip papers in plain words with their sources, today's most upvoted papers and the researchers to follow, updated 2026-10-21
+- [Latest AI research, explained simply](https://itgnow.vercel.app/research): new AI, tech and chip papers in plain words with their sources, today's most upvoted papers and the researchers to follow, updated 2026-10-22
 
 ## AI companies
 
