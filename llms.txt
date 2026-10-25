@@ -185,7 +185,7 @@
 
 ## Daily AI news
 
-- [AI News, 25 Oct 2026: OpenAI's GPT-6.1 Terra spotted in Microsoft code](https://itgnow.vercel.app/news/daily-2026-10-25): AI news for 25 October 2026, explained simply: OpenAI's GPT-6.1 Terra spotted in Microsoft code. Also: Google shows how to test AI agents properly.
+- [AI News, 25 Oct 2026: OpenAI's GPT-6.1 Terra spotted in Microsoft code](https://itgnow.vercel.app/news/daily-2026-10-25): AI news for 25 October 2026, explained simply: OpenAI's GPT-6.1 Terra spotted in Microsoft code. Also: JPMorgan private bank uses AI to help advisers.
 - [AI News, 22 Oct 2026: Hugging Face's Carbon-X lets you chat with DNA](https://itgnow.vercel.app/news/daily-2026-10-22): AI news for 22 October 2026, explained simply: Hugging Face's Carbon-X lets you chat with DNA. Also: US banks find unapproved AI agents in customer accounts.
 - [AI News, 21 Oct 2026: GM gives OnStar an in-house AI assistant](https://itgnow.vercel.app/news/daily-2026-10-21): AI news for 21 October 2026, explained simply: GM gives OnStar an in-house AI assistant. Also: GitHub rebuilds Git storage for AI agent traffic.
 - [AI News, 20 Oct 2026: Otter.ai raises $320M from General Catalyst](https://itgnow.vercel.app/news/daily-2026-10-20): AI news for 20 October 2026, explained simply: Otter.ai raises $320M from General Catalyst. Also: OpenAI's GPT-6.1 Terra spotted in Microsoft code.
