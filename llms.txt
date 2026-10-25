@@ -95,6 +95,7 @@
 
 ## Top lists
 
+- [AI Repos That Blew Up This Week: 10 New Picks (Oct 2026)](https://itgnow.vercel.app/lists/week-2026-10-19): AI repos that blew up this week: 10 new GitHub projects under 10 days old, from launch videos made by AI to co-op mods for solo games, with the catch for each.
 - [Trending GitHub Repos October 2026: The Top 5 So Far](https://itgnow.vercel.app/lists/top5-2026-10): The trending GitHub repos of October 2026 so far: a free Photoshop-style editor, an AI art studio, a big AI model for gaming PCs and more, explained.
 - [Trending GitHub Repos This Week, Oct 5 2026: The Top 5](https://itgnow.vercel.app/lists/week-2026-10-05): Trending GitHub repos this week Oct 5 2026: Matt Pocock's skills, the openGym workout tracker, e2e testing, HyperFrames video and claude-mem memory.
 - [GitHub Trending September 28, 2026: Hindsight and Paperclip](https://itgnow.vercel.app/lists/week-2026-09-28): GitHub trending September 28 2026: Hindsight, Paperclip, NVIDIA's OpenShell and a free 542-lesson AI course, with setup steps for each.
