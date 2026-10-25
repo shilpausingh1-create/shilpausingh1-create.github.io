@@ -161,7 +161,7 @@
 - [For marketers](https://itgnow.vercel.app/tools/for/marketers): 13 free, open-source AI tools for marketers, explained simply: Twenty, VoiceStudio and more, with setup steps, real examples and an FAQ.
 - [For everyone](https://itgnow.vercel.app/tools/for/everyone): 26 free, open-source AI tools for everyday use and privacy, explained simply: VoiceStudio, Folia and more, with setup steps.
 - [Tools and repos](https://itgnow.vercel.app/tools/): 71 plain-English guides to free AI tools from GitHub, sorted by who they are for, plus the top GitHub repos every week, month and quarter.
-- [Companies](https://itgnow.vercel.app/companies): 67 AI companies on ITG Now: every news story about each one, its AI models with scores and its apps with prices, explained simply.
+- [Companies](https://itgnow.vercel.app/companies): 68 AI companies on ITG Now: every news story about each one, its AI models with scores and its apps with prices, explained simply.
 - [Free alternatives](https://itgnow.vercel.app/alternatives): Free, open-source alternatives to 9 paid apps, from CleanMyMac, Photoshop, CapCut to more. Every pick has a plain-English guide with setup steps.
 - [Newsletter archive](https://itgnow.vercel.app/newsletter): Every ITG Now newsletter issue that went out on LinkedIn, newest first: the week's free AI tools and the AI news that matters, explained simply.
 - [AI for Business](https://itgnow.vercel.app/industry/business): Free AI tools and AI news for Business, explained simply: Twenty, DBX and Strata. Setup steps, sources and our honest take.
@@ -184,6 +184,7 @@
 
 ## Daily AI news
 
+- [AI News, 25 Oct 2026: Liquid AI model spotted on OpenRouter](https://itgnow.vercel.app/news/daily-2026-10-25): AI news for 25 October 2026, explained simply: Liquid AI model spotted on OpenRouter. Also: Test: Grok picks Republicans, GPT picks Democrats.
 - [AI News, 22 Oct 2026: Hugging Face's Carbon-X lets you chat with DNA](https://itgnow.vercel.app/news/daily-2026-10-22): AI news for 22 October 2026, explained simply: Hugging Face's Carbon-X lets you chat with DNA. Also: US banks find unapproved AI agents in customer accounts.
 - [AI News, 21 Oct 2026: GM gives OnStar an in-house AI assistant](https://itgnow.vercel.app/news/daily-2026-10-21): AI news for 21 October 2026, explained simply: GM gives OnStar an in-house AI assistant. Also: GitHub rebuilds Git storage for AI agent traffic.
 - [AI News, 20 Oct 2026: Otter.ai raises $320M from General Catalyst](https://itgnow.vercel.app/news/daily-2026-10-20): AI news for 20 October 2026, explained simply: Otter.ai raises $320M from General Catalyst. Also: OpenAI's GPT-6.1 Terra spotted in Microsoft code.
@@ -199,7 +200,7 @@
 
 ## Latest AI research
 
-- [Latest AI research, explained simply](https://itgnow.vercel.app/research): new AI, tech and chip papers in plain words with their sources, today's most upvoted papers and the researchers to follow, updated 2026-10-22
+- [Latest AI research, explained simply](https://itgnow.vercel.app/research): new AI, tech and chip papers in plain words with their sources, today's most upvoted papers and the researchers to follow, updated 2026-10-25
 
 ## AI companies
 
@@ -210,6 +211,7 @@
 - [Meta AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/meta): Meta AI news, models and apps, explained simply: 6 stories on ITG Now, 1 AI model with scores, 1 app with prices. Newest first, each with its sources.
 - [Microsoft AI news and apps | ITG Now](https://itgnow.vercel.app/company/microsoft): Microsoft AI news and apps, explained simply: 5 stories on ITG Now, 1 app with prices. Newest first, each with its sources.
 - [DeepSeek AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/deepseek): DeepSeek AI news, models and apps, explained simply: 4 stories on ITG Now, 1 AI model with scores, 1 app with prices. Newest first, each with its sources.
+- [Apple AI news | ITG Now](https://itgnow.vercel.app/company/apple): Apple AI news, explained simply: 3 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [General Motors AI news | ITG Now](https://itgnow.vercel.app/company/general-motors): General Motors AI news, explained simply: 3 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [PHP AI news | ITG Now](https://itgnow.vercel.app/company/php): PHP AI news, explained simply: 3 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Recursive AI news | ITG Now](https://itgnow.vercel.app/company/recursive): Recursive AI news, explained simply: 3 stories on ITG Now. Newest first, each with its sources. Free to read.
@@ -217,10 +219,10 @@
 - [GitHub AI news and apps | ITG Now](https://itgnow.vercel.app/company/github): GitHub AI news and apps, explained simply: 2 stories on ITG Now, 1 app with prices. Newest first, each with its sources.
 - [Reflection AI AI news and models | ITG Now](https://itgnow.vercel.app/company/reflection-ai): Reflection AI AI news and models, explained simply: 2 stories on ITG Now, 1 AI model with scores. Newest first, each with its sources.
 - [Amazon AI news | ITG Now](https://itgnow.vercel.app/company/amazon): Amazon AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
-- [Apple AI news | ITG Now](https://itgnow.vercel.app/company/apple): Apple AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [CrowdStrike AI news | ITG Now](https://itgnow.vercel.app/company/crowdstrike): CrowdStrike AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [IBM AI news | ITG Now](https://itgnow.vercel.app/company/ibm): IBM AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Monday.com AI news | ITG Now](https://itgnow.vercel.app/company/monday-com): Monday.com AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
+- [xAI AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/xai): xAI AI news, models and apps, explained simply: 1 story on ITG Now, 2 AI models with scores, 1 app with prices. Newest first, each with its sources.
 - [Hugging Face AI news and apps | ITG Now](https://itgnow.vercel.app/company/hugging-face): Hugging Face AI news and apps, explained simply: 1 story on ITG Now, 1 app with prices. Newest first, each with its sources.
 - [Perplexity AI news and apps | ITG Now](https://itgnow.vercel.app/company/perplexity): Perplexity AI news and apps, explained simply: 1 story on ITG Now, 1 app with prices. Newest first, each with its sources.
 - [Allen Institute for AI AI news | ITG Now](https://itgnow.vercel.app/company/allen-institute-for-ai): Allen Institute for AI AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
@@ -228,6 +230,7 @@
 - [Disney AI news | ITG Now](https://itgnow.vercel.app/company/disney): Disney AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Huawei AI news | ITG Now](https://itgnow.vercel.app/company/huawei): Huawei AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Intel AI news | ITG Now](https://itgnow.vercel.app/company/intel): Intel AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
+- [Liquid AI AI news | ITG Now](https://itgnow.vercel.app/company/liquid-ai): Liquid AI AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [MiniMax AI news | ITG Now](https://itgnow.vercel.app/company/minimax): MiniMax AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Nebius AI news | ITG Now](https://itgnow.vercel.app/company/nebius): Nebius AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [OpenCode AI news | ITG Now](https://itgnow.vercel.app/company/opencode): OpenCode AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
@@ -238,7 +241,6 @@
 - [SoftBank AI news | ITG Now](https://itgnow.vercel.app/company/softbank): SoftBank AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Spotify AI news | ITG Now](https://itgnow.vercel.app/company/spotify): Spotify AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
 - [Tenstorrent AI news | ITG Now](https://itgnow.vercel.app/company/tenstorrent): Tenstorrent AI news, explained simply: 1 story on ITG Now. Newest first, each with its sources. Free to read.
-- [xAI AI models and apps | ITG Now](https://itgnow.vercel.app/company/xai): xAI AI models and apps, explained simply: 2 AI models with scores, 1 app with prices. Newest first, each with its sources.
 - [Alibaba AI models and apps | ITG Now](https://itgnow.vercel.app/company/alibaba): Alibaba AI models and apps, explained simply: 1 AI model with scores, 1 app with prices. Newest first, each with its sources.
 - [Mistral AI AI models and apps | ITG Now](https://itgnow.vercel.app/company/mistral-ai): Mistral AI AI models and apps, explained simply: 1 AI model with scores, 1 app with prices. Newest first, each with its sources.
 - [Adobe AI apps | ITG Now](https://itgnow.vercel.app/company/adobe): Adobe AI apps, explained simply: 1 app with prices. Newest first, each with its sources. Free to read.
