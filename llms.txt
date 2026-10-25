@@ -212,6 +212,7 @@
 - [Meta AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/meta): Meta AI news, models and apps, explained simply: 7 stories on ITG Now, 1 AI model with scores, 1 app with prices. Newest first, each with its sources.
 - [Microsoft AI news and apps | ITG Now](https://itgnow.vercel.app/company/microsoft): Microsoft AI news and apps, explained simply: 5 stories on ITG Now, 1 app with prices. Newest first, each with its sources.
 - [DeepSeek AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/deepseek): DeepSeek AI news, models and apps, explained simply: 4 stories on ITG Now, 1 AI model with scores, 1 app with prices. Newest first, each with its sources.
+- [Amazon Web Services AI news | ITG Now](https://itgnow.vercel.app/company/amazon-web-services): Amazon Web Services AI news, explained simply: 3 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Apple AI news | ITG Now](https://itgnow.vercel.app/company/apple): Apple AI news, explained simply: 3 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [General Motors AI news | ITG Now](https://itgnow.vercel.app/company/general-motors): General Motors AI news, explained simply: 3 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [PHP AI news | ITG Now](https://itgnow.vercel.app/company/php): PHP AI news, explained simply: 3 stories on ITG Now. Newest first, each with its sources. Free to read.
@@ -219,7 +220,6 @@
 - [Walmart AI news | ITG Now](https://itgnow.vercel.app/company/walmart): Walmart AI news, explained simply: 3 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [GitHub AI news and apps | ITG Now](https://itgnow.vercel.app/company/github): GitHub AI news and apps, explained simply: 2 stories on ITG Now, 1 app with prices. Newest first, each with its sources.
 - [Reflection AI AI news and models | ITG Now](https://itgnow.vercel.app/company/reflection-ai): Reflection AI AI news and models, explained simply: 2 stories on ITG Now, 1 AI model with scores. Newest first, each with its sources.
-- [Amazon AI news | ITG Now](https://itgnow.vercel.app/company/amazon): Amazon AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [CrowdStrike AI news | ITG Now](https://itgnow.vercel.app/company/crowdstrike): CrowdStrike AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [IBM AI news | ITG Now](https://itgnow.vercel.app/company/ibm): IBM AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [Monday.com AI news | ITG Now](https://itgnow.vercel.app/company/monday-com): Monday.com AI news, explained simply: 2 stories on ITG Now. Newest first, each with its sources. Free to read.
