@@ -185,7 +185,7 @@
 
 ## Daily AI news
 
-- [AI News, 25 Oct 2026: OpenAI's GPT-6.1 Terra spotted in Microsoft code](https://itgnow.vercel.app/news/daily-2026-10-25): AI news for 25 October 2026, explained simply: OpenAI's GPT-6.1 Terra spotted in Microsoft code. Also: JPMorgan private bank uses AI to help advisers.
+- [AI News, 25 Oct 2026: Google AI Studio spotted with managed agents hub](https://itgnow.vercel.app/news/daily-2026-10-25): AI news for 25 October 2026, explained simply: Google AI Studio spotted with managed agents hub. Also: OpenAI's GPT-6.1 Terra spotted in Microsoft code.
 - [AI News, 22 Oct 2026: Hugging Face's Carbon-X lets you chat with DNA](https://itgnow.vercel.app/news/daily-2026-10-22): AI news for 22 October 2026, explained simply: Hugging Face's Carbon-X lets you chat with DNA. Also: US banks find unapproved AI agents in customer accounts.
 - [AI News, 21 Oct 2026: GM gives OnStar an in-house AI assistant](https://itgnow.vercel.app/news/daily-2026-10-21): AI news for 21 October 2026, explained simply: GM gives OnStar an in-house AI assistant. Also: GitHub rebuilds Git storage for AI agent traffic.
 - [AI News, 20 Oct 2026: Otter.ai raises $320M from General Catalyst](https://itgnow.vercel.app/news/daily-2026-10-20): AI news for 20 October 2026, explained simply: Otter.ai raises $320M from General Catalyst. Also: OpenAI's GPT-6.1 Terra spotted in Microsoft code.
@@ -205,7 +205,7 @@
 
 ## AI companies
 
-- [Google AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/google): Google AI news, models and apps, explained simply: 19 stories on ITG Now, 3 AI models with scores, 3 apps with prices. Newest first, each with its sources.
+- [Google AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/google): Google AI news, models and apps, explained simply: 20 stories on ITG Now, 3 AI models with scores, 3 apps with prices. Newest first, each with its sources.
 - [NVIDIA AI news | ITG Now](https://itgnow.vercel.app/company/nvidia): NVIDIA AI news, explained simply: 19 stories on ITG Now. Newest first, each with its sources. Free to read.
 - [OpenAI AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/openai): OpenAI AI news, models and apps, explained simply: 17 stories on ITG Now, 2 AI models with scores, 2 apps with prices. Newest first, each with its sources.
 - [Anthropic AI news, models and apps | ITG Now](https://itgnow.vercel.app/company/anthropic): Anthropic AI news, models and apps, explained simply: 15 stories on ITG Now, 3 AI models with scores, 2 apps with prices.
